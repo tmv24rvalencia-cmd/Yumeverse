@@ -6,7 +6,7 @@
     <meta name="description" content="YumeVerse – Universo creativo de anime, ilustración, manga, manhwa y manhua por Trishan Mizhquiri Valencia">
     <title>YumeVerse | Universo Creativo</title>
     <link rel="icon" type="image/png" href="img/logo.png">
-    <link rel="stylesheet" href="css/index-style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -19,24 +19,95 @@
             </a>
             <h1 class="logo-text"><a href="index.html">YUMEVERSE</a></h1>
         </div>
-        <nav class="nav-links">
-            <a href="index.html" class="active">Inicio</a>
-            <a href="anime/anime.html">Galería</a>
-            <a href="anime/categorias.html">Categorías</a>
-            <a href="contacto.html">Contacto</a>
+
+        <!-- Menú hamburguesa para móvil -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-item active">Inicio</a>
+            <a href="anime/anime.html" class="nav-item">Anime</a>
+
+            <!-- Categorías -->
+            <div class="dropdown">
+                <a href="#" class="nav-item dropbtn">Categorías</a>
+                <div class="dropdown-content">
+                    <div class="genre-row">
+                        <a href="anime/categorias.html?genero=accion">Acción</a>
+                        <a href="anime/categorias.html?genero=aventura">Aventura</a>
+                        <a href="anime/categorias.html?genero=comedia">Comedia</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="anime/categorias.html?genero=drama">Drama</a>
+                        <a href="anime/categorias.html?genero=ecchi">Ecchi</a>
+                        <a href="anime/categorias.html?genero=escolar">Escolar</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="anime/categorias.html?genero=fantasia">Fantasía</a>
+                        <a href="anime/categorias.html?genero=historico">Histórico</a>
+                        <a href="anime/categorias.html?genero=isekai">Isekai</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="anime/categorias.html?genero=josei">Josei</a>
+                        <a href="anime/categorias.html?genero=meca">Mecha</a>
+                        <a href="anime/categorias.html?genero=misterio">Misterio</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="anime/categorias.html?genero=musica">Música</a>
+                        <a href="anime/categorias.html?genero=psicologico">Psicológico</a>
+                        <a href="anime/categorias.html?genero=romance">Romance</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="anime/categorias.html?genero=ciencia-ficcion">Ciencia Ficción</a>
+                        <a href="anime/categorias.html?genero=seinen">Seinen</a>
+                        <a href="anime/categorias.html?genero=shojo">Shojo</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="anime/categorias.html?genero=shonen">Shonen</a>
+                        <a href="anime/categorias.html?genero=slice-of-life">Slice of Life</a>
+                        <a href="anime/categorias.html?genero=deportes">Deportes</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="anime/categorias.html?genero=supernatural">Supernatural</a>
+                        <a href="anime/categorias.html?genero=terror">Terror</a>
+                        <a href="anime/categorias.html?genero=yaoi">Yaoi</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="anime/categorias.html?genero=yuri">Yuri</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Galería -->
+            <div class="dropdown">
+                <a href="#" class="nav-item dropbtn">Galería</a>
+                <div class="dropdown-content">
+                    <a href="anime/anime.html">Anime</a>
+                    <a href="arte.html">Arte</a>
+                </div>
+            </div>
+
+            <!-- Blog -->
+            <div class="dropdown">
+                <a href="#" class="nav-item dropbtn">Blog</a>
+                <div class="dropdown-content">
+                    <a href="blog/anime.html">Anime</a>
+                    <a href="blog/arte.html">Arte</a>
+                </div>
+            </div>
+
+            <a href="contacto.html" class="nav-item">Contacto</a>
         </nav>
     </header>
 
     <!-- Contenido principal -->
     <main class="content">
 
-        <!-- HERO - 2 COLUMNAS -->
+        <!-- HERO - FONDO COMPLETO -->
         <section class="hero">
-            <div class="hero-content">
-                <h1>Bienvenido a mi universo creativo</h1>
-                <p>Anime, ilustración, manga, manhwa y manhua unidos en un mismo mundo visual.</p>
-            </div>
-            <div class="hero-image"></div>
+            <h1>Bienvenido a mi universo creativo</h1>
+            <p>Anime, ilustración, manga, manhwa y manhua unidos en un mismo mundo visual.</p>
         </section>
 
         <!-- PRESENTACIÓN GENERAL -->
@@ -111,9 +182,15 @@
     </footer>
 
     <script>
+        // Toggle menú hamburguesa
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.getElementById('navLinks').classList.toggle('mobile-active');
+        });
+
+        // Highlight página activa
         document.addEventListener('DOMContentLoaded', function() {
             const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-            document.querySelectorAll('.nav-links a').forEach(link => {
+            document.querySelectorAll('.nav-item').forEach(link => {
                 if (link.getAttribute('href') === currentPage) {
                     link.classList.add('active');
                 } else {
