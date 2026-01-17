@@ -1,12 +1,462 @@
 [
-   {
-    "title": "",
-    "genres": ["", "", ""],
-    "capitulo": "",
-    "type": "",
-    "status": "",
-    "year":2000,
-    "image": "../img/img-anime/.jpg",
-    "synopsis": ""
+  {
+    "title": "11 Eyes",
+    "genres": ["Action", "Supernatural", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2009,
+    "image": "../img/img-anime/11-eyes.jpg",
+    "synopsis": "En un mundo oscuro y desolado, un grupo de estudiantes debe enfrentarse a criaturas sobrenaturales mientras descubren secretos sobre su pasado y su conexión con la misteriosa 'Black Night'."
+  },
+  {
+    "title": "25-sai no Jyoshikousei",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/25-sai-no-jyoshikousei.jpg",
+    "synopsis": "Una profesora de 25 años se enamora de uno de sus estudiantes, lo que desencadena una historia de amor prohibido llena de ternura y complicaciones escolares."
+  },
+  {
+    "title": "30-sai made Doutei dato Mahoutsukai ni Nareru Rashii",
+    "genres": ["Fantasy", "Romance", "Comedy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii.jpg",
+    "synopsis": "Un hombre de 30 años descubre que puede convertirse en mago si se compromete antes de cumplir esa edad. Su vida cambia cuando conoce a una joven que lo guiará en este nuevo camino mágico."
+  },
+  {
+    "title": "Aharen-san wa Hakarenai",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2022,
+    "image": "../img/img-anime/aharen-san-wa-hakarenai.jpg",
+    "synopsis": "Raido, un chico normal, se une a Aharen, una chica extremadamente tímida y cercana, en una relación llena de malentendidos y ternura que desafía las normas sociales."
+  },
+  {
+    "title": "Aharen-san wa Hakarenai Season 2",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/aharen-san-wa-hakarenai-season-2.jpg",
+    "synopsis": "La historia continúa con Raido y Aharen profundizando su relación, mientras nuevos personajes y situaciones ponen a prueba su peculiar dinámica amorosa."
+  },
+  {
+    "title": "Akagami no Shirayuki-hime",
+    "genres": ["Romance", "Fantasy", "Adventure"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/akagami-no-shirayuki-hime.jpg",
+    "synopsis": "Shirayuki, una joven con cabello rojo, huye de su reino para evitar ser forzada a casarse con un príncipe. En su viaje, encuentra al príncipe Zen y comienza una nueva vida como curandera."
+  },
+  {
+    "title": "Akagami no Shirayuki-hime 2nd Season",
+    "genres": ["Romance", "Fantasy", "Adventure"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/akagami-no-shirayuki-hime-2nd-season.jpg",
+    "synopsis": "Shirayuki y Zen continúan su viaje juntos, enfrentando nuevas amenazas políticas y emocionales mientras fortalecen su vínculo y luchan por su futuro común."
+  },
+  {
+    "title": "Akagami no Shirayuki-hime: Nandemonai Takaramono, Kono Page",
+    "genres": ["Romance", "Fantasy", "Slice of Life"],
+    "capitulo": "1",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2019,
+    "image": "../img/img-anime/akagami-no-shirayuki-hime-nandemonai-takaramono-kono-page.jpg",
+    "synopsis": "Un especial que explora momentos cotidianos entre Shirayuki y Zen, mostrando pequeñas historias de cariño y crecimiento personal en su relación."
+  },
+  {
+    "title": "Akatsuki no Yona",
+    "genres": ["Adventure", "Fantasy", "Romance"],
+    "capitulo": "24",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2014,
+    "image": "../img/img-anime/akatsuki-no-yona.jpg",
+    "synopsis": "Yona, princesa de un reino en decadencia, debe huir tras un golpe de estado y emprende un viaje para reclamar su trono, acompañada por un grupo de leales guerreros."
+  },
+  {
+    "title": "Akatsuki no Yona OVA",
+    "genres": ["Adventure", "Fantasy", "Romance"],
+    "capitulo": "3",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/akatsuki-no-yona-ova.jpg",
+    "synopsis": "Episodios adicionales que exploran momentos alternativos y escenas detrás de cámaras de la serie principal, profundizando en los personajes y su dinámica."
+  },
+  {
+    "title": "Akkun to Kanajo",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2018,
+    "image": "../img/img-anime/akkun-to-kanajo.jpg",
+    "synopsis": "Un chico serio y una chica extrovertida se ven obligados a trabajar juntos en un proyecto escolar, lo que desencadena una relación llena de malentendidos y momentos tiernos."
+  },
+  {
+    "title": "Akujiki Reijou to Kyouketsu Koushaku",
+    "genres": ["Fantasy", "Romance", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/akujiki-reijou-to-kyouketsu-koushaku.jpg",
+    "synopsis": "Una joven villana se encuentra con un conde misterioso y sanguinario, iniciando una historia de amor prohibido en un mundo donde la magia y la traición caminan juntas."
+  },
+  {
+    "title": "Akuyaku Reijou Level 99: Watashi Wa Uraboss Desu Ga Maou Dewa Arimasen",
+    "genres": ["Fantasy", "Comedy", "Action"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/akuyaku-reijou-level-99-watashi-wa-uraboss-desu-ga-maou-dewa-arimasen.jpg",
+    "synopsis": "Reincarnada como villana de videojuego, una mujer descubre que es tan poderosa que podría derrotar al villano final... ¡pero no quiere ser la verdadera antagonista!"
+  },
+  {
+    "title": "Akuyaku Reijou nanode Last Boss wo Kattemimashita",
+    "genres": ["Fantasy", "Romance", "Comedy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/akuyaku-reijou-nanode-last-boss-wo-kattemimashita.jpg",
+    "synopsis": "Una villana decide conquistar al último jefe en lugar de enfrentarlo, lo que desencadena una relación inesperada y divertida entre ambos en un mundo de fantasía."
+  },
+  {
+    "title": "Alice to Zouroku",
+    "genres": ["Fantasy", "Slice of Life", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/alice-to-zouroku.jpg",
+    "synopsis": "Un hombre solitario y una niña con poderes mágicos forman una familia inusual, mientras enfrentan peligros y secretos en un mundo donde los poderes son perseguidos."
+  },
+  {
+    "title": "Amaama to Inazuma",
+    "genres": ["Slice of Life", "Family", "Cooking"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/amaama-to-inazuma.jpg",
+    "synopsis": "Un padre viudo aprende a cocinar para su hija pequeña, creando vínculos emocionales a través de la comida y el cariño diario en un entorno hogareño lleno de ternura."
+  },
+  {
+    "title": "Ame-iro Cocoa",
+    "genres": ["Romance", "Slice of Life", "Comedy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ame-iro-cocoa.jpg",
+    "synopsis": "Una joven trabaja en una cafetería y se enamora de un cliente regular, mientras su vida cambia gracias a las pequeñas cosas que comparten cada día."
+  },
+  {
+    "title": "Ameku Takao no Suiri Karte",
+    "genres": ["Mystery", "Medical", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/ameku-takao-no-suiri-karte.jpg",
+    "synopsis": "El doctor Ameku Takao resuelve casos médicos complejos con métodos poco convencionales, combinando ciencia, intuición y un toque de teatro para salvar vidas."
+  },
+  {
+    "title": "Angel Beats!",
+    "genres": ["Action", "Drama", "Supernatural"],
+    "capitulo": "13",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2010,
+    "image": "../img/img-anime/angel-beats.jpg",
+    "synopsis": "En un limbo escolar tras la muerte, un grupo de estudiantes lucha contra Dios mientras intentan encontrar paz y resolver sus arrepentimientos antes de reencarnar."
+  },
+  {
+    "title": "Anne Shirley",
+    "genres": ["Drama", "Slice of Life", "Adventure"],
+    "capitulo": "50",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 1979,
+    "image": "../img/img-anime/anne-shirley.jpg",
+    "synopsis": "La historia de Anne, una niña huérfana con imaginación desbordante, que llega a Green Gables y transforma la vida de quienes la rodean con su alegría y espíritu indomable."
+  },
+    {
+    "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai",
+    "genres": ["Drama", "Supernatural", "Slice of Life"],
+    "capitulo": "11",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai.jpg",
+    "synopsis": "Un grupo de amigos se reencuentra años después por la aparición de una chica fantasma que solo uno puede ver, obligándolos a enfrentar sus culpas y reconciliarse con su pasado."
+  },
+  {
+    "title": "Another",
+    "genres": ["Horror", "Mystery", "Supernatural"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2012,
+    "image": "../img/img-anime/another.jpg",
+    "synopsis": "En una escuela maldita, un estudiante descubre que debe encontrar al 'otro' que causa una serie de muertes para romper la maldición que acecha a su clase."
+  },
+  {
+    "title": "Ansatsu Kyoushitsu",
+    "genres": ["Action", "Comedy", "School"],
+    "capitulo": "22",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/ansatsu-kyoushitsu.jpg",
+    "synopsis": "Una clase de estudiantes debe asesinar a su profesor, un monstruo indestructible, mientras él les enseña a ser mejores personas... y asesinos."
+  },
+  {
+    "title": "Ansatsu Kyoushitsu 2nd Season",
+    "genres": ["Action", "Comedy", "School"],
+    "capitulo": "25",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/ansatsu-kyoushitsu-2nd-season.jpg",
+    "synopsis": "La clase sigue intentando matar a Koro-sensei mientras se preparan para el examen final, enfrentando nuevos desafíos y revelaciones sobre su profesor y ellos mismos."
+  },
+  {
+    "title": "Ansatsu Kyoushitsu OVA",
+    "genres": ["Comedy", "Action", "School"],
+    "capitulo": "1",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/ansatsu-kyoushitsu-ova.jpg",
+    "synopsis": "Un especial cómico donde los estudiantes compiten en juegos absurdos bajo la supervisión de Koro-sensei, mostrando su lado más divertido y caótico."
+  },
+  {
+    "title": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga",
+    "genres": ["Fantasy", "Action", "Comedy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/ansatsusha-de-arau-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga.jpg",
+    "synopsis": "Un asesino con estadísticas sobrehumanas se une a un grupo de héroes, pero su poder es tan alto que incluso el héroe del mundo lo ve como una amenaza."
+  },
+  {
+    "title": "Ao Haru Ride",
+    "genres": ["Romance", "School", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2014,
+    "image": "../img/img-anime/ao-haru-ride.jpg",
+    "synopsis": "Futaba, una chica que cambió su personalidad tras un corazón roto, vuelve a encontrarse con su primer amor en la secundaria, iniciando una segunda oportunidad para ambos."
+  },
+  {
+    "title": "Ao no Exorcist",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "25",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/ao-no-exorcist.jpg",
+    "synopsis": "Rin Okumura descubre que es hijo del Rey Demonio y decide convertirse en exorcista para proteger a la humanidad, luchando contra su propio destino."
+  },
+  {
+    "title": "Ao no Exorcist (Movie)",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2012,
+    "image": "../img/img-anime/ao-no-exorcist-movie.jpg",
+    "synopsis": "Una película que expande la historia de Rin y Yukio, mostrando eventos clave antes del inicio de la serie principal, con acción intensa y revelaciones familiares."
+  },
+  {
+    "title": "Ao no Exorcist: Kuro no Iede",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado,
+    "year": 2015,
+    "image": "../img/img-anime/ao-no-exorcist-kuro-no-iede.jpg",
+    "synopsis": "Rin y sus compañeros investigan un incidente en una mansión oscura, enfrentándose a fuerzas demoníacas y secretos del pasado de la Orden de Exorcistas."
+  },
+  {
+    "title": "Ao no Exorcist: Kyoto Fujouou-hen",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ao-no-exorcist-kyoto-fujouou-hen.jpg",
+    "synopsis": "Rin viaja a Kioto para detener a los Illuminati, una organización secreta que busca liberar a Satán, mientras enfrenta su propia identidad y poderes demoníacos."
+  },
+  {
+    "title": "Ao no Exorcist: Kyoto Fujouou-hen OVA",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ao-no-exorcist-kyoto-fujouou-hen-ova.jpg",
+    "synopsis": "Un episodio adicional que muestra momentos detrás de cámaras y escenas alternativas durante el arco de Kioto, profundizando en la dinámica entre los personajes."
+  },
+  {
+    "title": "Ao no Exorcist: Shimane Illuminati-hen",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ao-no-exorcist-shimane-illuminati-hen.jpg",
+    "synopsis": "Una película que explora los orígenes de los Illuminati y su conexión con la familia Okumura, mostrando batallas épicas y revelaciones sobre el pasado de Rin."
+  },
+  {
+    "title": "Ao no Exorcist: Yosuga-hen",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2012,
+    "image": "../img/img-anime/ao-no-exorcist-yosuga-hen.jpg",
+    "synopsis": "Una precuela que narra la historia de Yukio y Rin cuando eran niños, explorando cómo se formó su relación y el origen de su conexión con el mundo demoníaco."
+  },
+  {
+    "title": "Ao no Exorcist: Yuki no Hate-hen",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ao-no-exorcist-yuki-no-hate-hen.jpg",
+    "synopsis": "Una película que sirve como epílogo del arco de Kioto, mostrando el futuro inmediato de Rin y sus compañeros tras derrotar a los Illuminati."
+  },
+    {
+    "title": "Atarashii Joushi wa Do Tennen",
+    "genres": ["Romance", "Comedy", "Workplace"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/atarashii-joushi-wa-do-tennen.jpg",
+    "synopsis": "Una nueva gerente llega a la oficina con una personalidad naturalmente encantadora, causando caos y romance mientras sus colegas intentan entender su misteriosa aura."
+  },
+  {
+    "title": "Back Street",
+    "genres": ["Drama", "Romance", "Slice of Life"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/back-street.jpg",
+    "synopsis": "Dos personas que se conocen por casualidad en una calle secundaria comienzan una relación inesperada, explorando las pequeñas cosas que unen a las personas en la vida cotidiana."
+  },
+  {
+    "title": "Ballroom e Youkoso",
+    "genres": ["Drama", "Sports", "Romance"],
+    "capitulo": "24",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ballroom-e-youkoso.jpg",
+    "synopsis": "Un chico tímido descubre el mundo del baile de salón y, con la ayuda de una compañera exigente, lucha por superar sus límites y encontrar su propio ritmo en la pista."
+  },
+  {
+    "title": "Baraou no Souretsu",
+    "genres": ["Historical", "Drama", "Fantasy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/baraou-no-souretsu.jpg",
+    "synopsis": "Una adaptación dramática de la historia real de Ricardo III, presentada con un toque fantástico y emocional, explorando el poder, la traición y el destino de un rey maldecido."
+  },
+  {
+    "title": "Beelzebub",
+    "genres": ["Action", "Comedy", "Supernatural"],
+    "capitulo": "60",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/beelzebub.jpg",
+    "synopsis": "Un estudiante delincuente debe cuidar a Beelzebub, el hijo del Rey Demonio, mientras se convierte en su protector y enfrenta batallas sobrenaturales en su escuela."
+  },
+  {
+    "title": "Binan Koukou Chikyuu Bouei-bu Happy Kiss!",
+    "genres": ["Comedy", "Romance", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2018,
+    "image": "../img/img-anime/binan-koukou-chikyuu-bouei-bu-happy-kiss.jpg",
+    "synopsis": "Los estudiantes del club de defensa terrestre regresan con nuevas aventuras románticas y cómicas, esta vez con un enfoque más ligero y divertido sobre el amor y la amistad."
+  },
+  {
+    "title": "Binan Koukou Chikyuu Bouei-bu Love!",
+    "genres": ["Comedy", "Romance", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/binan-koukou-chikyuu-bouei-bu-love.jpg",
+    "synopsis": "Un grupo de estudiantes con habilidades sobrenaturales se dedica a proteger la Tierra... pero también a resolver sus propias historias de amor en medio del caos."
+  },
+  {
+    "title": "Binan Koukou Chikyuu Bouei-bu LOVE! LOVE!",
+    "genres": ["Comedy", "Romance", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/binan-koukou-chikyuu-bouei-bu-love-love.jpg",
+    "synopsis": "La segunda temporada sigue las aventuras románticas y absurdas del club de defensa terrestre, con más parejas, más risas y más batallas contra monstruos... o quizás solo contra sus propios sentimientos."
+  },
+  {
+    "title": "Black Clover",
+    "genres": ["Action", "Fantasy", "Adventure"],
+    "capitulo": "170",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/black-clover.jpg",
+    "synopsis": "Astá, un niño sin magia, sueña con convertirse en Rey Mago. Con determinación y un grimorio negro, lucha contra los prejuicios y los demonios para alcanzar su objetivo."
+  },
+  {
+    "title": "Blood Lad",
+    "genres": ["Action", "Comedy", "Supernatural"],
+    "capitulo": "10",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2013,
+    "image": "../img/img-anime/blood-lad.jpg",
+    "synopsis": "Un vampiro moderno debe revivir a una chica humana que murió en su castillo, iniciando una aventura caótica entre mundos y emociones mientras aprende lo que significa ser humano."
+  },
+  {
+    "title": "Blood-C",
+    "genres": ["Horror", "Action", "Supernatural"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/blood-c.jpg",
+    "synopsis": "Una joven con habilidades de caza de monstruos descubre que su vida es una mentira, y debe enfrentarse a la verdad mientras lucha por sobrevivir en un mundo lleno de sangre y traición."
   }
 ]
