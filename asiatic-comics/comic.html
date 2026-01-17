@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Colección de manga, manhwa y manhua en YumeVerse – por Trishan Mizhquiri Valencia">
+    <title>Cómic Asiático | YumeVerse</title>
+    <link rel="icon" type="image/png" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css  ">
+</head>
+<body>
+
+    <!-- Barra de navegación superior -->
+    <header class="topbar">
+        <div class="logo-container">
+            <a href="../index.html">
+                <img src="../img/logo.png" alt="Logo" class="logo">
+            </a>
+            <h1 class="logo-text"><a href="../index.html">YUMEVERSE</a></h1>
+        </div>
+
+        <!-- Menú hamburguesa para móvil -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="../index.html" class="nav-item active">Inicio</a>
+            <a href="../anime/anime.html" class="nav-item">Anime</a>
+
+            <!-- Categorías -->
+            <div class="dropdown">
+                <a href="../anime/categorias.html" class="nav-item dropbtn">Categorías</a>
+                <div class="dropdown-content">
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=accion">Acción</a>
+                        <a href="../anime/categorias.html?genero=aventura">Aventura</a>
+                        <a href="../anime/categorias.html?genero=comedia">Comedia</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=drama">Drama</a>
+                        <a href="../anime/categorias.html?genero=ecchi">Ecchi</a>
+                        <a href="../anime/categorias.html?genero=escolar">Escolar</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=fantasia">Fantasía</a>
+                        <a href="../anime/categorias.html?genero=historico">Histórico</a>
+                        <a href="../anime/categorias.html?genero=isekai">Isekai</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=josei">Josei</a>
+                        <a href="../anime/categorias.html?genero=meca">Mecha</a>
+                        <a href="../anime/categorias.html?genero=misterio">Misterio</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=musica">Música</a>
+                        <a href="../anime/categorias.html?genero=psicologico">Psicológico</a>
+                        <a href="../anime/categorias.html?genero=romance">Romance</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=ciencia-ficcion">Ciencia Ficción</a>
+                        <a href="../anime/categorias.html?genero=seinen">Seinen</a>
+                        <a href="../anime/categorias.html?genero=shojo">Shojo</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=shonen">Shonen</a>
+                        <a href="../anime/categorias.html?genero=slice-of-life">Slice of Life</a>
+                        <a href="../anime/categorias.html?genero=deportes">Deportes</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=supernatural">Supernatural</a>
+                        <a href="../anime/categorias.html?genero=terror">Terror</a>
+                        <a href="../anime/categorias.html?genero=yaoi">Yaoi</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=yuri">Yuri</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mangas - Manhuas - Manhwas -->
+            <div class="dropdown">
+                <a href="comic.html" class="nav-item dropbtn">Asiatic Comics</a>
+                <div class="dropdown-content">
+                    <a href="./manga.html">Mangas</a>
+                    <a href="./manhwa.html">Manhwas</a>
+                    <a href="./manhua.html">Manhuas</a>
+                </div>
+            </div>
+
+            <!-- Galería -->
+            <div class="dropdown">
+                <a href="../galeria/galeria.html" class="nav-item dropbtn">Galería</a>
+                <div class="dropdown-content">
+                    <a href="../galeria/anime.html">Anime</a>
+                    <a href="../galeria/arte.html">Arte</a>
+                </div>
+            </div>
+
+            <!-- Blog -->
+            <div class="dropdown">
+                <a href="../blog/blog.html" class="nav-item dropbtn">Blog</a>
+                <div class="dropdown-content">
+                    <a href="../blog/anime.html">Anime</a>
+                    <a href="../blog/arte.html">Arte</a>
+                </div>
+            </div>
+
+            <a href="../contacto.html" class="nav-item">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="content">
+        <!-- Sección de introducción -->
+        <section class="intro-section">
+            <h1>Cómic Asiático</h1>
+            <p>Explora mi colección de manga (Japón), manhwa (Corea) y manhua (China).</p>
+        </section>
+
+        <!-- Filtros en línea (horizontal) -->
+        <section class="filters-section">
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label for="search">Buscar:</label>
+                    <input type="text" id="search" placeholder="Nombre del cómic...">
+                </div>
+
+                <div class="filter-group">
+                    <label for="origin">Origen:</label>
+                    <select id="origin">
+                        <option value="">Todos los orígenes</option>
+                        <option value="manga">Manga (Japón)</option>
+                        <option value="manhwa">Manhwa (Corea)</option>
+                        <option value="manhua">Manhua (China)</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="status">Estado:</label>
+                    <select id="status">
+                        <option value="">Todos los estados</option>
+                        <option value="finalizado">Finalizado</option>
+                        <option value="en-curso">En curso</option>
+                        <option value="pausado">Pausado</option>
+                        <option value="abandonado">Abandonado</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="order">Ordenar por:</label>
+                    <select id="order">
+                        <option value="default">Por Defecto</option>
+                        <option value="title">Título (A-Z)</option>
+                        <option value="title-desc">Título (Z-A)</option>
+                    </select>
+                </div>
+
+                <button id="apply-filters" class="btn filter-btn">
+                    <i class="fas fa-filter"></i> FILTRAR
+                </button>
+            </div>
+        </section>
+
+        <!-- Lista de animes -->
+        <section class="comic-grid-section">
+            <h2 class="section-title">Resultados</h2>
+            <div id="comic-grid" class="anime-grid">
+                <p class="no-results">Cargando comic...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TRISHAN MIZHQUIRI VALENCIA · Universo creativo de anime e ilustración.</p>
+    </footer>
+
+    <script>
+        // Toggle menú hamburguesa
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.getElementById('navLinks').classList.toggle('mobile-active');
+        });
+
+        // Highlight página activa
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            document.querySelectorAll('.nav-item').forEach(link => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        });
+
+        // Cargar y filtrar comic desde JSON
+        let allAnimes = [];
+
+        fetch('../data/animes.json')
+            .then(response => {
+                if (!response.ok) throw new Error('Archivo no encontrado');
+                return response.json();
+            })
+            .then(animes => {
+                allAnimes = animes;
+                renderAnimes(allAnimes);
+            })
+            .catch(err => {
+                console.error('Error al cargar comic.json:', err);
+                document.getElementById('anime-list').innerHTML = '<p class="error">⚠️ No se pudo cargar la colección de comic.</p>';
+            });
+
+        function renderAnimes(list) {
+            const container = document.getElementById('comics-grid');
+            if (list.length === 0) {
+                container.innerHTML = '<p class="no-results">🔍 No se encontraron comics con esos criterios.</p>';
+                return;
+            }
+
+            let html = '';
+            list.forEach(comic => {
+                const originLabel =
+                    comic.origin === 'manga' ? '🇯🇵 Manga' :
+                    comic.origin === 'manhwa' ? '🇰🇷 Manhwa' :
+                    comic.origin === 'manhua' ? '🇨🇳 Manhua' : '🌍 Desconocido';
+
+                html += `
+                    <article class="anime-card">
+                        <div class="anime-image">
+                            ${comic.image ? `<img src="${comic.image}" alt="${comic.title}">` : `<div class="placeholder"><i class="fas fa-book"></i></div>`}
+                        </div>
+                        <h3>${comic.title}</h3>
+                        <p class="genres">${originLabel}</p>
+                        <p class="status">${comic.status ? `Estado: ${comic.status}` : ''}</p>
+                        <p class="synopsis">${comic.synopsis || 'Sinopsis no disponible.'}</p>
+                    </article>
+                `;
+            });
+            container.innerHTML = html;
+        }
+
+        // Aplicar filtros al hacer clic
+        document.getElementById('apply-filters').addEventListener('click', function() {
+            const searchTerm = document.getElementById('search').value.toLowerCase().trim();
+            const origin = document.getElementById('origin').value;
+            const status = document.getElementById('status').value;
+            const order = document.getElementById('order').value;
+
+            let filtered = allComics.filter(comic => {
+                const matchesSearch = comic.title.toLowerCase().includes(searchTerm);
+                const matchesOrigin = origin ? comic.origin === origin : true;
+                const matchesStatus = status ? comic.status === status : true;
+                return matchesSearch && matchesOrigin && matchesStatus;
+            });
+
+            // Ordenar
+            if (order === 'title') {
+                filtered.sort((a, b) => a.title.localeCompare(b.title));
+            } else if (order === 'title-desc') {
+                filtered.sort((a, b) => b.title.localeCompare(a.title));
+            }
+
+            renderComics(filtered);
+        });
+    </script>
+</body>
+</html>

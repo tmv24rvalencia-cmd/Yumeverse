@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Berserk",
+    "origin": "manga",
+    "status": "finalizado",
+    "synopsis": "La historia épica de Guts...",
+    "image": "../img/comics/berserk.jpg"
+  },
+  {
+    "title": "Solo Leveling",
+    "origin": "manhwa",
+    "status": "finalizado",
+    "synopsis": "Un cazador débil se convierte en el más poderoso...",
+    "image": "../img/comics/solo-leveling.jpg"
+  }
+]

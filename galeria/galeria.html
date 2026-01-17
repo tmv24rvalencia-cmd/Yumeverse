@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galería de arte y anime en YumeVerse – por Trishan Mizhquiri Valencia">
+    <title>Galería | YumeVerse</title>
+    <link rel="icon" type="image/png" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css  ">
+</head>
+<body>
+
+    <!-- Barra de navegación superior -->
+    <header class="topbar">
+        <div class="logo-container">
+            <a href="../index.html">
+                <img src="../img/logo.png" alt="Logo" class="logo">
+            </a>
+            <h1 class="logo-text"><a href="../index.html">YUMEVERSE</a></h1>
+        </div>
+
+        <!-- Menú hamburguesa para móvil -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="../index.html" class="nav-item active">Inicio</a>
+            <a href="../anime/anime.html" class="nav-item">Anime</a>
+
+            <!-- Categorías -->
+            <div class="dropdown">
+                <a href="../anime/categorias.html" class="nav-item dropbtn">Categorías</a>
+                <div class="dropdown-content">
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=accion">Acción</a>
+                        <a href="../anime/categorias.html?genero=aventura">Aventura</a>
+                        <a href="../anime/categorias.html?genero=comedia">Comedia</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=drama">Drama</a>
+                        <a href="../anime/categorias.html?genero=ecchi">Ecchi</a>
+                        <a href="../anime/categorias.html?genero=escolar">Escolar</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=fantasia">Fantasía</a>
+                        <a href="../anime/categorias.html?genero=historico">Histórico</a>
+                        <a href="../anime/categorias.html?genero=isekai">Isekai</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=josei">Josei</a>
+                        <a href="../anime/categorias.html?genero=meca">Mecha</a>
+                        <a href="../anime/categorias.html?genero=misterio">Misterio</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=musica">Música</a>
+                        <a href="../anime/categorias.html?genero=psicologico">Psicológico</a>
+                        <a href="../anime/categorias.html?genero=romance">Romance</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=ciencia-ficcion">Ciencia Ficción</a>
+                        <a href="../anime/categorias.html?genero=seinen">Seinen</a>
+                        <a href="../anime/categorias.html?genero=shojo">Shojo</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=shonen">Shonen</a>
+                        <a href="../anime/categorias.html?genero=slice-of-life">Slice of Life</a>
+                        <a href="../anime/categorias.html?genero=deportes">Deportes</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=supernatural">Supernatural</a>
+                        <a href="../anime/categorias.html?genero=terror">Terror</a>
+                        <a href="../anime/categorias.html?genero=yaoi">Yaoi</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="../anime/categorias.html?genero=yuri">Yuri</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mangas - Manhuas - Manhwas -->
+            <div class="dropdown">
+                <a href="../asiatic-comics/comic.html" class="nav-item dropbtn">Asiatic Comics</a>
+                <div class="dropdown-content">
+                    <a href="../asiatic-comics/manga.html">Mangas</a>
+                    <a href="../asiatic-comics/manhwa.html">Manhwas</a>
+                    <a href="../asiatic-comics/manhua.html">Manhuas</a>
+                </div>
+            </div>
+
+            <!-- Galería -->
+            <div class="dropdown">
+                <a href="galeria.html" class="nav-item dropbtn">Galería</a>
+                <div class="dropdown-content">
+                    <a href="anime.html">Anime</a>
+                    <a href="arte.html">Arte</a>
+                </div>
+            </div>
+
+            <!-- Blog -->
+            <div class="dropdown">
+                <a href="../blog/blog.html" class="nav-item dropbtn">Blog</a>
+                <div class="dropdown-content">
+                    <a href="../blog/anime.html">Anime</a>
+                    <a href="../blog/arte.html">Arte</a>
+                </div>
+            </div>
+
+            <a href="../contacto.html" class="nav-item">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="content">
+<!-- Sección de introducción -->
+        <section class="intro-section">
+            <h1>Galería Creativa</h1>
+            <p>Ilustraciones originales, fanarts y capturas de mis animes favoritos.</p>
+        </section>
+
+        <!-- Filtros en línea (horizontal) -->
+        <section class="filters-section">
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label for="search">Buscar:</label>
+                    <input type="text" id="search" placeholder="Título o descripción...">
+                </div>
+
+                <div class="filter-group">
+                    <label for="category">Categoría:</label>
+                    <select id="category">
+                        <option value="">Todas las categorías</option>
+                        <option value="anime">Anime</option>
+                        <option value="arte">Arte Original</option>
+                        <option value="fanart">Fanart</option>
+                        <option value="digital">Digital</option>
+                        <option value="tradicional">Tradicional</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="order">Ordenar por:</label>
+                    <select id="order">
+                        <option value="default">Por Defecto</option>
+                        <option value="title">Título (A-Z)</option>
+                        <option value="title-desc">Título (Z-A)</option>
+                        <option value="date">Más reciente</option>
+                    </select>
+                </div>
+
+                <button id="apply-filters" class="btn filter-btn">
+                    <i class="fas fa-filter"></i> FILTRAR
+                </button>
+            </div>
+        </section>
+
+        <!-- Galería de imágenes -->
+        <section class="gallery-section">
+            <h2 class="section-title">Colección</h2>
+            <div id="gallery-grid" class="gallery-grid">
+                <p class="no-results">Cargando galería...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TRISHAN MIZHQUIRI VALENCIA · Universo creativo de anime e ilustración.</p>
+    </footer>
+
+    <script>
+        // Toggle menú hamburguesa
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.getElementById('navLinks').classList.toggle('mobile-active');
+        });
+
+        // Highlight página activa
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            document.querySelectorAll('.nav-item').forEach(link => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        });
+
+        // Cargar y filtrar galería desde JSON
+        let allArtworks = [];
+
+        fetch('../data/galeria.json')
+            .then(response => {
+                if (!response.ok) throw new Error('Archivo no encontrado');
+                return response.json();
+            })
+            .then(artworks => {
+                allArtworks = artworks;
+                renderGallery(allArtworks);
+            })
+            .catch(err => {
+                console.error('Error al cargar galeria.json:', err);
+                document.getElementById('gallery-grid').innerHTML = '<p class="error">⚠️ No se pudo cargar la galería.</p>';
+            });
+
+        function renderGallery(list) {
+            const container = document.getElementById('gallery-grid');
+            if (list.length === 0) {
+                container.innerHTML = '<p class="no-results">🔍 No se encontraron obras con esos criterios.</p>';
+                return;
+            }
+
+            let html = '';
+            list.forEach(art => {
+                html += `
+                    <article class="gallery-card">
+                        <div class="gallery-image">
+                            ${art.image ?
+                                `<img src="${art.image}" alt="${art.title}">` :
+                                `<div class="placeholder"><i class="fas fa-palette"></i></div>`
+                            }
+                        </div>
+                        <h3>${art.title}</h3>
+                        <p class="genres">${art.category.charAt(0).toUpperCase() + art.category.slice(1)}</p>
+                        <p class="synopsis">${art.description || 'Sin descripción.'}</p>
+                    </article>
+                `;
+            });
+            container.innerHTML = html;
+        }
+
+        // Aplicar filtros al hacer clic
+        document.getElementById('apply-filters').addEventListener('click', function() {
+            const searchTerm = document.getElementById('search').value.toLowerCase().trim();
+            const category = document.getElementById('category').value;
+            const order = document.getElementById('order').value;
+
+            let filtered = allArtworks.filter(art => {
+                const matchesSearch = art.title.toLowerCase().includes(searchTerm) ||
+                                      (art.description && art.description.toLowerCase().includes(searchTerm));
+                const matchesCategory = category ? art.category === category : true;
+                return matchesSearch && matchesCategory;
+            });
+
+            // Ordenar
+            if (order === 'title') {
+                filtered.sort((a, b) => a.title.localeCompare(b.title));
+            } else if (order === 'title-desc') {
+                filtered.sort((a, b) => b.title.localeCompare(a.title));
+            } else if (order === 'date') {
+                filtered.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+            }
+
+            renderGallery(filtered);
+        });
+    </script>
+</body>
+</html>

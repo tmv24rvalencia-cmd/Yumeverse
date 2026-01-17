@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explorador completo de animes por géneros, tipos y estados en YumeVerse - por Trishan Mizhquiri Valencia">
+    <title>Categorías | YumeVerse</title>
+    <link rel="icon" type="image/png" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css  ">
+</head>
+<body>
+
+    <!-- Barra de navegación superior -->
+    <header class="topbar">
+        <div class="logo-container">
+            <a href="../index.html">
+                <img src="../img/logo.png" alt="Logo" class="logo">
+            </a>
+            <h1 class="logo-text"><a href="../index.html">YUMEVERSE</a></h1>
+        </div>
+
+        <!-- Menú hamburguesa para móvil -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="../index.html" class="nav-item active">Inicio</a>
+            <a href="anime.html" class="nav-item">Anime</a>
+
+            <!-- Categorías -->
+            <div class="dropdown">
+                <a href="categorias.html" class="nav-item dropbtn">Categorías</a>
+                <div class="dropdown-content">
+                    <div class="genre-row">
+                        <a href="categorias.html?genero=accion">Acción</a>
+                        <a href="categorias.html?genero=aventura">Aventura</a>
+                        <a href="categorias.html?genero=comedia">Comedia</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="categorias.html?genero=drama">Drama</a>
+                        <a href="categorias.html?genero=ecchi">Ecchi</a>
+                        <a href="categorias.html?genero=escolar">Escolar</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="categorias.html?genero=fantasia">Fantasía</a>
+                        <a href="categorias.html?genero=historico">Histórico</a>
+                        <a href="categorias.html?genero=isekai">Isekai</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="categorias.html?genero=josei">Josei</a>
+                        <a href="categorias.html?genero=meca">Mecha</a>
+                        <a href="categorias.html?genero=misterio">Misterio</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="categorias.html?genero=musica">Música</a>
+                        <a href="categorias.html?genero=psicologico">Psicológico</a>
+                        <a href="categorias.html?genero=romance">Romance</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="categorias.html?genero=ciencia-ficcion">Ciencia Ficción</a>
+                        <a href="categorias.html?genero=seinen">Seinen</a>
+                        <a href="categorias.html?genero=shojo">Shojo</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="categorias.html?genero=shonen">Shonen</a>
+                        <a href="categorias.html?genero=slice-of-life">Slice of Life</a>
+                        <a href="categorias.html?genero=deportes">Deportes</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="categorias.html?genero=supernatural">Supernatural</a>
+                        <a href="categorias.html?genero=terror">Terror</a>
+                        <a href="categorias.html?genero=yaoi">Yaoi</a>
+                    </div>
+                    <div class="genre-row">
+                        <a href="categorias.html?genero=yuri">Yuri</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mangas - Manhuas - Manhwas -->
+            <div class="dropdown">
+                <a href="../asiatic-comics/comic.html" class="nav-item dropbtn">Asiatic Comics</a>
+                <div class="dropdown-content">
+                    <a href="../asiatic-comics/manga.html">Mangas</a>
+                    <a href="../asiatic-comics/manhwa.html">Manhwas</a>
+                    <a href="../asiatic-comics/manhua.html">Manhuas</a>
+                </div>
+            </div>
+
+            <!-- Galería -->
+            <div class="dropdown">
+                <a href="../galeria/galeria.html" class="nav-item dropbtn">Galería</a>
+                <div class="dropdown-content">
+                    <a href="../galeria/anime.html">Anime</a>
+                    <a href="../galeria/arte.html">Arte</a>
+                </div>
+            </div>
+
+            <!-- Blog -->
+            <div class="dropdown">
+                <a href="../blog/blog.html" class="nav-item dropbtn">Blog</a>
+                <div class="dropdown-content">
+                    <a href="../blog/anime.html">Anime</a>
+                    <a href="../blog/arte.html">Arte</a>
+                </div>
+            </div>
+
+            <a href="../contacto.html" class="nav-item">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="content">
+        <!-- Sección de introducción -->
+        <section class="intro-section">
+            <h1>Explorador de Animes</h1>
+            <p>Descubre nuevos mundos filtrando por género, tipo o estado.</p>
+        </section>
+
+<!-- Filtros en línea (horizontal) -->
+        <section class="filters-section">
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label for="search">Buscar:</label>
+                    <input type="text" id="search" placeholder="Nombre del anime...">
+                </div>
+
+                <div class="filter-group">
+                    <label for="genre">Género:</label>
+                    <select id="genre">
+                        <option value="">Todos los géneros</option>
+                        <option value="accion">Acción</option>
+                        <option value="aventura">Aventura</option>
+                        <option value="comedia">Comedia</option>
+                        <option value="drama">Drama</option>
+                        <option value="ecchi">Ecchi</option>
+                        <option value="escolar">Escolar</option>
+                        <option value="fantasia">Fantasía</option>
+                        <option value="historico">Histórico</option>
+                        <option value="isekai">Isekai</option>
+                        <option value="josei">Josei</option>
+                        <option value="meca">Mecha</option>
+                        <option value="misterio">Misterio</option>
+                        <option value="musica">Música</option>
+                        <option value="psicologico">Psicológico</option>
+                        <option value="romance">Romance</option>
+                        <option value="ciencia-ficcion">Ciencia Ficción</option>
+                        <option value="seinen">Seinen</option>
+                        <option value="shojo">Shojo</option>
+                        <option value="shonen">Shonen</option>
+                        <option value="slice-of-life">Slice of Life</option>
+                        <option value="deportes">Deportes</option>
+                        <option value="supernatural">Supernatural</option>
+                        <option value="terror">Terror</option>
+                        <option value="yaoi">Yaoi</option>
+                        <option value="yuri">Yuri</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="type">Tipo:</label>
+                    <select id="type">
+                        <option value="">Todos los tipos</option>
+                        <option value="tv">TV</option>
+                        <option value="pelicula">Película</option>
+                        <option value="ova">OVA</option>
+                        <option value="especial">Especial</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="status">Estado:</label>
+                    <select id="status">
+                        <option value="">Todos los estados</option>
+                        <option value="finalizado">Finalizado</option>
+                        <option value="emision">En emisión</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="order">Ordenar por:</label>
+                    <select id="order">
+                        <option value="default">Por Defecto</option>
+                        <option value="title">Título (A-Z)</option>
+                        <option value="title-desc">Título (Z-A)</option>
+                        <option value="year">Año (Ascendente)</option>
+                        <option value="year-desc">Año (Descendente)</option>
+                    </select>
+                </div>
+
+                <button id="apply-filters" class="btn filter-btn">
+                    <i class="fas fa-filter"></i> FILTRAR
+                </button>
+            </div>
+        </section>
+
+        <!-- Lista de animes -->
+        <section class="anime-list-section">
+            <h2 class="section-title">Resultados</h2>
+            <div id="anime-list" class="anime-grid">
+                <p class="no-results">Cargando animes...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TRISHAN MIZHQUIRI VALENCIA · Universo creativo de anime e ilustración.</p>
+    </footer>
+
+    <script>
+        // Toggle menú hamburguesa
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.getElementById('navLinks').classList.toggle('mobile-active');
+        });
+
+        // Highlight página activa
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            document.querySelectorAll('.nav-item').forEach(link => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        });
+
+       // Leer el parámetro 'genero' de la URL
+        function getGenreFromURL() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('genero') || '';
+        }
+
+        // Cargar y filtrar animes desde JSON
+        let allAnimes = [];
+
+        fetch('./../data/animes.json')
+            .then(response => {
+                if (!response.ok) throw new Error('Archivo no encontrado');
+                return response.json();
+            })
+            .then(animes => {
+                allAnimes = animes;
+                applyFilters(); // Aplicar filtros inmediatamente al cargar
+            })
+            .catch(err => {
+                console.error('Error al cargar animes.json:', err);
+                document.getElementById('anime-list').innerHTML = '<p class="error">⚠️ No se pudo cargar la colección de animes.</p>';
+            });
+
+        function renderAnimes(list) {
+            const container = document.getElementById('anime-list');
+            if (list.length === 0) {
+                container.innerHTML = '<p class="no-results">🔍 No se encontraron animes con esos criterios.</p>';
+                return;
+            }
+
+            let html = '';
+            list.forEach(anime => {
+                const genreLabels = anime.genres.map(g =>
+                    g === 'accion' ? 'Acción' :
+                    g === 'aventura' ? 'Aventura' :
+                    g === 'comedia' ? 'Comedia' :
+                    g === 'drama' ? 'Drama' :
+                    g === 'fantasia' ? 'Fantasía' :
+                    g === 'shonen' ? 'Shonen' : g.charAt(0).toUpperCase() + g.slice(1)
+                ).join(', ');
+
+                html += `
+                    <article class="anime-card">
+                        <div class="anime-image">
+                            ${anime.image ? `<img src="${anime.image}" alt="${anime.title}">` : `<div class="placeholder"><i class="fas fa-tv"></i></div>`}
+                        </div>
+                        <h3>${anime.title}</h3>
+                        <p class="genres">${genreLabels}</p>
+                        <p class="status">${anime.status === 'finalizado' ? 'Finalizado' : anime.status === 'emision' ? 'En emisión' : ''}</p>
+                        <p class="synopsis">${anime.synopsis || 'Sinopsis no disponible.'}</p>
+                    </article>
+                `;
+            });
+            container.innerHTML = html;
+        }
+
+        // Función para aplicar filtros
+        function applyFilters() {
+            const searchTerm = document.getElementById('search').value.toLowerCase().trim();
+            const genre = document.getElementById('genre').value;
+            const type = document.getElementById('type').value;
+            const status = document.getElementById('status').value;
+            const order = document.getElementById('order').value;
+
+            let filtered = allAnimes.filter(anime => {
+                const matchesSearch = anime.title.toLowerCase().includes(searchTerm);
+                const matchesGenre = genre ? anime.genres.includes(genre) : true;
+                const matchesType = type ? anime.type === type : true;
+                const matchesStatus = status ? anime.status === status : true;
+                return matchesSearch && matchesGenre && matchesType && matchesStatus;
+            });
+
+            // Ordenar
+            if (order === 'title') {
+                filtered.sort((a, b) => a.title.localeCompare(b.title));
+            } else if (order === 'title-desc') {
+                filtered.sort((a, b) => b.title.localeCompare(a.title));
+            } else if (order === 'year') {
+                filtered.sort((a, b) => (a.year || 0) - (b.year || 0));
+            } else if (order === 'year-desc') {
+                filtered.sort((a, b) => (b.year || 0) - (a.year || 0));
+            }
+
+            renderAnimes(filtered);
+        }
+
+        // Aplicar filtros al hacer clic en el botón
+        document.getElementById('apply-filters').addEventListener('click', applyFilters);
+
+        // Aplicar filtro automáticamente al cargar la página (si hay un género en la URL)
+        window.addEventListener('load', function() {
+            const genreFromURL = getGenreFromURL();
+            if (genreFromURL) {
+                // Seleccionar la opción en el <select>
+                document.getElementById('genre').value = genreFromURL;
+                // Aplicar el filtro
+                applyFilters();
+            }
+        });
+    </script>
+</body>
+</html>
