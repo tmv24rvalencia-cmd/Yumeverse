@@ -236,7 +236,7 @@
         // Cargar y filtrar animes desde JSON
         let allAnimes = [];
 
-        fetch('./../data/animes.json')
+        fetch('././data/anime.json')
             .then(response => {
                 if (!response.ok) throw new Error('Archivo no encontrado');
                 return response.json();
