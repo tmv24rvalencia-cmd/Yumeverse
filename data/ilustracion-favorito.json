@@ -1,0 +1,37 @@
+[
+  {
+    "titulo": "Corazón ardiente",
+    "imagen": "/img/ilustracciones/corazón ardiente.png",
+    "generos": ["Arte Digital", "Romance"],
+    "sinopsis": "Una ilustración que representa la pasión y el fuego interior.",
+    "icono": "fa-heart"
+  },
+  {
+    "titulo": "Lluvia de estrellas mágicas",
+    "imagen": "/img/ilustracciones/lluvia de estrellas.png",
+    "generos": ["Fantasía", "Magia", "Melody"],
+    "sinopsis": "🌠 Un instante mágico bajo el cielo: madre e hija soñando juntas. 💖",
+    "icono": "fa-star"
+  },
+  {
+    "titulo": "Balanza",
+    "imagen": "/img/ilustracciones/balanza.png",
+    "generos": ["Simbólico", "Arte Conceptual"],
+    "sinopsis": "El equilibrio entre opuestos: justicia, armonía y dualidad.",
+    "icono": "fa-scale-balanced"
+  },
+  {
+    "titulo": "Sol y luna en armonía",
+    "imagen": "/img/ilustracciones/sol y luna.png",
+    "generos": ["Dualidad", "Armonía", "Melody"],
+    "sinopsis": "☀️🌙 El equilibrio de la vida: la luz y la oscuridad danzan juntas. ✨",
+    "icono": "fa-sun"
+  },
+  {
+    "titulo": "Árbol de vida",
+    "imagen": "/img/ilustracciones/sauce.png",
+    "generos": ["Naturaleza", "Vida", "Melody"],
+    "sinopsis": "🌳 La fortaleza de la naturaleza: raíces firmes, ramas libres. 🍃",
+    "icono": "fa-tree"
+  }
+]

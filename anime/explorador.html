@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explorador completo de animes por géneros, tipos y estados en YumeVerse - por Trishan Mizhquiri Valencia">
-    <title>Categorías | YumeVerse</title>
-    <link rel="icon" type="image/png" href="../img/logo.png">
+    <title>Explorador de Anime | YumeVerse</title>
+    <link rel="icon" type="image/png" href="../img/general/icono.png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css  ">
 </head>
@@ -15,77 +15,41 @@
     <header class="topbar">
         <div class="logo-container">
             <a href="../index.html">
-                <img src="../img/logo.png" alt="Logo" class="logo">
+                <img src="../img/general/logo.png" alt="Logo" class="logo">
             </a>
             <h1 class="logo-text"><a href="../index.html">YUMEVERSE</a></h1>
         </div>
 
-        <!-- Menú hamburguesa para móvil -->
+        <!-- Menú hamburguesa -->
         <div class="hamburger" id="hamburger">
             <i class="fas fa-bars"></i>
         </div>
 
         <nav class="nav-links" id="navLinks">
-            <a href="../index.html" class="nav-item active">Inicio</a>
-            <a href="anime.html" class="nav-item">Anime</a>
-
-            <!-- Categorías -->
             <div class="dropdown">
-                <a href="categorias.html" class="nav-item dropbtn">Categorías</a>
+                <a href="../index.html" class="nav-item active">Inicio</a>
                 <div class="dropdown-content">
-                    <div class="genre-row">
-                        <a href="categorias.html?genero=accion">Acción</a>
-                        <a href="categorias.html?genero=aventura">Aventura</a>
-                        <a href="categorias.html?genero=comedia">Comedia</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="categorias.html?genero=drama">Drama</a>
-                        <a href="categorias.html?genero=ecchi">Ecchi</a>
-                        <a href="categorias.html?genero=escolar">Escolar</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="categorias.html?genero=fantasia">Fantasía</a>
-                        <a href="categorias.html?genero=historico">Histórico</a>
-                        <a href="categorias.html?genero=isekai">Isekai</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="categorias.html?genero=josei">Josei</a>
-                        <a href="categorias.html?genero=meca">Mecha</a>
-                        <a href="categorias.html?genero=misterio">Misterio</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="categorias.html?genero=musica">Música</a>
-                        <a href="categorias.html?genero=psicologico">Psicológico</a>
-                        <a href="categorias.html?genero=romance">Romance</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="categorias.html?genero=ciencia-ficcion">Ciencia Ficción</a>
-                        <a href="categorias.html?genero=seinen">Seinen</a>
-                        <a href="categorias.html?genero=shojo">Shojo</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="categorias.html?genero=shonen">Shonen</a>
-                        <a href="categorias.html?genero=slice-of-life">Slice of Life</a>
-                        <a href="categorias.html?genero=deportes">Deportes</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="categorias.html?genero=supernatural">Supernatural</a>
-                        <a href="categorias.html?genero=terror">Terror</a>
-                        <a href="categorias.html?genero=yaoi">Yaoi</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="categorias.html?genero=yuri">Yuri</a>
-                    </div>
+                    <a href="../favoritos/favoritos.html" class="nav-item">Favoritos</a>
+                </div>
+            </div>
+
+            <!-- Anime -->
+            <div class="dropdown">
+                <a href="../anime/explorador.html" class="nav-item droptn">Anime</a>
+                <div class="dropdown-content">
+                    <a href="../anime/mi-coleccion.html" class="nav-item">Mi colección</a>
                 </div>
             </div>
 
             <!-- Mangas - Manhuas - Manhwas -->
             <div class="dropdown">
-                <a href="../asiatic-comics/comic.html" class="nav-item dropbtn">Asiatic Comics</a>
+                <a href="../asiatic-comics/catalogo.html" class="nav-item dropbtn">Comics Asiáticos</a>
                 <div class="dropdown-content">
+                    <a href="../asiatic-comics/mi-coleccion-asiatica.html">Mi colección</a>
                     <a href="../asiatic-comics/manga.html">Mangas</a>
                     <a href="../asiatic-comics/manhwa.html">Manhwas</a>
                     <a href="../asiatic-comics/manhua.html">Manhuas</a>
+                    <a href="../asiatic-comics/occidentales.html">Occidentales</a>
                 </div>
             </div>
 
@@ -93,8 +57,8 @@
             <div class="dropdown">
                 <a href="../galeria/galeria.html" class="nav-item dropbtn">Galería</a>
                 <div class="dropdown-content">
-                    <a href="../galeria/anime.html">Anime</a>
-                    <a href="../galeria/arte.html">Arte</a>
+                    <a href="../galeria/galeria-anime.html">Galería anime</a>
+                    <a href="../galeria/galeria-arte.html">Galería arte</a>
                 </div>
             </div>
 
@@ -102,8 +66,8 @@
             <div class="dropdown">
                 <a href="../blog/blog.html" class="nav-item dropbtn">Blog</a>
                 <div class="dropdown-content">
-                    <a href="../blog/anime.html">Anime</a>
-                    <a href="../blog/arte.html">Arte</a>
+                    <a href="../blog/noticias-anime.html">Noticias Anime</a>
+                    <a href="../blog/noticias-arte.html">Noticia arte</a>
                 </div>
             </div>
 
@@ -236,7 +200,7 @@
         // Cargar y filtrar animes desde JSON
         let allAnimes = [];
 
-        fetch('./../data/animes.json')
+        fetch('../data/anime-completo.json')
             .then(response => {
                 if (!response.ok) throw new Error('Archivo no encontrado');
                 return response.json();
@@ -280,7 +244,7 @@
                     </article>
                 `;
             });
-            container.innerHTML = html;
+            container.innerHTML=html;
         }
 
         // Función para aplicar filtros
@@ -291,7 +255,7 @@
             const status = document.getElementById('status').value;
             const order = document.getElementById('order').value;
 
-            let filtered = allAnimes.filter(anime => {
+            let filtered = allAnimes.filter(anime=>{
                 const matchesSearch = anime.title.toLowerCase().includes(searchTerm);
                 const matchesGenre = genre ? anime.genres.includes(genre) : true;
                 const matchesType = type ? anime.type === type : true;

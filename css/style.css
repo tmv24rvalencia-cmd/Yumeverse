@@ -5,6 +5,96 @@
   box-sizing: border-box;
 }
 
+/* ===== FUENTES LOCALES ===== */
+@font-face {
+  font-family: 'Cinzel';
+  src: url('../fonts/Cinzel/Cinzel-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('../fonts/Cinzel/Cinzel-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('../fonts/Cinzel/Cinzel-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('../fonts/CormorantGaramond/CormorantGaramond-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('../fonts/CormorantGaramond/CormorantGaramond-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('../fonts/CormorantGaramond/CormorantGaramond-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== VARIABLES ===== */
 :root {
   --primary: #ff6b9d;
   --secondary: #4cc9f0;
@@ -13,13 +103,21 @@
   --card-bg: #1e0845;
   --text-light: #ffffff;
   --text-gray: #ccc;
+
+  /* Fuentes */
+  --font-heading: 'Cinzel', serif;
+  --font-subheading: 'Cormorant Garamond', serif;
+  --font-body: 'Poppins', sans-serif;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 15px;
   background-color: var(--dark-bg);
   color: var(--text-light);
-  line-height: 1.6;
+  line-height: 1.7;
+  letter-spacing: 0.3px;
   overflow-x: hidden;
 }
 
@@ -61,10 +159,12 @@ a {
 }
 
 .logo-text {
+  font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: var(--primary);
+  text-transform: uppercase;
 }
 
 .logo-text a {
@@ -91,8 +191,11 @@ a {
 }
 
 .nav-item {
+  font-family: var(--font-heading);
   color: #E0E0E0;
   font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
   padding: 0.5rem 1rem;
   position: relative;
   white-space: nowrap;
@@ -146,30 +249,22 @@ a {
 }
 
 .dropdown-content a {
+  font-family: var(--font-body);
   color: #E0E0E0;
   padding: 0.5rem 0;
   text-decoration: none;
   display: block;
   font-size: 0.95rem;
+  font-weight: 300;
 }
 
 .dropdown-content a:hover {
   color: #00f7ff;
 }
 
-.genre-row {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.genre-row:last-child {
-  margin-bottom: 0;
-}
-
 /* ===== HERO SECTION ===== */
 .hero {
-  background: url('../img/fondo.png') center/cover no-repeat;
+  background: url('../img/general/fondo.png') center/cover no-repeat;
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -193,38 +288,57 @@ a {
 }
 
 .hero h1 {
-  font-size: 2.8rem;
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 600;
   margin-bottom: 1rem;
   color: white;
-  text-shadow: 0 0 10px #ff6b9d, 0 0 20px #ff6b9d;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px rgba(255, 107, 157, 0.8), 0 0 30px rgba(255, 107, 157, 0.5);
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-family: var(--font-subheading);
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-style: italic;
   max-width: 600px;
   margin: 0 auto;
   color: var(--text-gray);
+  letter-spacing: 0.5px;
+  line-height: 1.8;
 }
 
 /* ===== SECCIONES ===== */
 .content {
   padding: 2rem;
+  font-family: var(--font-body);
+  font-weight: 300;
 }
 
 .section-title {
-  font-size: 2rem;
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 600;
   margin-bottom: 1rem;
   color: var(--primary);
   text-align: center;
-  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .section-description {
-  font-size: 1.1rem;
+  font-family: var(--font-subheading);
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
   max-width: 800px;
   margin: 0 auto 2rem;
   text-align: center;
   color: var(--text-gray);
+  letter-spacing: 0.5px;
+  line-height: 1.8;
 }
 
 /* ===== TARJETAS ===== */
@@ -242,6 +356,8 @@ a {
 
 .project-card,
 .anime-card {
+  font-family: var(--font-body);
+  font-weight: 300;
   background: var(--card-bg);
   border-radius: 12px;
   overflow: hidden;
@@ -278,6 +394,13 @@ a {
   color: var(--primary);
 }
 
+.placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 /* ===== ANIME ESPECÍFICO ===== */
 .intro-section {
   text-align: center;
@@ -285,14 +408,21 @@ a {
 }
 
 .intro-section h1 {
+  font-family: var(--font-heading);
   font-size: 2.2rem;
+  font-weight: 600;
   color: var(--primary);
   margin-bottom: 0.5rem;
+  letter-spacing: 1.5px;
 }
 
 .intro-section p {
-  font-size: 1.1rem;
+  font-family: var(--font-subheading);
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
   color: var(--text-gray);
+  letter-spacing: 0.5px;
 }
 
 .anime-section {
@@ -300,12 +430,15 @@ a {
 }
 
 .anime-section h2 {
+  font-family: var(--font-heading);
   font-size: 1.8rem;
+  font-weight: 600;
   margin-bottom: 1.5rem;
   color: var(--primary);
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  letter-spacing: 1px;
 }
 
 .anime-grid {
@@ -315,32 +448,42 @@ a {
 }
 
 .genres {
+  font-family: var(--font-body);
   font-size: 0.9rem;
+  font-weight: 400;
   color: var(--secondary);
   margin-bottom: 1rem;
+  letter-spacing: 0.5px;
 }
 
 .synopsis {
-  font-size: 0.95rem;
+  font-family: var(--font-subheading);
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
   color: var(--text-gray);
-  line-height: 1.6;
+  line-height: 1.8;
+  letter-spacing: 0.3px;
 }
 
 /* ===== BOTONES ===== */
 .btn {
   display: inline-block;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   background: linear-gradient(90deg, var(--primary), #ff477e);
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 25px;
   text-decoration: none;
-  font-weight: 600;
   margin: 1rem;
   transition: all 0.3s ease;
   box-shadow: 0 4px 8px rgba(255, 107, 157, 0.3);
   border: none;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
 }
 
 .btn:hover {
@@ -364,13 +507,16 @@ a {
 
 /* ===== FOOTER ===== */
 footer {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 0.9rem;
   background: #0a0514;
   text-align: center;
   padding: 1.5rem;
-  font-size: 0.9rem;
   color: #888;
   border-top: 1px solid #2a125d;
   margin-top: 2rem;
+  letter-spacing: 0.3px;
 }
 
 /* ===== RESPONSIVE DESIGN ===== */
@@ -423,6 +569,19 @@ footer {
 
   .hero h1 {
     font-size: 2rem;
+    letter-spacing: 1.5px;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-description {
+    font-size: 1.1rem;
   }
 
   .projects-grid,
@@ -433,7 +592,7 @@ footer {
   .btn {
     margin: 0.5rem;
     padding: 0.7rem 1.2rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .cta-buttons {
@@ -446,38 +605,69 @@ footer {
   }
 }
 
-/* ===== FUENTES LOCALES ===== */
-@font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/Poppins/Poppins-Thin.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
+/* ===== IMÁGENES DE ANIME ===== */
+.anime-image {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  background: transparent;
+  position: relative;
 }
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
+.anime-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
 }
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
+.anime-card:hover .anime-image img {
+  transform: scale(1.05);
 }
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+/* Badge de ranking */
+.ranking-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-family: var(--font-heading);
   font-weight: 600;
-  font-style: normal;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, var(--primary), #ff477e);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.5);
+  z-index: 10;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
 }
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
+.anime-card:hover .ranking-badge {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Ajuste para anime-info */
+.anime-info {
+  padding: 0 1.5rem 1.5rem;
+  font-family: var(--font-body);
+  font-weight: 300;
+}
+
+.anime-info h3 {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-light);
+  letter-spacing: 1px;
+}
+
+/* Efecto hover en la imagen */
+.anime-card:hover .anime-image img {
+  transform: scale(1.05);
 }

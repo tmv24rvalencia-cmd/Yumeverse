@@ -3,11 +3,19 @@
 **Yumeverse** (de *"Yume"* = sueño en japonés) es un portafolio personal que celebra mi pasión por el anime, los cómics asiáticos, el arte digital y la escritura. Es un espacio donde lo emocional, lo visual y lo narrativo se encuentran para inspirar y conectar.
 
 ---
+## Indice
+1. [Estructura de archivos](#-estructura-de-archivos)
+2. [Barra de navegación](#-barra-de-navegación-en-todas-las-páginas)
+3. [Descripción de secciones](#-descripción-de-las-secciones)
+4. [Descripción links en las páginas](#describir-links-en-las-paginas)
+5. [Características clave](#-características-clave)
+6. [Explicar el proyecto en git](#explicar-el-proyecto-en-git)
 
-## 📁 Estructura de Archivos
+---
+## Estructura de Archivos
 
 <p align="center">
-  <img src="img/img.png" alt="Estructura de Archivos" width="500" />
+  <img src="img/general/img.png" alt="Estructura de Archivos" width="500" />
 </p>
 
 
@@ -16,93 +24,50 @@
 
 ---
 
-## 🖥️ Barra de Navegación (en todas las páginas)
+## Barra de Navegación (en todas las páginas)
 
 La barra superior incluye:
 
 - **Inicio** → `index.html`
-- **Anime** → `anime/anime.html`
-- **Catálogo** → `anime/categorias.html`
+- **Anime** → `anime/explorador.html`
+- **Comics Asiáticos** → `asiatic-comics/catalogo.html`
+- **Galería** → `galeria/galeria.html`
+- **Blog** → `blog/blog.html`
+- **Contacto** → `contacto.html`
 
 ▼ Al pasar el cursor, se despliegan menús:
 
-### 🎌 **Cómics Asiáticos**
+### **Anime**
+- **Mi colección** → `anime/mi-coleccion.html`
+
+### **Cómics Asiáticos**
+- **Mi colección** → `asiatic-comics/mi-coleccion-asiatica.html`
 - **Manga (Japón)** → `asiatic-comics/manga.html`
 - **Manhwa (Corea)** → `asiatic-comics/manhwa.html`
 - **Manhua (China)** → `asiatic-comics/manhua.html`
+- **Occidentales (Ingles)** → `asiatic-comics/occidentales.html`
 
-### 📝 **Blog**
-- **Anime** → `blog/anime.html`
-- **Arte** → `blog/arte.html`
+### **Blog**
+- **Noticias Anime** → `blog/noticias-anime.html`
+- **Noticias Arte** → `blog/noticias-arte.html`
 
-- **Arte** → `arte.html`
-- **Contacto** → `contacto.html`
+### **Galería**
+- **Galería Anime** → `galeria-anime.html`
+- **Galería Arte** → `galeria-arte.html`
 
 > 🔹 Menú **responsive** y funcional en móvil y escritorio.
 
 ---
 
-## 📄 Descripción de las Secciones
-
-### 🏠 `index.html`
-- Diseño impactante con fondo inspirado en sueños + logo de Yumeverse.
-- Mensaje de bienvenida apasionado sobre el arte y la narrativa.
-- Tarjetas destacadas: “Explorar animes”, “Ver cómics”, “Galería de arte”.
-- Botones grandes para acceder a cada sección.
+## Descripción de las Secciones
 
 ---
 
-### 🎌 Carpeta `anime/`
-
-#### `anime/anime.html` → **Mis animes personales**
-- ❤️ **Favoritos**: 5–10 animes con sinopsis emotivas
-- 🆕 **Novedades**: últimos añadidos
-- ⭐ **Recomendaciones especiales**
-- Diseño elegante y colorido, como un verdadero portafolio.
-
-#### `anime/categorias.html` → **Explorador completo**
-- 🔍 Búsqueda por nombre
-- 🎭 Filtros: género, tipo, estado, orden
-- 📋 Lista dinámica de todos los animes
-- 💬 Modal emergente con sinopsis breve
+## Describir links en las paginas
 
 ---
 
-### 📚 Carpeta `asiatic-comics/`
-
-#### `manga.html` | `manhwa.html` | `manhua.html`
-- Listas organizadas por país de origen
-- Portadas, títulos, autores, géneros y sinopsis
-- Ideal para descubrir nuevas historias
-
----
-
-### 🎨 `arte.html`
-- Galería de mis dibujos, fanart e ilustraciones originales
-- Cada obra con título, descripción y fecha
-- Espacio para mostrar mi talento artístico
-
----
-
-### 📝 Carpeta `blog/`
-
-#### `blog/anime.html`
-- Reseñas, análisis y reflexiones sobre anime
-- Noticias, recomendaciones y listas temáticas
-
-#### `blog/arte.html`
-- Tutoriales, procesos creativos y consejos técnicos
-- Inspiración y evolución artística
-
----
-
-### 📩 `contacto.html`
-- Información de contacto (email, redes sociales)
-- Opcional: formulario de contacto simple
-
----
-
-## 🧩 Características Clave
+## Características Clave
 
 - ✅ **Portafolio integral**: anime, cómics, arte y blog en un solo lugar
 - ✅ **Diseño coherente**: mismo estilo visual en todas las secciones
@@ -112,14 +77,8 @@ La barra superior incluye:
 
 ---
 
-## 🚀 Próximos Pasos (Opcional)
-
-- Añadir más imágenes de portada en cada carpeta de `img/`
-- Implementar sistema de “favoritos” guardados localmente
-- Conectar con APIs (MyAnimeList, AniList, etc.)
-- Agregar modo oscuro/claro
-- Optimizar rendimiento con lazy loading
+## Explicar el proyecto en git
 
 ---
 
-> 💫 **Yumeverse no es solo un sitio: es un reflejo de mis sueños, mis historias y mi forma de ver el mundo a través del arte.**
+> 💫 **Yumeverse** no es solo un sitio: es un reflejo de mis sueños, mis historias y mi forma de ver el mundo a través del arte.

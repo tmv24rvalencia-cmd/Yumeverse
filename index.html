@@ -5,105 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="YumeVerse – Universo creativo de anime, ilustración, manga, manhwa y manhua por Trishan Mizhquiri Valencia">
     <title>YumeVerse | Universo Creativo</title>
-    <link rel="icon" type="image/png" href="img/logo.png">
-    <link rel="stylesheet" href="././css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css  ">
+    <link rel="icon" type="image/png" href="img/general/icono.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
     <!-- Barra de navegación superior -->
     <header class="topbar">
         <div class="logo-container">
             <a href="index.html">
-                <img src="img/logo.png" alt="Logo" class="logo">
+                <img src="img/general/logo.png" alt="Logo" class="logo">
             </a>
             <h1 class="logo-text"><a href="index.html">YUMEVERSE</a></h1>
         </div>
 
-        <!-- Menú hamburguesa para móvil -->
+        <!-- Menú hamburguesa -->
         <div class="hamburger" id="hamburger">
             <i class="fas fa-bars"></i>
         </div>
 
         <nav class="nav-links" id="navLinks">
-            <a href="index.html" class="nav-item active">Inicio</a>
-            <a href="././anime/anime.html" class="nav-item">Anime</a>
-
-            <!-- Categorías -->
             <div class="dropdown">
-                <a href="./anime/categorias.html" class="nav-item dropbtn">Categorías</a>
+                <a href="index.html" class="nav-item active">Inicio</a>
                 <div class="dropdown-content">
-                    <div class="genre-row">
-                        <a href="anime/categorias.html?genero=accion">Acción</a>
-                        <a href="anime/categorias.html?genero=aventura">Aventura</a>
-                        <a href="anime/categorias.html?genero=comedia">Comedia</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="anime/categorias.html?genero=drama">Drama</a>
-                        <a href="anime/categorias.html?genero=ecchi">Ecchi</a>
-                        <a href="anime/categorias.html?genero=escolar">Escolar</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="anime/categorias.html?genero=fantasia">Fantasía</a>
-                        <a href="anime/categorias.html?genero=historico">Histórico</a>
-                        <a href="anime/categorias.html?genero=isekai">Isekai</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="anime/categorias.html?genero=josei">Josei</a>
-                        <a href="anime/categorias.html?genero=meca">Mecha</a>
-                        <a href="anime/categorias.html?genero=misterio">Misterio</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="anime/categorias.html?genero=musica">Música</a>
-                        <a href="anime/categorias.html?genero=psicologico">Psicológico</a>
-                        <a href="anime/categorias.html?genero=romance">Romance</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="anime/categorias.html?genero=ciencia-ficcion">Ciencia Ficción</a>
-                        <a href="anime/categorias.html?genero=seinen">Seinen</a>
-                        <a href="anime/categorias.html?genero=shojo">Shojo</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="anime/categorias.html?genero=shonen">Shonen</a>
-                        <a href="anime/categorias.html?genero=slice-of-life">Slice of Life</a>
-                        <a href="anime/categorias.html?genero=deportes">Deportes</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="anime/categorias.html?genero=supernatural">Supernatural</a>
-                        <a href="anime/categorias.html?genero=terror">Terror</a>
-                        <a href="anime/categorias.html?genero=yaoi">Yaoi</a>
-                    </div>
-                    <div class="genre-row">
-                        <a href="anime/categorias.html?genero=yuri">Yuri</a>
-                    </div>
+                    <a href="favoritos/favoritos.html" class="nav-item">Favoritos</a>
+                </div>
+            </div>
+
+            <!-- Anime -->
+            <div class="dropdown">
+                <a href="anime/explorador.html" class="nav-item droptn">Anime</a>
+                <div class="dropdown-content">
+                    <a href="anime/mi-coleccion.html" class="nav-item">Mi colección</a>
                 </div>
             </div>
 
             <!-- Mangas - Manhuas - Manhwas -->
             <div class="dropdown">
-                <a href="././asiatic-comics/comic.html" class="nav-item dropbtn">Asiatic Comics</a>
+                <a href="asiatic-comics/catalogo.html" class="nav-item dropbtn">Comics Asiáticos</a>
                 <div class="dropdown-content">
-                    <a href="././asiatic-comics/manga.html">Mangas</a>
-                    <a href="././asiatic-comics/manhwa.html">Manhwas</a>
-                    <a href="././asiatic-comics/manhua.html">Manhuas</a>
+                    <a href="asiatic-comics/mi-coleccion-asiatica.html">Mi colección</a>
+                    <a href="asiatic-comics/manga.html">Mangas</a>
+                    <a href="asiatic-comics/manhwa.html">Manhwas</a>
+                    <a href="asiatic-comics/manhua.html">Manhuas</a>
+                    <a href="asiatic-comics/occidentales.html">Occidentales</a>
                 </div>
             </div>
 
             <!-- Galería -->
             <div class="dropdown">
-                <a href="././galeria/galeria.html" class="nav-item dropbtn">Galería</a>
+                <a href="galeria/galeria.html" class="nav-item dropbtn">Galería</a>
                 <div class="dropdown-content">
-                    <a href="././galeria/anime.html">Anime</a>
-                    <a href="././galeria/arte.html">Arte</a>
+                    <a href="galeria/galeria-anime.html">Galería anime</a>
+                    <a href="galeria/galeria-arte.html">Galería arte</a>
                 </div>
             </div>
 
             <!-- Blog -->
             <div class="dropdown">
-                <a href="././blog/blog.html" class="nav-item dropbtn">Blog</a>
+                <a href="blog/blog.html" class="nav-item dropbtn">Blog</a>
                 <div class="dropdown-content">
-                    <a href="././blog/anime.html">Anime</a>
-                    <a href="././blog/arte.html">Arte</a>
+                    <a href="blog/noticias-anime.html">Noticias Anime</a>
+                    <a href="blog/noticias-arte.html">Noticia arte</a>
                 </div>
             </div>
 
@@ -113,8 +76,7 @@
 
     <!-- Contenido principal -->
     <main class="content">
-
-        <!-- HERO - FONDO COMPLETO -->
+         <!-- HERO - FONDO COMPLETO -->
         <section class="hero">
             <h1>Bienvenido a mi universo creativo</h1>
             <p>Anime, ilustración, manga, manhwa y manhua unidos en un mismo mundo visual.</p>
@@ -141,34 +103,34 @@
                 <article class="project-card">
                     <div class="project-image">
                         <div class="placeholder">
-                            <i class="fas fa-pencil-alt"></i>
+                            <img src="img/general/ilustracion.jpg" alt="Ilustración y Dibujo">
                         </div>
                     </div>
                     <h3>Ilustración & Dibujo</h3>
                     <p>Dibujo artístico y dibujo de anime, estudios visuales y piezas experimentales.</p>
-                    <a href="arte.html" class="btn">Ver ilustraciones</a>
+                    <a href="galeria/galeria.html" class="btn">Ver ilustraciones</a>
                 </article>
 
                 <article class="project-card">
                     <div class="project-image">
                         <div class="placeholder">
-                            <i class="fas fa-book-open"></i>
+                            <img src="img/general/manga-manhwa.jpg" alt="Manga Manhwa Manhua">
                         </div>
                     </div>
                     <h3>Manga · Manhwa · Manhua</h3>
                     <p>Narrativa gráfica japonesa, coreana y china, con diferentes enfoques visuales y culturales.</p>
-                    <a href="asiatic-comics/manga.html" class="btn">Explorar cómics</a>
+                    <a href="asiatic-comics/catalogo.html" class="btn">Explorar cómics</a>
                 </article>
 
                 <article class="project-card">
                     <div class="project-image">
                         <div class="placeholder">
-                            <i class="fas fa-heart"></i>
+                            <img src="img/general/favoritos.jpg" alt="Favoritos">
                         </div>
                     </div>
                     <h3>Mis favoritos</h3>
                     <p>Obras, estilos y proyectos que representan mejor mi identidad creativa.</p>
-                    <a href="anime/anime.html#favoritos" class="btn">Explorar favoritos</a>
+                    <a href="favoritos/favoritos.html" class="btn">Explorar favoritos</a>
                 </article>
             </div>
         </section>
@@ -177,9 +139,9 @@
         <section class="cta-section">
             <h2 class="section-title">Explora mi universo</h2>
             <div class="cta-buttons">
-                <a href="anime/anime.html" class="btn">Galería de Anime</a>
-                <a href="asiatic-comics/manga.html" class="btn">Cómics Asiáticos</a>
-                <a href="arte.html" class="btn">Arte & Ilustración</a>
+                <a href="anime/explorador.html" class="btn">Galería de Anime</a>
+                <a href="asiatic-comics/catalogo.html" class="btn">Cómics Asiáticos</a>
+                <a href="galeria/galeria.html" class="btn">Arte & Ilustración</a>
                 <a href="contacto.html" class="btn">Contáctame</a>
             </div>
         </section>

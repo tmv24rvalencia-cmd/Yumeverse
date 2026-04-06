@@ -1,0 +1,1382 @@
+[
+  {
+    "title": "11 Eyes",
+    "genres": ["Action", "Supernatural", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2009,
+    "image": "../img/img-anime/11-eyes.jpg",
+    "synopsis": "En un mundo oscuro y desolado, un grupo de estudiantes debe enfrentarse a criaturas sobrenaturales mientras descubren secretos sobre su pasado y su conexión con la misteriosa 'Black Night'."
+  },
+  {
+    "title": "25-sai no Jyoshikousei",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/25-sai-no-jyoshikousei.jpg",
+    "synopsis": "Una profesora de 25 años se enamora de uno de sus estudiantes, lo que desencadena una historia de amor prohibido llena de ternura y complicaciones escolares."
+  },
+  {
+    "title": "30-sai made Doutei dato Mahoutsukai ni Nareru Rashii",
+    "genres": ["Fantasy", "Romance", "Comedy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii.jpg",
+    "synopsis": "Un hombre de 30 años descubre que puede convertirse en mago si se compromete antes de cumplir esa edad. Su vida cambia cuando conoce a una joven que lo guiará en este nuevo camino mágico."
+  },
+  {
+    "title": "Aharen-san wa Hakarenai",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2022,
+    "image": "../img/img-anime/aharen-san-wa-hakarenai.jpg",
+    "synopsis": "Raido, un chico normal, se une a Aharen, una chica extremadamente tímida y cercana, en una relación llena de malentendidos y ternura que desafía las normas sociales."
+  },
+  {
+    "title": "Aharen-san wa Hakarenai Season 2",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/aharen-san-wa-hakarenai-season-2.jpg",
+    "synopsis": "La historia continúa con Raido y Aharen profundizando su relación, mientras nuevos personajes y situaciones ponen a prueba su peculiar dinámica amorosa."
+  },
+  {
+    "title": "Akagami no Shirayuki-hime",
+    "genres": ["Romance", "Fantasy", "Adventure"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/akagami-no-shirayuki-hime.jpg",
+    "synopsis": "Shirayuki, una joven con cabello rojo, huye de su reino para evitar ser forzada a casarse con un príncipe. En su viaje, encuentra al príncipe Zen y comienza una nueva vida como curandera."
+  },
+  {
+    "title": "Akagami no Shirayuki-hime 2nd Season",
+    "genres": ["Romance", "Fantasy", "Adventure"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/akagami-no-shirayuki-hime-2nd-season.jpg",
+    "synopsis": "Shirayuki y Zen continúan su viaje juntos, enfrentando nuevas amenazas políticas y emocionales mientras fortalecen su vínculo y luchan por su futuro común."
+  },
+  {
+    "title": "Akagami no Shirayuki-hime: Nandemonai Takaramono, Kono Page",
+    "genres": ["Romance", "Fantasy", "Slice of Life"],
+    "capitulo": "1",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2019,
+    "image": "../img/img-anime/akagami-no-shirayuki-hime-nandemonai-takaramono-kono-page.jpg",
+    "synopsis": "Un especial que explora momentos cotidianos entre Shirayuki y Zen, mostrando pequeñas historias de cariño y crecimiento personal en su relación."
+  },
+  {
+    "title": "Akatsuki no Yona",
+    "genres": ["Adventure", "Fantasy", "Romance"],
+    "capitulo": "24",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2014,
+    "image": "../img/img-anime/akatsuki-no-yona.jpg",
+    "synopsis": "Yona, princesa de un reino en decadencia, debe huir tras un golpe de estado y emprende un viaje para reclamar su trono, acompañada por un grupo de leales guerreros."
+  },
+  {
+    "title": "Akatsuki no Yona OVA",
+    "genres": ["Adventure", "Fantasy", "Romance"],
+    "capitulo": "3",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/akatsuki-no-yona-ova.jpg",
+    "synopsis": "Episodios adicionales que exploran momentos alternativos y escenas detrás de cámaras de la serie principal, profundizando en los personajes y su dinámica."
+  },
+  {
+    "title": "Akkun to Kanajo",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2018,
+    "image": "../img/img-anime/akkun-to-kanajo.jpg",
+    "synopsis": "Un chico serio y una chica extrovertida se ven obligados a trabajar juntos en un proyecto escolar, lo que desencadena una relación llena de malentendidos y momentos tiernos."
+  },
+  {
+    "title": "Akujiki Reijou to Kyouketsu Koushaku",
+    "genres": ["Fantasy", "Romance", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/akujiki-reijou-to-kyouketsu-koushaku.jpg",
+    "synopsis": "Una joven villana se encuentra con un conde misterioso y sanguinario, iniciando una historia de amor prohibido en un mundo donde la magia y la traición caminan juntas."
+  },
+  {
+    "title": "Akuyaku Reijou Level 99: Watashi Wa Uraboss Desu Ga Maou Dewa Arimasen",
+    "genres": ["Fantasy", "Comedy", "Action"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/akuyaku-reijou-level-99-watashi-wa-uraboss-desu-ga-maou-dewa-arimasen.jpg",
+    "synopsis": "Reincarnada como villana de videojuego, una mujer descubre que es tan poderosa que podría derrotar al villano final... ¡pero no quiere ser la verdadera antagonista!"
+  },
+  {
+    "title": "Akuyaku Reijou nanode Last Boss wo Kattemimashita",
+    "genres": ["Fantasy", "Romance", "Comedy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/akuyaku-reijou-nanode-last-boss-wo-kattemimashita.jpg",
+    "synopsis": "Una villana decide conquistar al último jefe en lugar de enfrentarlo, lo que desencadena una relación inesperada y divertida entre ambos en un mundo de fantasía."
+  },
+  {
+    "title": "Alice to Zouroku",
+    "genres": ["Fantasy", "Slice of Life", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/alice-to-zouroku.jpg",
+    "synopsis": "Un hombre solitario y una niña con poderes mágicos forman una familia inusual, mientras enfrentan peligros y secretos en un mundo donde los poderes son perseguidos."
+  },
+  {
+    "title": "Amaama to Inazuma",
+    "genres": ["Slice of Life", "Family", "Cooking"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/amaama-to-inazuma.jpg",
+    "synopsis": "Un padre viudo aprende a cocinar para su hija pequeña, creando vínculos emocionales a través de la comida y el cariño diario en un entorno hogareño lleno de ternura."
+  },
+  {
+    "title": "Ame-iro Cocoa",
+    "genres": ["Romance", "Slice of Life", "Comedy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ame-iro-cocoa.jpg",
+    "synopsis": "Una joven trabaja en una cafetería y se enamora de un cliente regular, mientras su vida cambia gracias a las pequeñas cosas que comparten cada día."
+  },
+  {
+    "title": "Ameku Takao no Suiri Karte",
+    "genres": ["Mystery", "Medical", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/ameku-takao-no-suiri-karte.jpg",
+    "synopsis": "El doctor Ameku Takao resuelve casos médicos complejos con métodos poco convencionales, combinando ciencia, intuición y un toque de teatro para salvar vidas."
+  },
+  {
+    "title": "Angel Beats!",
+    "genres": ["Action", "Drama", "Supernatural"],
+    "capitulo": "13",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2010,
+    "image": "../img/img-anime/angel-beats.jpg",
+    "synopsis": "En un limbo escolar tras la muerte, un grupo de estudiantes lucha contra Dios mientras intentan encontrar paz y resolver sus arrepentimientos antes de reencarnar."
+  },
+  {
+    "title": "Anne Shirley",
+    "genres": ["Drama", "Slice of Life", "Adventure"],
+    "capitulo": "50",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 1979,
+    "image": "../img/img-anime/anne-shirley.jpg",
+    "synopsis": "La historia de Anne, una niña huérfana con imaginación desbordante, que llega a Green Gables y transforma la vida de quienes la rodean con su alegría y espíritu indomable."
+  },
+    {
+    "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai",
+    "genres": ["Drama", "Supernatural", "Slice of Life"],
+    "capitulo": "11",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai.jpg",
+    "synopsis": "Un grupo de amigos se reencuentra años después por la aparición de una chica fantasma que solo uno puede ver, obligándolos a enfrentar sus culpas y reconciliarse con su pasado."
+  },
+  {
+    "title": "Another",
+    "genres": ["Horror", "Mystery", "Supernatural"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2012,
+    "image": "../img/img-anime/another.jpg",
+    "synopsis": "En una escuela maldita, un estudiante descubre que debe encontrar al 'otro' que causa una serie de muertes para romper la maldición que acecha a su clase."
+  },
+  {
+    "title": "Ansatsu Kyoushitsu",
+    "genres": ["Action", "Comedy", "School"],
+    "capitulo": "22",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/ansatsu-kyoushitsu.jpg",
+    "synopsis": "Una clase de estudiantes debe asesinar a su profesor, un monstruo indestructible, mientras él les enseña a ser mejores personas... y asesinos."
+  },
+  {
+    "title": "Ansatsu Kyoushitsu 2nd Season",
+    "genres": ["Action", "Comedy", "School"],
+    "capitulo": "25",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/ansatsu-kyoushitsu-2nd-season.jpg",
+    "synopsis": "La clase sigue intentando matar a Koro-sensei mientras se preparan para el examen final, enfrentando nuevos desafíos y revelaciones sobre su profesor y ellos mismos."
+  },
+  {
+    "title": "Ansatsu Kyoushitsu OVA",
+    "genres": ["Comedy", "Action", "School"],
+    "capitulo": "1",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/ansatsu-kyoushitsu-ova.jpg",
+    "synopsis": "Un especial cómico donde los estudiantes compiten en juegos absurdos bajo la supervisión de Koro-sensei, mostrando su lado más divertido y caótico."
+  },
+  {
+    "title": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga",
+    "genres": ["Fantasy", "Action", "Comedy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/ansatsusha-de-arau-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga.jpg",
+    "synopsis": "Un asesino con estadísticas sobrehumanas se une a un grupo de héroes, pero su poder es tan alto que incluso el héroe del mundo lo ve como una amenaza."
+  },
+  {
+    "title": "Ao Haru Ride",
+    "genres": ["Romance", "School", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2014,
+    "image": "../img/img-anime/ao-haru-ride.jpg",
+    "synopsis": "Futaba, una chica que cambió su personalidad tras un corazón roto, vuelve a encontrarse con su primer amor en la secundaria, iniciando una segunda oportunidad para ambos."
+  },
+  {
+    "title": "Ao no Exorcist",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "25",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/ao-no-exorcist.jpg",
+    "synopsis": "Rin Okumura descubre que es hijo del Rey Demonio y decide convertirse en exorcista para proteger a la humanidad, luchando contra su propio destino."
+  },
+  {
+    "title": "Ao no Exorcist (Movie)",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2012,
+    "image": "../img/img-anime/ao-no-exorcist-movie.jpg",
+    "synopsis": "Una película que expande la historia de Rin y Yukio, mostrando eventos clave antes del inicio de la serie principal, con acción intensa y revelaciones familiares."
+  },
+  {
+    "title": "Ao no Exorcist: Kuro no Iede",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/ao-no-exorcist-kuro-no-iede.jpg",
+    "synopsis": "Rin y sus compañeros investigan un incidente en una mansión oscura, enfrentándose a fuerzas demoníacas y secretos del pasado de la Orden de Exorcistas."
+  },
+  {
+    "title": "Ao no Exorcist: Kyoto Fujouou-hen",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ao-no-exorcist-kyoto-fujouou-hen.jpg",
+    "synopsis": "Rin viaja a Kioto para detener a los Illuminati, una organización secreta que busca liberar a Satán, mientras enfrenta su propia identidad y poderes demoníacos."
+  },
+  {
+    "title": "Ao no Exorcist: Kyoto Fujouou-hen OVA",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ao-no-exorcist-kyoto-fujouou-hen-ova.jpg",
+    "synopsis": "Un episodio adicional que muestra momentos detrás de cámaras y escenas alternativas durante el arco de Kioto, profundizando en la dinámica entre los personajes."
+  },
+  {
+    "title": "Ao no Exorcist: Shimane Illuminati-hen",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ao-no-exorcist-shimane-illuminati-hen.jpg",
+    "synopsis": "Una película que explora los orígenes de los Illuminati y su conexión con la familia Okumura, mostrando batallas épicas y revelaciones sobre el pasado de Rin."
+  },
+  {
+    "title": "Ao no Exorcist: Yosuga-hen",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2012,
+    "image": "../img/img-anime/ao-no-exorcist-yosuga-hen.jpg",
+    "synopsis": "Una precuela que narra la historia de Yukio y Rin cuando eran niños, explorando cómo se formó su relación y el origen de su conexión con el mundo demoníaco."
+  },
+  {
+    "title": "Ao no Exorcist: Yuki no Hate-hen",
+    "genres": ["Action", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ao-no-exorcist-yuki-no-hate-hen.jpg",
+    "synopsis": "Una película que sirve como epílogo del arco de Kioto, mostrando el futuro inmediato de Rin y sus compañeros tras derrotar a los Illuminati."
+  },
+    {
+    "title": "Atarashii Joushi wa Do Tennen",
+    "genres": ["Romance", "Comedy", "Workplace"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/atarashii-joushi-wa-do-tennen.jpg",
+    "synopsis": "Una nueva gerente llega a la oficina con una personalidad naturalmente encantadora, causando caos y romance mientras sus colegas intentan entender su misteriosa aura."
+  },
+  {
+    "title": "Back Street",
+    "genres": ["Drama", "Romance", "Slice of Life"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/back-street.jpg",
+    "synopsis": "Dos personas que se conocen por casualidad en una calle secundaria comienzan una relación inesperada, explorando las pequeñas cosas que unen a las personas en la vida cotidiana."
+  },
+  {
+    "title": "Ballroom e Youkoso",
+    "genres": ["Drama", "Sports", "Romance"],
+    "capitulo": "24",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/ballroom-e-youkoso.jpg",
+    "synopsis": "Un chico tímido descubre el mundo del baile de salón y, con la ayuda de una compañera exigente, lucha por superar sus límites y encontrar su propio ritmo en la pista."
+  },
+  {
+    "title": "Baraou no Souretsu",
+    "genres": ["Historical", "Drama", "Fantasy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/baraou-no-souretsu.jpg",
+    "synopsis": "Una adaptación dramática de la historia real de Ricardo III, presentada con un toque fantástico y emocional, explorando el poder, la traición y el destino de un rey maldecido."
+  },
+  {
+    "title": "Beelzebub",
+    "genres": ["Action", "Comedy", "Supernatural"],
+    "capitulo": "60",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/beelzebub.jpg",
+    "synopsis": "Un estudiante delincuente debe cuidar a Beelzebub, el hijo del Rey Demonio, mientras se convierte en su protector y enfrenta batallas sobrenaturales en su escuela."
+  },
+  {
+    "title": "Binan Koukou Chikyuu Bouei-bu Happy Kiss!",
+    "genres": ["Comedy", "Romance", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2018,
+    "image": "../img/img-anime/binan-koukou-chikyuu-bouei-bu-happy-kiss.jpg",
+    "synopsis": "Los estudiantes del club de defensa terrestre regresan con nuevas aventuras románticas y cómicas, esta vez con un enfoque más ligero y divertido sobre el amor y la amistad."
+  },
+  {
+    "title": "Binan Koukou Chikyuu Bouei-bu Love!",
+    "genres": ["Comedy", "Romance", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/binan-koukou-chikyuu-bouei-bu-love.jpg",
+    "synopsis": "Un grupo de estudiantes con habilidades sobrenaturales se dedica a proteger la Tierra... pero también a resolver sus propias historias de amor en medio del caos."
+  },
+  {
+    "title": "Binan Koukou Chikyuu Bouei-bu LOVE! LOVE!",
+    "genres": ["Comedy", "Romance", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/binan-koukou-chikyuu-bouei-bu-love-love.jpg",
+    "synopsis": "La segunda temporada sigue las aventuras románticas y absurdas del club de defensa terrestre, con más parejas, más risas y más batallas contra monstruos... o quizás solo contra sus propios sentimientos."
+  },
+  {
+    "title": "Black Clover",
+    "genres": ["Action", "Fantasy", "Adventure"],
+    "capitulo": "170",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/black-clover.jpg",
+    "synopsis": "Astá, un niño sin magia, sueña con convertirse en Rey Mago. Con determinación y un grimorio negro, lucha contra los prejuicios y los demonios para alcanzar su objetivo."
+  },
+  {
+    "title": "Blood Lad",
+    "genres": ["Action", "Comedy", "Supernatural"],
+    "capitulo": "10",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2013,
+    "image": "../img/img-anime/blood-lad.jpg",
+    "synopsis": "Un vampiro moderno debe revivir a una chica humana que murió en su castillo, iniciando una aventura caótica entre mundos y emociones mientras aprende lo que significa ser humano."
+  },
+  {
+    "title": "Blood-C",
+    "genres": ["Horror", "Action", "Supernatural"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/blood-c.jpg",
+    "synopsis": "Una joven con habilidades de caza de monstruos descubre que su vida es una mentira, y debe enfrentarse a la verdad mientras lucha por sobrevivir en un mundo lleno de sangre y traición."
+  },
+  {
+    "title": "Boku no Hero Academia",
+    "genres": ["Action", "School", "Superhero"],
+    "capitulo": "13",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/boku-no-hero-academia.jpg",
+    "synopsis": "En un mundo donde la mayoría tiene poderes especiales, Izuku Midoriya, un chico sin habilidades, recibe el legado del héroe número uno y entra a la academia de héroes para convertirse en uno."
+  },
+  {
+    "title": "Boku no Hero Academia (ONA)",
+    "genres": ["Action", "Comedy", "School"],
+    "capitulo": "4",
+    "type": "ONA",
+    "status": "Finalizado",
+    "year": 2019,
+    "image": "../img/img-anime/boku-no-hero-academia-ona.jpg",
+    "synopsis": "Cortos animados que muestran momentos cómicos y detrás de cámaras de los estudiantes de U.A., ideal para fans que quieren más contenido ligero entre temporadas."
+  },
+  {
+    "title": "Boku no Hero Academia 2nd Season",
+    "genres": ["Action", "School", "Superhero"],
+    "capitulo": "25",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/boku-no-hero-academia-2nd-season.jpg",
+    "synopsis": "Izuku y sus compañeros enfrentan nuevos desafíos en la academia, incluyendo exámenes prácticos, batallas contra villanos y la revelación de secretos sobre sus poderes."
+  },
+  {
+    "title": "Boku no Hero Academia 3rd Season",
+    "genres": ["Action", "School", "Superhero"],
+    "capitulo": "25",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2018,
+    "image": "../img/img-anime/boku-no-hero-academia-3rd-season.jpg",
+    "synopsis": "La clase 1-A se prepara para el Festival Deportivo, donde compiten por ser los mejores héroes en formación, mientras una amenaza oscura comienza a surgir."
+  },
+  {
+    "title": "Boku no Hero Academia 4th Season",
+    "genres": ["Action", "School", "Superhero"],
+    "capitulo": "25",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2019,
+    "image": "../img/img-anime/boku-no-hero-academia-4th-season.jpg",
+    "synopsis": "Los estudiantes enfrentan su primer trabajo como héroes reales, mientras el Ejército de Liberación de Villanos ataca la ciudad, poniendo a prueba su valentía y entrenamiento."
+  },
+  {
+    "title": "Boku no Hero Academia 5th Season",
+    "genres": ["Action", "School", "Superhero"],
+    "capitulo": "25",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2021,
+    "image": "../img/img-anime/boku-no-hero-academia-5th-season.jpg",
+    "synopsis": "Tras la caída de All Might, los estudiantes deben asumir responsabilidades mayores. La historia se intensifica con la llegada de nuevos villanos y aliados inesperados."
+  },
+  {
+    "title": "Boku no Hero Academia 6th Season",
+    "genres": ["Action", "School", "Superhero"],
+    "capitulo": "25",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2022,
+    "image": "../img/img-anime/boku-no-hero-academia-6th-season.jpg",
+    "synopsis": "Con la guerra contra los villanos en pleno apogeo, los héroes en formación deben luchar por la paz mientras descubren verdades impactantes sobre el mundo que les rodea."
+  },
+  {
+    "title": "Boku no Hero Academia 7th Season",
+    "genres": ["Action", "School", "Superhero"],
+    "capitulo": "25",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/boku-no-hero-academia-7th-season.jpg",
+    "synopsis": "La última temporada antes del final, donde los héroes se preparan para el choque definitivo contra los villanos, mientras Izuku enfrenta su destino y su conexión con One For All."
+  },
+  {
+    "title": "Boku no Hero Academia: Final Season",
+    "genres": ["Action", "School", "Superhero"],
+    "capitulo": "25",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2025,
+    "image": "../img/img-anime/boku-no-hero-academia-final-season.jpg",
+    "synopsis": "La conclusión épica de la serie, donde Izuku y sus compañeros enfrentan al último enemigo, cerrando ciclos y definiendo qué significa realmente ser un héroe."
+  },
+  {
+    "title": "Boku no Hero Academia the Movie 2: Heroes:Rising",
+    "genres": ["Action", "Adventure", "Superhero"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2019,
+    "image": "../img/img-anime/boku-no-hero-academia-the-movie-2-heroes-rising.jpg",
+    "synopsis": "Durante un campamento de verano, los estudiantes de U.A. deben defender una isla de un villano invencible, aprendiendo lecciones cruciales sobre el trabajo en equipo y el sacrificio."
+  },
+  {
+    "title": "Boku no Hero Academia the Movie 3: World Heroes' Mission",
+    "genres": ["Action", "Adventure", "Superhero"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2021,
+    "image": "../img/img-anime/boku-no-hero-academia-the-movie-3-world-heroes-mission.jpg",
+    "synopsis": "Izuku es acusado injustamente de un crimen global y debe limpiar su nombre mientras viaja por el mundo con otros héroes para detener una amenaza que podría acabar con la humanidad."
+  },
+  {
+    "title": "Boku no Kokoro no Yabai Yatsu",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/boku-no-kokoro-no-yabai-yatsu.jpg",
+    "synopsis": "Un chico serio y una chica extrovertida se vuelven inseparables en la escuela, mientras él intenta entender por qué su corazón late más fuerte cada vez que ella está cerca."
+  },
+  {
+    "title": "Boku no Tonari ni Ankoku Hakaishin ga Imasu.",
+    "genres": ["Romance", "Comedy", "Supernatural"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/boku-no-tonari-ni-ankoku-hakaishin-ga-imasu.jpg",
+    "synopsis": "Una chica descubre que su vecino es un dios destructor del mal... y también su compañero de clase. Su vida cambia cuando empiezan a vivir juntos y se enamoran."
+  },
+  {
+    "title": "Brothers Conflict",
+    "genres": ["Romance", "Comedy", "Slice of Life"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2013,
+    "image": "../img/img-anime/brothers-conflict.jpg",
+    "synopsis": "Una chica se muda con su padre y sus 13 hermanastros, todos ellos guapos y con personalidades únicas, desencadenando una historia de amor, celos y caos familiar."
+  },
+  {
+    "title": "Bucchigiri?!",
+    "genres": ["Action", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/bucchigiri.jpg",
+    "synopsis": "Un estudiante de secundaria se ve envuelto en batallas callejeras entre pandillas escolares, donde el honor, la amistad y el poder se ponen a prueba en cada pelea."
+  },
+  {
+    "title": "Buddy Daddies",
+    "genres": ["Action", "Drama", "Comedy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/buddy-daddies.jpg",
+    "synopsis": "Dos asesinos profesionales deben cuidar a una niña pequeña tras un encargo fallido, lo que los obliga a enfrentar su lado humano mientras protegen a su nueva hija adoptiva."
+  },
+  {
+    "title": "Bungou Stray Dogs",
+    "genres": ["Action", "Mystery", "Supernatural"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/bungou-stray-dogs.jpg",
+    "synopsis": "En Yokohama, un grupo de personas con habilidades sobrenaturales basadas en escritores famosos luchan contra criminales y organizaciones secretas, mientras descubren sus propios pasados."
+  },
+  {
+    "title": "Bungou Stray Dogs 2nd Season",
+    "genres": ["Action", "Mystery", "Supernatural"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/bungou-stray-dogs-2nd-season.jpg",
+    "synopsis": "La agencia de detectives Port Mafia se enfrenta a nuevos enemigos, mientras los protagonistas profundizan en sus habilidades y descubren conexiones ocultas entre sus poderes y su historia."
+  },
+  {
+    "title": "Bungou Stray Dogs 3rd Season",
+    "genres": ["Action", "Mystery", "Supernatural"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2019,
+    "image": "../img/img-anime/bungou-stray-dogs-3rd-season.jpg",
+    "synopsis": "Con la guerra entre las facciones en pleno apogeo, los protagonistas deben tomar decisiones difíciles mientras se enfrentan a traiciones, aliados inesperados y amenazas globales."
+  },
+  {
+    "title": "Bungou Stray Dogs 4th Season",
+    "genres": ["Action", "Mystery", "Supernatural"],
+    "capitulo": "13",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/bungou-stray-dogs-4th-season.jpg",
+    "synopsis": "La historia continúa con nuevos arcos y personajes, explorando el pasado de los antagonistas y el verdadero propósito detrás de las habilidades de los miembros de la agencia."
+  },
+  {
+    "title": "Bungou Stray Dogs 5th Season",
+    "genres": ["Action", "Mystery", "Supernatural"],
+    "capitulo": "13",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2025,
+    "image": "../img/img-anime/bungou-stray-dogs-5th-season.jpg",
+    "synopsis": "La conclusión épica de la serie, donde los protagonistas enfrentan su destino final, cerrando ciclos y revelando la verdad detrás de la organización que los creó."
+  },
+  {
+    "title": "Bungou Stray Dogs Dead Apple",
+    "genres": ["Action", "Mystery", "Supernatural"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2018,
+    "image": "../img/img-anime/bungou-stray-dogs-dead-apple.jpg",
+    "synopsis": "Una película que explora una amenaza global que afecta a todos los portadores de habilidades, llevando a los protagonistas a una batalla contra un enemigo que busca eliminar a los “desechos” de la sociedad."
+  },
+  {
+    "title": "Bungou Stray Dogs Wan!",
+    "genres": ["Comedy", "Slice of Life", "Parody"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2021,
+    "image": "../img/img-anime/bungou-stray-dogs-wan.jpg",
+    "synopsis": "Una versión cómica y adorable de los personajes principales, donde viven aventuras cotidianas en un mundo de gatitos y situaciones absurdas, ideal para fans que quieren reír."
+  },
+  {
+    "title": "Busu ni Hanataba Wo.",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/busu-ni-hanataba-wo.jpg",
+    "synopsis": "Una chica considerada 'fea' por sus compañeros descubre que un chico popular le regala flores... y que su vida está a punto de cambiar radicalmente gracias al amor inesperado."
+  },
+  {
+    "title": "Charlotte",
+    "genres": ["Drama", "Supernatural", "Romance"],
+    "capitulo": "13",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/charlotte.jpg",
+    "synopsis": "En un mundo donde algunos adolescentes desarrollan poderes únicos, un chico con la habilidad de robar poderes debe proteger a sus amigos mientras enfrenta el dolor de perderlos uno a uno."
+  },
+  {
+    "title": "Chibi Devi!",
+    "genres": ["Comedy", "Fantasy", "Slice of Life"],
+    "capitulo": "51",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/chibi-devi.jpg",
+    "synopsis": "Un niño adopta a una pequeña diosa del amor que lo ayuda a encontrar el amor... pero también causa caos en su vida escolar y familiar con sus métodos poco convencionales."
+  },
+  {
+    "title": "Chibi Revenger",
+    "genres": ["Action", "Comedy", "Supernatural"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/chibi-revenger.jpg",
+    "synopsis": "Un vengador en miniatura con poderes sobrenaturales se une a un grupo de niños para derrotar a villanos, combinando acción épica con humor absurdo y corazones gigantes."
+  },
+  {
+    "title": "Chicchana Yukitsukai Sugar",
+    "genres": ["Fantasy", "Romance", "Slice of Life"],
+    "capitulo": "24",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2001,
+    "image": "../img/img-anime/chicchana-yukitsukai-sugar.jpg",
+    "synopsis": "Una joven es elegida como reina de las hadas de la nieve y debe aprender a usar sus poderes mientras se enamora de un humano, enfrentando desafíos mágicos y emocionales."
+  },
+  {
+    "title": "Chichi wa Eiyuu, Haha wa Seirei, Musume no Watashi wa Tenseisha.",
+    "genres": ["Fantasy", "Adventure", "Comedy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha.jpg",
+    "synopsis": "Reencarnada como hija de un héroe legendario y una elfa, una chica debe usar su poder de reencarnación para ayudar a su familia en un mundo de aventuras y situaciones cómicas."
+  },
+  {
+    "title": "Chuunibyou demo Koi ga Shitai!",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2012,
+    "image": "../img/img-anime/chuunibyou-demo-koi-ga-shitai.jpg",
+    "synopsis": "Un chico que aún cree tener poderes oscuros se enamora de una chica que también finge ser una hechicera, iniciando una relación llena de malentendidos y ternura."
+  },
+  {
+    "title": "Chuunibyou demo Koi ga Shitai! Ren",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2014,
+    "image": "../img/img-anime/chuunibyou-demo-koi-ga-shitai-ren.jpg",
+    "synopsis": "La historia continúa con Yuuta y Rikka profundizando su relación, mientras ambos intentan dejar atrás sus fantasías infantiles y enfrentar el mundo real juntos."
+  },
+  {
+    "title": "Clannad",
+    "genres": ["Drama", "Romance", "Slice of Life"],
+    "capitulo": "23",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2007,
+    "image": "../img/img-anime/clannad.jpg",
+    "synopsis": "Un estudiante desmotivado encuentra propósito en la vida al conocer a una chica solitaria, comenzando una historia de amor, pérdida y redención que toca el corazón."
+  },
+  {
+    "title": "Classic★Stars",
+    "genres": ["Music", "Idol", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/classic-stars.jpg",
+    "synopsis": "Un grupo de estudiantes forma una banda musical para revivir la tradición artística de su escuela, enfrentando rivalidades, pasiones y sueños mientras buscan su lugar en el mundo de la música."
+  },
+    {
+    "title": "D.N. Angel",
+    "genres": ["Romance", "Fantasy", "Adventure"],
+    "capitulo": "26",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2003,
+    "image": "../img/img-anime/d-n-angel.jpg",
+    "synopsis": "Un chico descubre que su cuerpo es poseído por un ladrón fantasma cuando cumple 14 años, y debe robar artefactos mágicos mientras intenta proteger a la chica que ama."
+  },
+  {
+    "title": "Daa! Daa! Daa! UFO Baby",
+    "genres": ["Comedy", "Slice of Life", "Sci-Fi"],
+    "capitulo": "78",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2000,
+    "image": "../img/img-anime/daa-daa-daa-ufo-baby.jpg",
+    "synopsis": "Dos niños encuentran un bebé alienígena y lo cuidan como si fuera su hermano, mientras enfrentan situaciones cómicas y emocionales en su vida cotidiana."
+  },
+  {
+    "title": "Dakaretai Otoko 1-i ni Odosarete Imasu.",
+    "genres": ["Romance", "Comedy", "School"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2018,
+    "image": "../img/img-anime/dakaretai-otoko-1-i-ni-odosarete-imasu.jpg",
+    "synopsis": "Un actor popular se enamora de un colega más joven, pero este último no entiende las señales románticas... lo que genera una comedia de errores llena de ternura y confusión."
+  },
+  {
+    "title": "Dance in the Vampire Bund",
+    "genres": ["Action", "Supernatural", "Romance"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2010,
+    "image": "../img/img-anime/dance-in-the-vampire-bund.jpg",
+    "synopsis": "Una princesa vampira revela la existencia de su raza al mundo y busca establecer una nación para ellos, mientras un humano se convierte en su guardia personal y objeto de su afecto."
+  },
+  {
+    "title": "Dance with Devils",
+    "genres": ["Supernatural", "Romance", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/dance-with-devils.jpg",
+    "synopsis": "Una estudiante descubre que está conectada a un libro mágico que la vincula a demonios, y debe elegir entre salvar su alma o caer en el amor con uno de ellos."
+  },
+  {
+    "title": "Danna ga Nani wo Itteiru ka Wakaranai Ken",
+    "genres": ["Romance", "Comedy", "Slice of Life"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/danna-ga-nani-wo-itteiru-ka-wakaranai-ken.jpg",
+    "synopsis": "Una esposa no entiende lo que dice su esposo, quien habla en un lenguaje extraño... pero su amor crece a pesar de la confusión, en una comedia romántica única."
+  },
+  {
+    "title": "Dantalian no Shoka",
+    "genres": ["Mystery", "Supernatural", "Fantasy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/dantalian-no-shoka.jpg",
+    "synopsis": "Un chico hereda una biblioteca de libros malditos y debe trabajar con una chica demonio para controlar sus poderes, mientras resuelven misterios sobrenaturales."
+  },
+  {
+    "title": "Dantalian no Shoka: Ibarahime",
+    "genres": ["Mystery", "Supernatural", "Fantasy"],
+    "capitulo": "1",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/dantalian-no-shoka-ibarahime.jpg",
+    "synopsis": "Un especial que explora una historia alternativa dentro del universo de Dantalian, centrado en un libro maldito y su conexión con una princesa atrapada en una rosa."
+  },
+  {
+    "title": "Darling in the FranXX",
+    "genres": ["Action", "Romance", "Sci-Fi"],
+    "capitulo": "24",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2018,
+    "image": "../img/img-anime/darling-in-the-franxx.jpg",
+    "synopsis": "En un futuro post-apocalíptico, niños pilotan mechas gigantes llamados FranXX para combatir monstruos, mientras descubren el significado del amor y la humanidad."
+  },
+  {
+    "title": "Death Note",
+    "genres": ["Psychological", "Thriller", "Supernatural"],
+    "capitulo": "37",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2006,
+    "image": "../img/img-anime/death-note.jpg",
+    "synopsis": "Un estudiante encuentra un cuaderno que mata a quienes figuran en él, iniciando una batalla intelectual contra la policía y un detective genial que lo persigue."
+  },
+  {
+    "title": "Dekiru Neko wa Kyou mo Yuuutsu",
+    "genres": ["Slice of Life", "Comedy", "Workplace"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/dekiru-neko-wa-kyou-mo-yuuutsu.jpg",
+    "synopsis": "Una gata antropomórfica trabaja en una oficina y enfrenta el estrés laboral con humor, mientras su jefe humano intenta entender su extraña pero adorable personalidad."
+  },
+  {
+    "title": "Delico's Nursery",
+    "genres": ["Fantasy", "Comedy", "Slice of Life"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/delico-s-nursery.jpg",
+    "synopsis": "Una niña mágica llega a una guardería donde los niños tienen habilidades especiales, y debe ayudarlos a desarrollar sus poderes mientras aprende sobre la amistad y la familia."
+  },
+  {
+    "title": "Demi-chan wa Kataritai",
+    "genres": ["Comedy", "Romance", "Slice of Life"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2017,
+    "image": "../img/img-anime/demi-chan-wa-kataritai.jpg",
+    "synopsis": "Un chico se enamora de una chica mitad demonio, y comienza a aprender sobre las peculiaridades de las criaturas sobrenaturales mientras construyen una relación tierna y divertida."
+  },
+  {
+    "title": "Devilman Crybaby",
+    "genres": ["Horror", "Action", "Supernatural"],
+    "capitulo": "10",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2018,
+    "image": "../img/img-anime/devilman-crybaby.jpg",
+    "synopsis": "Un chico inocente se fusiona con un demonio para salvar a su amigo, pero pronto descubre que el mundo está cayendo en el caos, y que el verdadero mal puede estar en el corazón humano."
+  },
+  {
+    "title": "Devils Line",
+    "genres": ["Romance", "Supernatural", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2018,
+    "image": "../img/img-anime/devils-line.jpg",
+    "synopsis": "Una humana se enamora de un hombre mitad vampiro, mientras ambos luchan contra su naturaleza y los prejuicios de una sociedad que los ve como monstruos."
+  },
+  {
+    "title": "Diabolik Lovers",
+    "genres": ["Romance", "Supernatural", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2013,
+    "image": "../img/img-anime/diabolik-lovers.jpg",
+    "synopsis": "Una chica se muda con una familia de vampiros y debe sobrevivir a sus juegos sádicos mientras descubre que algunos de ellos pueden tener sentimientos reales hacia ella."
+  },
+  {
+    "title": "Diabolik Lovers More, Blood",
+    "genres": ["Romance", "Supernatural", "Drama"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/diabolik-lovers-more-blood.jpg",
+    "synopsis": "La segunda temporada profundiza en las relaciones entre la protagonista y los vampiros, explorando nuevos secretos y emociones intensas en un mundo oscuro y seductor."
+  },
+  {
+    "title": "Disney Twisted-Wonderland The Animation: Episode of Heartslabyul",
+    "genres": ["Fantasy", "School", "Comedy"],
+    "capitulo": "1",
+    "type": "Special",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/disney-twisted-wonderland-episode-of-heartslabyul.jpg",
+    "synopsis": "Un especial animado que sigue a los estudiantes de la academia de villanos mientras compiten en un evento escolar, mostrando su lado más divertido y competitivo."
+  },
+  {
+    "title": "Dororo",
+    "genres": ["Action", "Adventure", "Historical"],
+    "capitulo": "24",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2019,
+    "image": "../img/img-anime/dororo.jpg",
+    "synopsis": "Un niño sin órganos busca recuperar su cuerpo mientras viaja con un samurái, enfrentando demonios y descubriendo la verdad detrás de su trágico pasado."
+  },
+  {
+    "title": "Doukyonin wa Hiza, Tokidoki, Atama no Ue.",
+    "genres": ["Romance", "Comedy", "Slice of Life"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2021,
+    "image": "../img/img-anime/doukyonin-wa-hiza-tokidoki-atama-no-ue.jpg",
+    "synopsis": "Una chica se muda con su compañero de trabajo, y su relación evoluciona de compañeros a algo más... especialmente cuando él empieza a dormir sobre su regazo y cabeza."
+  },
+  {
+    "title": "Dr. Stone",
+    "genres": ["Adventure", "Sci-Fi", "Survival"],
+    "capitulo": "24",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2019,
+    "image": "../img/img-anime/dr-stone.jpg",
+    "synopsis": "Tras una misteriosa petrificación global, un científico despierta 3700 años después y debe reconstruir la civilización usando solo ciencia y determinación."
+  },
+  {
+    "title": "Dr. Stone: New World",
+    "genres": ["Adventure", "Sci-Fi", "Survival"],
+    "capitulo": "22",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2023,
+    "image": "../img/img-anime/dr-stone-new-world.jpg",
+    "synopsis": "Senku y su grupo navegan por el océano en busca de nuevos recursos, enfrentando peligros marinos y descubriendo nuevas civilizaciones en un mundo post-apocalíptico."
+  },
+  {
+    "title": "Dr. Stone: Ryuusui",
+    "genres": ["Adventure", "Sci-Fi", "Comedy"],
+    "capitulo": "1",
+    "type": "Special",
+    "status": "Finalizado",
+    "year": 2022,
+    "image": "../img/img-anime/dr-stone-ryuusui.jpg",
+    "synopsis": "Un especial centrado en Ryusui, un personaje carismático y excéntrico, que muestra su lado más divertido y aventurero mientras ayuda a Senku en su misión."
+  },
+  {
+    "title": "Dr. Stone: Science Future",
+    "genres": ["Adventure", "Sci-Fi", "Drama"],
+    "capitulo": "1",
+    "type": "Special",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/dr-stone-science-future.jpg",
+    "synopsis": "Un epílogo que muestra el futuro de la civilización creada por Senku, explorando cómo la ciencia y la humanidad han evolucionado tras su gran logro."
+  },
+  {
+    "title": "Dr. Stone: Stone Wars",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "capitulo": "11",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2021,
+    "image": "../img/img-anime/dr-stone-stone-wars.jpg",
+    "synopsis": "La guerra entre la alianza de Senku y el imperio de Tsukasa llega a su clímax, con batallas épicas y decisiones que definirán el futuro de la humanidad."
+  },
+    {
+    "title": "Dragon Ball",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "capitulo": "153",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 1986,
+    "image": "../img/img-anime/dragon-ball.jpg",
+    "synopsis": "La historia de Son Goku, un niño con cola de mono, que emprende un viaje para encontrar las Esferas del Dragón junto a Bulma y otros amigos, enfrentando villanos y descubriendo su verdadero origen."
+  },
+  {
+    "title": "Dragon Ball GT",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "capitulo": "64",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 1996,
+    "image": "../img/img-anime/dragon-ball-gt.jpg",
+    "synopsis": "Años después de la saga de Buu, Goku es convertido en niño por un deseo accidental y debe viajar por el universo para recolectar las Esferas del Dragón Oscuras y salvar a la Tierra."
+  },
+  {
+    "title": "Dragon Ball GT: 100 Años Después",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "capitulo": "1",
+    "type": "Special",
+    "status": "Finalizado",
+    "year": 1997,
+    "image": "../img/img-anime/dragon-ball-gt-100-anos-despues.jpg",
+    "synopsis": "Especial final de Dragon Ball GT que muestra el futuro de Pan y la llegada de un nuevo Saiyajin, cerrando la saga con una visión esperanzadora del legado de Goku."
+  },
+  {
+    "title": "Dragon Ball Heroes",
+    "genres": ["Action", "Fantasy", "Game Adaptation"],
+    "capitulo": "48",
+    "type": "ONA",
+    "status": "Finalizado",
+    "year": 2018,
+    "image": "../img/img-anime/dragon-ball-heroes.jpg",
+    "synopsis": "Serie promocional basada en el arcade, donde Goku y sus aliados viajan por dimensiones alternativas para luchar contra versiones oscuras de sus rivales más poderosos."
+  },
+  {
+    "title": "Dragon Ball OVA's and Movies",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "capitulo": "23",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1986,
+    "image": "../img/img-anime/dragon-ball-ovas-and-movies.jpg",
+    "synopsis": "Colección de películas y OVAs originales de la franquicia Dragon Ball, incluyendo clásicos como 'Dead Zone' y especiales animados lanzados entre 1986 y 2015."
+  },
+  {
+    "title": "Dragon Ball Super",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "capitulo": "131",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/dragon-ball-super.jpg",
+    "synopsis": "Tras la derrota de Majin Buu, Goku descubre nuevos enemigos cósmicos, dioses y torneos multiversales que lo llevan a límites nunca antes vistos."
+  },
+  {
+    "title": "Dragon Ball Z",
+    "genres": ["Action", "Adventure", "Drama"],
+    "capitulo": "291",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 1989,
+    "image": "../img/img-anime/dragon-ball-z.jpg",
+    "synopsis": "Goku, ya adulto, descubre que es un Saiyajin y debe proteger la Tierra de amenazas extraterrestres como Vegeta, Freezer, Cell y Majin Buu, mientras crece como guerrero y padre."
+  },
+  {
+    "title": "Dragon Ball Z Especial: Freezer contra el padre de Goku",
+    "genres": ["Action", "Drama", "Supernatural"],
+    "capitulo": "1",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/dragon-ball-z-especial-freezer-contra-el-padre-de-goku.jpg",
+    "synopsis": "También conocido como 'Episode of Bardock', explora el destino del padre de Goku durante la destrucción del planeta Vegeta a manos de Freezer."
+  },
+  {
+    "title": "Dragon Ball Z Especial: Los guerreros de futuro",
+    "genres": ["Action", "Drama", "Sci-Fi"],
+    "capitulo": "1",
+    "type": "Special",
+    "status": "Finalizado",
+    "year": 1993,
+    "image": "../img/img-anime/dragon-ball-z-especial-los-guerreros-de-futuro.jpg",
+    "synopsis": "Conocido como 'The History of Trunks', muestra un futuro post-apocalíptico donde los androides dominan el mundo y Trunks viaja al pasado para cambiar el destino."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 01: Devuelveme a mi Gohan",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1989,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-01-devuelveme-a-mi-gohan.jpg",
+    "synopsis": "Goku debe rescatar a Gohan de las garras de Garlic Jr., un ser inmortal que busca dominar la Tierra usando las Esferas del Dragón."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 02: El hombre más fuerte de este mundo",
+    "genres": ["Action", "Sci-Fi", "Adventure"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1990,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-02-el-hombre-mas-fuerte-de-este-mundo.jpg",
+    "synopsis": "Los científicos crean un ejército de bio-guerreros para conquistar el mundo, y Goku debe detenerlos antes de que sea demasiado tarde."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 03: La batalla más grande del mundo esta por comenzar",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1990,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-03-la-batalla-mas-grande-del-mundo-esta-por-comenzar.jpg",
+    "synopsis": "Un árbol gigante amenaza con absorber toda la energía del planeta, y Goku debe enfrentarse a él en una batalla épica por la supervivencia de la Tierra."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 04: Goku es un Super Saiyajin",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1991,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-04-goku-es-un-super-saiyajin.jpg",
+    "synopsis": "Lord Slug, un anciano alienígena, llega a la Tierra para rejuvenecerse, y solo Goku puede detenerlo tras alcanzar la transformación de Super Saiyajin."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 05: Los rivales mas poderosos",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1991,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-05-los-rivales-mas-poderosos.jpg",
+    "synopsis": "Cooler, el hermano de Freezer, llega a la Tierra para vengarse de Goku, demostrando un poder aún mayor que su infame hermano."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 06: El regreso de Cooler",
+    "genres": ["Action", "Sci-Fi", "Adventure"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1992,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-06-el-regreso-de-cooler.jpg",
+    "synopsis": "Cooler regresa fusionado con una máquina alienígena, convirtiéndose en Meta-Cooler, y ataca a los héroes con un ejército de clones invencibles."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 07: La pelea de los tres Saiyajin",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1992,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-07-la-pelea-de-los-tres-saiyajin.jpg",
+    "synopsis": "Androides creados por un científico loco amenazan la Tierra, y Goku, Vegeta y Trunks deben unirse para detenerlos en una batalla llena de acción y humor."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 08: El poder invencible",
+    "genres": ["Action", "Drama", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1993,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-08-el-poder-invencible.jpg",
+    "synopsis": "Broly, el legendario Super Saiyajin, despierta con sed de destrucción, y solo la unión de Goku, Vegeta y Gohan puede detener su furia descomunal."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 09: La Galaxia corre peligro",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1993,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-09-la-galaxia-corre-peligro.jpg",
+    "synopsis": "Bojack y sus secuaces galácticos toman control de un torneo intergaláctico, y Gohan debe despertar su poder oculto para salvar a la humanidad."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 10: El regreso del Guerrero Legendario",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1994,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-10-el-regreso-del-guerrero-legendario.jpg",
+    "synopsis": "Broly regresa con más fuerza que nunca, y los héroes deben unirse nuevamente para enfrentar al Saiyajin más poderoso y destructivo de todos."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 11: El combate final",
+    "genres": ["Action", "Sci-Fi", "Comedy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1994,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-11-el-combate-final.jpg",
+    "synopsis": "Bio-Broly, una versión mutante del legendario guerrero, es creado en un laboratorio, y Trunks debe liderar la defensa contra esta nueva amenaza biológica."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 12: La fusión de Goku y Vegeta",
+    "genres": ["Action", "Comedy", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1995,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-12-la-fusion-de-goku-y-vegeta.jpg",
+    "synopsis": "Janemba, un demonio del inframundo, escapa y causa caos en la Tierra, obligando a Goku y Vegeta a usar la técnica de fusión por primera vez."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 13: El ataque del dragón",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 1995,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-13-el-ataque-del-dragon.jpg",
+    "synopsis": "Hirudegarn, un antiguo espíritu asesino, es liberado y comienza a destruir ciudades; solo Goku en su forma más poderosa puede detenerlo."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 15: Fukkatsu no F",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-15-fukkatsu-no-f.jpg",
+    "synopsis": "Freezer es revivido y regresa a la Tierra con un nuevo poder, desafiando a Goku y Vegeta en una batalla que redefine el concepto de fuerza."
+  },
+  {
+    "title": "Dragon Ball Z Pelicula 15: Fukkatsu no F Future Trunks Special (OVA)",
+    "genres": ["Action", "Drama", "Sci-Fi"],
+    "capitulo": "1",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/dragon-ball-z-pelicula-15-fukkatsu-no-f-future-trunks-special-ova.jpg",
+    "synopsis": "Especial centrado en Trunks del futuro, mostrando su reacción al regreso de Freezer y su determinación para proteger su línea temporal."
+  },
+  {
+    "title": "Dragon Ball Z: Battle of Gods",
+    "genres": ["Action", "Comedy", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2013,
+    "image": "../img/img-anime/dragon-ball-z-battle-of-gods.jpg",
+    "synopsis": "Beerus, el Dios de la Destrucción, despierta y busca al Super Saiyajin Dios, llevando a Goku a un nuevo nivel de poder nunca antes visto."
+  },
+  {
+    "title": "Dragon Ball: Episode of Bardock",
+    "genres": ["Action", "Drama", "Sci-Fi"],
+    "capitulo": "1",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2011,
+    "image": "../img/img-anime/dragon-ball-episode-of-bardock.jpg",
+    "synopsis": "Explora la historia alternativa de Bardock, el padre de Goku, quien sobrevive al ataque de Freezer y viaja en el tiempo para cambiar el destino de los Saiyajin."
+  },
+    {
+    "title": "Dungeon Meshi",
+    "genres": ["Adventure", "Comedy", "Fantasy"],
+    "capitulo": "24",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/dungeon-meshi.jpg",
+    "synopsis": "Un grupo de aventureros explora una mazmorra peligrosa, pero en lugar de saquearla, cocinan y comen a los monstruos que encuentran, mezclando fantasía, gastronomía y humor."
+  },
+  {
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "capitulo": "13",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2015,
+    "image": "../img/img-anime/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka.jpg",
+    "synopsis": "Bell Cranel, un joven novato, sueña con convertirse en héroe en la ciudad subterránea de Orario, donde dioses y humanos conviven mientras luchan contra monstruos en las mazmorras."
+  },
+  {
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "capitulo": "14",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2019,
+    "image": "../img/img-anime/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ii.jpg",
+    "synopsis": "Bell y sus compañeros enfrentan nuevas amenazas tras la invasión de monstruos gigantes, mientras descubren secretos sobre los dioses y el verdadero propósito de la mazmorra."
+  },
+  {
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2020,
+    "image": "../img/img-anime/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iii.jpg",
+    "synopsis": "La historia se traslada al sur del continente, donde Bell y Aiz se entrenan bajo la tutela de un poderoso guerrero, preparándose para futuras batallas."
+  },
+  {
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2022,
+    "image": "../img/img-anime/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv.jpg",
+    "synopsis": "Bell regresa a Orario más fuerte, pero nuevos enemigos y conspiraciones divinas amenazan la paz de la ciudad, poniendo a prueba su crecimiento y lealtad."
+  },
+  {
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Movie: Orion no Ya",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "capitulo": "1",
+    "type": "Movie",
+    "status": "Finalizado",
+    "year": 2019,
+    "image": "../img/img-anime/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya.jpg",
+    "synopsis": "Bell y sus amigos deben detener a un antiguo enemigo que busca usar una flecha divina para alterar el equilibrio entre dioses y humanos en Orario."
+  },
+  {
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka OVA",
+    "genres": ["Comedy", "Fantasy", "Slice of Life"],
+    "capitulo": "4",
+    "type": "OVA",
+    "status": "Finalizado",
+    "year": 2016,
+    "image": "../img/img-anime/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ova.jpg",
+    "synopsis": "Episodios cómicos y ligeros que muestran momentos cotidianos de los miembros de la Familia Hestia, ideal para fans que quieren más interacción entre los personajes."
+  },
+  {
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "capitulo": "12",
+    "type": "TV",
+    "status": "Finalizado",
+    "year": 2024,
+    "image": "../img/img-anime/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v.jpg",
+    "synopsis": "La quinta temporada eleva la apuesta con una guerra entre facciones divinas, revelando secretos sobre el origen de la mazmorra y el destino de Bell como héroe."
+  }
+]

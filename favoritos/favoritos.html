@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mis favoritos en YumeVerse: anime, ilustración, manga, manhwa y manhua">
+    <title>Mis Favoritos | YumeVerse</title>
+    <link rel="icon" type="image/png" href="../img/general/icono.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Barra de navegación superior -->
+    <header class="topbar">
+        <div class="logo-container">
+            <a href="../index.html">
+                <img src="../img/general/logo.png" alt="Logo" class="logo">
+            </a>
+            <h1 class="logo-text"><a href="../index.html">YUMEVERSE</a></h1>
+        </div>
+
+        <!-- Menú hamburguesa -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="nav-links" id="navLinks">
+            <div class="dropdown">
+                <a href="../index.html" class="nav-item active">Inicio</a>
+                <div class="dropdown-content">
+                    <a href="../favoritos/favoritos.html" class="nav-item">Favoritos</a>
+                </div>
+            </div>
+
+            <!-- Anime -->
+            <div class="dropdown">
+                <a href="../anime/explorador.html" class="nav-item droptn">Anime</a>
+                <div class="dropdown-content">
+                    <a href="../anime/mi-coleccion.html" class="nav-item">Mi colección</a>
+                </div>
+            </div>
+
+            <!-- Mangas - Manhuas - Manhwas -->
+            <div class="dropdown">
+                <a href="../asiatic-comics/catalogo.html" class="nav-item dropbtn">Comics Asiáticos</a>
+                <div class="dropdown-content">
+                    <a href="../asiatic-comics/mi-coleccion-asiatica.html">Mi colección</a>
+                    <a href="../asiatic-comics/manga.html">Mangas</a>
+                    <a href="../asiatic-comics/manhwa.html">Manhwas</a>
+                    <a href="../asiatic-comics/manhua.html">Manhuas</a>
+                    <a href="../asiatic-comics/occidentales.html">Occidentales</a>
+                </div>
+            </div>
+
+            <!-- Galería -->
+            <div class="dropdown">
+                <a href="../galeria/galeria.html" class="nav-item dropbtn">Galería</a>
+                <div class="dropdown-content">
+                    <a href="../galeria/galeria-anime.html">Galería anime</a>
+                    <a href="../galeria/galeria-arte.html">Galería arte</a>
+                </div>
+            </div>
+
+            <!-- Blog -->
+            <div class="dropdown">
+                <a href="../blog/blog.html" class="nav-item dropbtn">Blog</a>
+                <div class="dropdown-content">
+                    <a href="../blog/noticias-anime.html">Noticias Anime</a>
+                    <a href="../blog/noticias-arte.html">Noticia arte</a>
+                </div>
+            </div>
+
+            <a href="../contacto.html" class="nav-item">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- ===== CONTENIDO PRINCIPAL ===== -->
+    <main class="content">
+
+        <!-- Sección de introducción -->
+        <section class="intro-section">
+            <h1>❤️ Mis Favoritos</h1>
+            <p>Una colección personal de lo que más amo: anime, arte y narrativa gráfica.</p>
+        </section>
+
+        <!-- ===== SECCIÓN: ANIME FAVORITO ===== -->
+        <section id="anime-favorito" class="anime-section">
+            <h2>🌸 Top 20 Animes Favoritos</h2>
+            <p class="section-description">Aventuras, risas, lágrimas y amor: esta es mi colección personal de tesoros anime</p>
+            <!-- Contenedor dinámico para las tarjetas de anime -->
+            <div class="anime-grid" id="anime-container"></div>
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="../anime/explorador.html" class="btn">Ver lista completa en Categorías</a>
+            </div>
+        </section>
+
+        <!-- ===== SECCIÓN: ILUSTRACIÓN FAVORITA ===== -->
+        <section id="ilustracion-favorita" class="anime-section">
+            <h2>🎨 Ilustración Favorita</h2>
+            <p class="section-description">Mis creaciones artísticas más especiales y significativas</p>
+            <!-- Contenedor dinámico para las tarjetas de ilustración -->
+            <div class="anime-grid" id="ilustracion-container"></div>
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="../galeria/galeria-arte.html" class="btn">Ver galería completa</a>
+            </div>
+        </section>
+
+        <!-- ===== SECCIÓN: MANGA · MANHWA · MANHUA FAVORITO ===== -->
+        <section id="comics-favorito" class="anime-section">
+            <h2>📚 Manga · Manhwa · Manhua Favorito</h2>
+            <p class="section-description">Obras gráficas asiáticas que admiro y me inspiran</p>
+            <!-- Contenedor dinámico para las tarjetas de comics -->
+            <div class="anime-grid" id="comics-container"></div>
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="../asiatic-comics/catalogo.html" class="btn">Explorar cómics</a>
+            </div>
+        </section>
+
+        <!-- ===== SECCIÓN: PERSONAJES FAVORITOS ===== -->
+        <section id="personajes-favorito" class="anime-section">
+            <h2>✨ Personajes Favoritos</h2>
+            <p class="section-description">Aquellos que dejaron huella en mi historia personal</p>
+            <!-- Contenedor dinámico para las tarjetas de personajes -->
+            <div class="anime-grid" id="personajes-container"></div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>&copy; 2026 TRISHAN MIZHQUIRI VALENCIA · Universo creativo de anime e ilustración.</p>
+    </footer>
+
+    <!-- ===== JAVASCRIPT PRINCIPAL ===== -->
+    <script>
+        // ===== MENÚ HAMBURGUESA =====
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('mobile-active');
+                hamburger.classList.toggle('active');
+            });
+        }
+
+        // ===== HIGHLIGHT PÁGINA ACTIVA =====
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = window.location.pathname.split('/').pop() || 'favoritos.html';
+            document.querySelectorAll('.nav-item').forEach(link => {
+                const linkHref = link.getAttribute('href');
+                if (linkHref && linkHref === currentPage) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // ===== CONFIGURACIÓN DE SECCIONES =====
+        const seccionesFavoritos = [
+            {
+                id: 'anime-favorito',
+                container: 'anime-container',
+                json: '../data/anime-favoritos.json',
+                titulo: '🌸 Top 20 Animes Favoritos',
+                descripcion: 'Aventuras, risas, lágrimas y amor: esta es mi colección personal de tesoros anime',
+                boton: { texto: 'Ver lista completa en Categorías', url: '../anime/explorador.html' },
+                mostrarRanking: true
+            },
+            {
+                id: 'ilustracion-favorita',
+                container: 'ilustracion-container',
+                json: '../data/ilustracion-favorito.json',
+                titulo: '🎨 Ilustración Favorita',
+                descripcion: 'Mis creaciones artísticas más especiales y significativas',
+                boton: { texto: 'Ver galería completa', url: '../galeria/galeria-arte.html' },
+                mostrarRanking: false
+            },
+            {
+                id: 'comics-favorito',
+                container: 'comics-container',
+                json: '../data/asiaticos-favorito.json',
+                titulo: '📚 Manga · Manhwa · Manhua Favorito',
+                descripcion: 'Obras gráficas asiáticas que admiro y me inspiran',
+                boton: { texto: 'Explorar cómics', url: '../asiatic-comics/catalogo.html' },
+                mostrarRanking: false
+            },
+            {
+                id: 'personajes-favorito',
+                container: 'personajes-container',
+                json: '../data/personajes-favorito.json',
+                titulo: '✨ Personajes Favoritos',
+                descripcion: 'Aquellos que dejaron huella en mi historia personal',
+                boton: null,
+                mostrarRanking: false
+            }
+        ];
+
+        // ===== CARGAR TODAS LAS SECCIONES =====
+        document.addEventListener('DOMContentLoaded', () => {
+            seccionesFavoritos.forEach(seccion => {
+                cargarSeccion(seccion);
+            });
+        });
+
+        // ===== FUNCIÓN PARA CARGAR UNA SECCIÓN =====
+        async function cargarSeccion(config) {
+            const section = document.getElementById(config.id);
+            const container = document.getElementById(config.container);
+
+            if (!section || !container) {
+                console.warn(`Sección o contenedor no encontrado: ${config.id}`);
+                return;
+            }
+
+            // Mostrar loader
+            container.innerHTML = `
+                <div style="text-align: center; padding: 3rem; grid-column: 1/-1; color: var(--text-gray);">
+                    <i class="fas fa-circle-notch fa-spin" style="font-size: 2rem; color: var(--primary);"></i>
+                    <p style="margin-top: 1rem;">Cargando ${config.titulo}...</p>
+                </div>
+            `;
+
+            try {
+                const response = await fetch(config.json);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const datos = await response.json();
+
+                // Limpiar loader
+                container.innerHTML = '';
+
+                // Soportar array directo o objeto con propiedad items
+                const items = Array.isArray(datos) ? datos : (datos.items || []);
+
+                if (items.length === 0) {
+                    container.innerHTML = '<p style="text-align: center; color: var(--text-gray); grid-column: 1/-1;">No hay elementos disponibles</p>';
+                    return;
+                }
+
+                // Crear tarjetas con animación escalonada
+                items.forEach((item, index) => {
+                    const card = crearTarjeta(item, index, config);
+                    container.appendChild(card);
+                });
+
+            } catch (error) {
+                console.error(`Error cargando ${config.json}:`, error);
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 2rem; grid-column: 1/-1; color: var(--primary);">
+                        <i class="fas fa-exclamation-triangle" style="font-size: 2rem;"></i>
+                        <p style="margin-top: 1rem;">Error al cargar ${config.titulo}</p>
+                        <small>${error.message}</small>
+                    </div>
+                `;
+            }
+        }
+
+        // ===== CREAR TARJETA HTML =====
+        function crearTarjeta(item, index, config) {
+            const article = document.createElement('article');
+            article.className = 'anime-card';
+            article.style.animationDelay = `${index * 0.1}s`;
+
+            // Determinar si usa imagen o icono placeholder
+            const tieneImagen = item.imagen && item.imagen.trim() !== '';
+            const icono = item.icono || 'fa-star';
+
+            let imagenHTML = '';
+            if (tieneImagen) {
+                imagenHTML = `
+                    <img src="${item.imagen}"
+                         alt="${item.titulo}"
+                         loading="lazy"
+                         onerror="this.closest('.anime-image').innerHTML='<div class=\\'placeholder\\'><i class=\\'fas ${icono}\\'></i></div>'">
+                `;
+            } else {
+                imagenHTML = `
+                    <div class="placeholder">
+                        <i class="fas ${icono}"></i>
+                    </div>
+                `;
+            }
+
+            // Badge de ranking (solo si está configurado)
+            const rankingBadge = config.mostrarRanking
+                ? `<div class="ranking-badge">#${index + 1}</div>`
+                : '';
+
+            // Géneros como string
+            const generosString = Array.isArray(item.generos)
+                ? item.generos.join(', ')
+                : (item.generos || '');
+
+            // Ensamblar tarjeta
+            article.innerHTML = `
+                <div class="anime-image">
+                    ${rankingBadge}
+                    ${imagenHTML}
+                </div>
+                <div class="anime-info">
+                    <h3>${item.titulo}</h3>
+                    ${generosString ? `<p class="genres">${generosString}</p>` : ''}
+                    ${item.sinopsis ? `<p class="synopsis">${item.sinopsis}</p>` : ''}
+                </div>
+            `;
+
+            return article;
+        }
+
+        // ===== FUNCIÓN DE UTILIDAD: RECARGAR SECCIÓN =====
+        function recargarSeccion(seccionId) {
+            const config = seccionesFavoritos.find(s => s.id === seccionId);
+            if (config) {
+                cargarSeccion(config);
+            }
+        }
+
+        // Exponer función globalmente para depuración
+        window.recargarSeccion = recargarSeccion;
+    </script>
+</body>
+</html>

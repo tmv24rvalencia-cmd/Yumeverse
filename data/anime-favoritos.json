@@ -1,0 +1,143 @@
+
+[
+  {
+    "id": 1,
+    "titulo": "Fairy Tail",
+    "imagen": "../img/anime-favoritos/fairy-tail.jpg",
+    "generos": ["Acción", "Aventura", "Fantasía"],
+    "sinopsis": "Magos de un gremio que buscan tesoros y luchan contra el mal defendiendo la amistad."
+  },
+  {
+    "id": 2,
+    "titulo": "Solo Leveling",
+    "imagen": "../img/anime-favoritos/solo-leveling.jpg",
+    "generos": ["Acción", "Fantasía"],
+    "sinopsis": "El cazador más débil obtiene un sistema único para nivelarse infinitamente y volverse fuerte."
+  },
+  {
+    "id": 3,
+    "titulo": "Daa! Daa! Daa! (UFO Baby)",
+    "imagen": "../img/anime-favoritos/ufo-baby.jpg",
+    "generos": ["Comedia", "Romance", "Sci-Fi"],
+    "sinopsis": "Una chica cuida a un bebé alienígena y a su mascota mientras sus padres viajan."
+  },
+  {
+    "id": 4,
+    "titulo": "Chibi Devi!",
+    "imagen": "../img/anime-favoritos/chibi-devi.jpg",
+    "generos": ["Comedia", "Slice of Life", "Shojo"],
+    "sinopsis": "Una niña encuentra a un bebé del futuro que cambia su vida escolar para siempre."
+  },
+  {
+    "id": 5,
+    "titulo": "Mahoutsukai no Yome",
+    "imagen": "../img/anime-favoritos/mahoutsukai-no-yome.jpg",
+    "generos": ["Fantasía", "Romance", "Slice of Life"],
+    "sinopsis": "Una chica es comprada por un mago antiguo para ser su aprendiz y futura esposa."
+  },
+  {
+    "id": 6,
+    "titulo": "Tensei Shitara Slime Datta Ken",
+    "imagen": "../img/anime-favoritos/slime.jpg",
+    "generos": ["Acción", "Aventura", "Isekai"],
+    "sinopsis": "Un hombre reencarna como un slime en otro mundo y construye una nación de monstruos."
+  },
+  {
+    "id": 7,
+    "titulo": "Junjou Romantica",
+    "imagen": "../img/anime-favoritos/junjou-romantica.jpg",
+    "generos": ["Romance", "Comedia", "BL"],
+    "sinopsis": "Historias de amor entre hombres, centrada en un estudiante y un novelista famoso."
+  },
+  {
+    "id": 8,
+    "titulo": "Given",
+    "imagen": "../img/anime-favoritos/given.jpg",
+    "generos": ["Música", "Romance", "Drama"],
+    "sinopsis": "La historia de una banda de rock y el romance que surge entre sus miembros."
+  },
+  {
+    "id": 9,
+    "titulo": "Mairimashita! Iruma-kun",
+    "imagen": "../img/anime-favoritos/iruma-kun.jpg",
+    "generos": ["Comedia", "Fantasía", "Escolar"],
+    "sinopsis": "Un humano es vendido a un demonio y debe sobrevivir a la escuela demoniaca sin ser descubierto."
+  },
+  {
+    "id": 10,
+    "titulo": "Nanbaka",
+    "imagen": "../img/anime-favoritos/nanbaka.jpg",
+    "generos": ["Comedia", "Acción"],
+    "sinopsis": "La vida cotidiana y las fugas fallidas de cuatro presos en una prisión de máxima seguridad."
+  },
+  {
+    "id": 11,
+    "titulo": "SK8 the Infinity",
+    "imagen": "../img/anime-favoritos/sk8.jpg",
+    "generos": ["Deportes", "Acción"],
+    "sinopsis": "Una competencia de skate ilegal y peligrosa bajo una mina abandonada."
+  },
+  {
+    "id": 12,
+    "titulo": "Super Lovers",
+    "imagen": "../img/anime-favoritos/super-lovers.jpg",
+    "generos": ["Romance", "Drama", "BL"],
+    "sinopsis": "Un joven cría a un niño salvaje en Canadá que resulta ser su hermano adoptivo."
+  },
+  {
+    "id": 13,
+    "titulo": "Kimetsu no Yaiba",
+    "imagen": "../img/anime-favoritos/kimetsu-no-yaiba.jpg",
+    "generos": ["Acción", "Histórico", "Sobrenatural"],
+    "sinopsis": "Un joven se vuelve cazador de demonios para vengar a su familia y curar a su hermana."
+  },
+  {
+    "id": 14,
+    "titulo": "Loveless",
+    "imagen": "../img/anime-favoritos/loveless.jpg",
+    "generos": ["Misterio", "Sobrenatural", "Shonen Ai"],
+    "sinopsis": "Un estudiante busca las causas de la muerte de su hermano junto a un misterioso luchador."
+  },
+  {
+    "id": 15,
+    "titulo": "Servamp",
+    "imagen": "../img/anime-favoritos/servamp.jpg",
+    "generos": ["Acción", "Comedia", "Vampiros"],
+    "sinopsis": "Un estudiante encuentra a un gato callejero que resulta ser un vampiro perezoso."
+  },
+  {
+    "id": 16,
+    "titulo": "Yuri on Ice",
+    "imagen": "../img/anime-favoritos/yuri-on-ice.jpg",
+    "generos": ["Deportes", "Drama"],
+    "sinopsis": "Un patinador artístico se estanca hasta que un legendario ruso se convierte en su entrenador."
+  },
+  {
+    "id": 17,
+    "titulo": "Horimiya",
+    "imagen": "../img/anime-favoritos/horimiya.jpg",
+    "generos": ["Romance", "Comedia", "Escolar"],
+    "sinopsis": "Dos compañeros de clase descubren sus secretos ocultos fuera de la escuela y se enamoran."
+  },
+  {
+    "id": 18,
+    "titulo": "Dr. Stone",
+    "imagen": "../img/anime-favoritos/dr-stone.jpg",
+    "generos": ["Aventura", "Sci-Fi", "Shonen"],
+    "sinopsis": "Un genio despierta miles de años después para reconstruir la civilización usando la ciencia."
+  },
+  {
+    "id": 19,
+    "titulo": "Binan Koukou Chikyuu Bouei-bu LOVE!",
+    "imagen": "../img/anime-favoritos/binan-koukou.jpg",
+    "generos": ["Comedia", "Magia", "Parodia"],
+    "sinopsis": "Estudiantes transformados en 'chicos mágicos' para defender la tierra de forma hilarante."
+  },
+  {
+    "id": 20,
+    "titulo": "Inazuma Eleven",
+    "imagen": "../img/anime-favoritos/inazuma-eleven.jpg",
+    "generos": ["Deportes", "Acción", "Shonen"],
+    "sinopsis": "Fútbol escolar con técnicas especiales sobrenaturales para salvar el club."
+  }
+]
