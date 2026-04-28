@@ -1,21 +1,21 @@
 [
   {
     "titulo": "Corazón ardiente",
-    "imagen": "/img/ilustracciones/corazón ardiente.png",
+    "imagen": "../img/ilustracciones/corazón ardiente.png",
     "generos": ["Arte Digital", "Romance"],
     "sinopsis": "Una ilustración que representa la pasión y el fuego interior.",
     "icono": "fa-heart"
   },
   {
     "titulo": "Lluvia de estrellas mágicas",
-    "imagen": "/img/ilustracciones/lluvia de estrellas.png",
+    "imagen": "../img/ilustracciones/lluvia de estrellas.png",
     "generos": ["Fantasía", "Magia", "Melody"],
     "sinopsis": "🌠 Un instante mágico bajo el cielo: madre e hija soñando juntas. 💖",
     "icono": "fa-star"
   },
   {
     "titulo": "Balanza",
-    "imagen": "/img/ilustracciones/balanza.png",
+    "imagen": "../img/ilustracciones/balanza.png",
     "generos": ["Simbólico", "Arte Conceptual"],
     "sinopsis": "El equilibrio entre opuestos: justicia, armonía y dualidad.",
     "icono": "fa-scale-balanced"
