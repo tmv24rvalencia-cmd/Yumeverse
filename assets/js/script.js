@@ -259,7 +259,7 @@ async function cargarExploradorAnime() {
   if (!contenedor) return;
 
   try {
-    animeExplorer = await cargarJSON("../../data/anime.json");
+    animeExplorer = await cargarJSON("../../data/anime-explorador.json");
 
     pintarExploradorAnime(animeExplorer);
     cargarOpcionesExplorador(animeExplorer);
@@ -420,7 +420,7 @@ async function cargarColeccionAnime() {
   if (!contenedor) return;
 
   try {
-    const datos = await cargarJSON("../../data/anime.json");
+    const datos = await cargarJSON("../../data/anime-mi-coleccion.json");
 
     coleccionAnime = datos.filter((anime) => anime.coleccion);
 
