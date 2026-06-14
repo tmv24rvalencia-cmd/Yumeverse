@@ -60,7 +60,7 @@ Su objetivo es ofrecer una experiencia visual moderna donde sea posible:
 
 La siguiente imagen muestra toda la estructura del proyecto:
 
-![Arquitectura](./assets/img/general/Estructura_proyecto_Yumeverse.png)
+![Arquitectura](./assets/img/general/Yumeverse.png)
 
 ---
 
