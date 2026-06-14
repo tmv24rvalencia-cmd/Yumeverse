@@ -1417,3 +1417,50 @@ textarea {
     height: 320px;
   }
 }
+
+
+/* =========================
+   MENÚ DESPLEGABLE
+========================= */
+
+.nav-dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  min-width: 210px;
+  padding: 12px;
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: rgba(10, 12, 25, 0.96);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.dropdown-menu a {
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+  color: white;
+  background: rgba(255, 79, 163, 0.16);
+}
+
+.nav-dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+select option {
+  background: #111525;
+  color: white;
+}
