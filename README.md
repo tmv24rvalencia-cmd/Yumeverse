@@ -756,3 +756,7 @@ Colores recomendados:
 ## 📜 Licencia
 
 Proyecto personal desarrollado para aprendizaje, colección y publicación de contenido relacionado con anime, manga, manhua, manhwa, cómics, arte y cultura visual.
+
+## Integración desde YUMEVERSE borrador
+
+Se añadieron recursos visuales y datos del borrador: logo, fondo principal, banners, imágenes favoritas de anime y archivos JSON legacy en `data/legacy-borrador/`.

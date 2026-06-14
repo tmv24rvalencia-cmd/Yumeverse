@@ -5,6 +5,66 @@
       "tipo": "anime",
       "imagen": "../assets/img/anime/naruto/portada.jpg",
       "descripcion": "Uno de mis animes favoritos."
+    },
+    {
+      "titulo": "Fairy Tail",
+      "tipo": "anime",
+      "imagen": "../assets/img/anime/favoritos/fairy-tail.jpg",
+      "descripcion": "Magos de un gremio que buscan tesoros y luchan contra el mal defendiendo la amistad."
+    },
+    {
+      "titulo": "Solo Leveling",
+      "tipo": "anime",
+      "imagen": "../assets/img/anime/favoritos/solo-leveling.jpg",
+      "descripcion": "El cazador más débil obtiene un sistema único para nivelarse infinitamente y volverse fuerte."
+    },
+    {
+      "titulo": "Daa! Daa! Daa! (UFO Baby)",
+      "tipo": "anime",
+      "imagen": "../assets/img/anime/favoritos/ufo-baby.jpg",
+      "descripcion": "Una chica cuida a un bebé alienígena y a su mascota mientras sus padres viajan."
+    },
+    {
+      "titulo": "Chibi Devi!",
+      "tipo": "anime",
+      "imagen": "../assets/img/anime/favoritos/chibi-devi.jpg",
+      "descripcion": "Una niña encuentra a un bebé del futuro que cambia su vida escolar para siempre."
+    },
+    {
+      "titulo": "Mahoutsukai no Yome",
+      "tipo": "anime",
+      "imagen": "../assets/img/anime/favoritos/mahoutsukai-no-yome.jpg",
+      "descripcion": "Una chica es comprada por un mago antiguo para ser su aprendiz y futura esposa."
+    },
+    {
+      "titulo": "Tensei Shitara Slime Datta Ken",
+      "tipo": "anime",
+      "imagen": "../assets/img/anime/favoritos/slime.jpg",
+      "descripcion": "Un hombre reencarna como un slime en otro mundo y construye una nación de monstruos."
+    },
+    {
+      "titulo": "Junjou Romantica",
+      "tipo": "anime",
+      "imagen": "../assets/img/anime/favoritos/junjou-romantica.jpg",
+      "descripcion": "Historias de amor entre hombres, centrada en un estudiante y un novelista famoso."
+    },
+    {
+      "titulo": "Given",
+      "tipo": "anime",
+      "imagen": "../assets/img/anime/favoritos/given.jpg",
+      "descripcion": "La historia de una banda de rock y el romance que surge entre sus miembros."
+    },
+    {
+      "titulo": "Mairimashita! Iruma-kun",
+      "tipo": "anime",
+      "imagen": "../assets/img/anime/favoritos/iruma-kun.jpg",
+      "descripcion": "Un humano es vendido a un demonio y debe sobrevivir a la escuela demoniaca sin ser descubierto."
+    },
+    {
+      "titulo": "Nanbaka",
+      "tipo": "anime",
+      "imagen": "../assets/img/anime/favoritos/nanbaka.jpg",
+      "descripcion": "La vida cotidiana y las fugas fallidas de cuatro presos en una prisión de máxima seguridad."
     }
   ],
   "manga": [],

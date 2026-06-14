@@ -1276,7 +1276,7 @@ textarea {
   border-radius: var(--radius);
   background:
     linear-gradient(90deg, rgba(7, 9, 20, 0.96), rgba(7, 9, 20, 0.45)),
-    url("../img/general/anime-banner.jpg") center/cover no-repeat;
+    url("../img/general/anime-banner.png") center/cover no-repeat;
   box-shadow: var(--shadow);
 }
 
@@ -1419,6 +1419,83 @@ textarea {
 }
 
 
+
+
+/* =========================
+   Logo
+========================= */
+.logo-with-img {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-with-img img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.logo-with-img span {
+  color: white;
+}
+
+.logo-with-img b {
+  color: var(--pink);
+}
+
+.explorer-panel {
+  margin: 28px 0 34px;
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(17, 21, 37, 0.75);
+  box-shadow: var(--shadow);
+}
+
+.anime-hero {
+  background:
+    linear-gradient(90deg, rgba(7, 9, 20, 0.96), rgba(7, 9, 20, 0.35)),
+    url("../img/general/anime-banner.png") center/cover no-repeat;
+}
+
+
+
+
+/* =========================
+   LOGO Y HERO VISUAL
+========================= */
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-container img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 12px rgba(255, 79, 163, 0.35));
+}
+
+.logo-container > span {
+  color: white;
+}
+
+.hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.hero-logo {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 24px rgba(255, 79, 163, 0.5));
+}
+
 /* =========================
    MENÚ DESPLEGABLE FIX
 ========================= */
@@ -1466,7 +1543,6 @@ textarea {
   background: rgba(255, 79, 163, 0.18);
 }
 
-/* Zona invisible para que el menú no se cierre al bajar el cursor */
 .nav-dropdown::after {
   content: "";
   position: absolute;
@@ -1481,77 +1557,14 @@ select option {
   color: white;
 }
 
-/* =========================
-   Logo
-========================= */
-.logo-with-img {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
+@media (max-width: 800px) {
+  .hero-brand {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-.logo-with-img img {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
-}
-
-.logo-with-img span {
-  color: white;
-}
-
-.logo-with-img b {
-  color: var(--pink);
-}
-
-.explorer-panel {
-  margin: 28px 0 34px;
-  padding: 22px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: rgba(17, 21, 37, 0.75);
-  box-shadow: var(--shadow);
-}
-
-.anime-hero {
-  background:
-    linear-gradient(90deg, rgba(7, 9, 20, 0.96), rgba(7, 9, 20, 0.35)),
-    url("../img/general/anime-banner.jpg") center/cover no-repeat;
-}
-
-
-
-/* =========================
-   LOGO YUMEVERSE
-========================= */
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.logo-container img {
-  width: 44px;
-  height: 44px;
-  object-fit: contain;
-  flex-shrink: 0;
-  filter: drop-shadow(0 0 12px rgba(255, 79, 163, 0.35));
-}
-
-.logo-container > span {
-  color: white;
-  font-weight: 900;
-  letter-spacing: 0.5px;
-}
-
-.logo-container > span > span {
-  color: var(--pink);
-}
-
-/* Hero usando fondo.png del borrador */
-.hero {
-  background:
-    linear-gradient(90deg, rgba(5, 7, 18, 0.96) 0%, rgba(5, 7, 18, 0.68) 42%, rgba(5, 7, 18, 0.18) 100%),
-    url("../img/general/fondo.png") center/cover no-repeat;
+  .hero-logo {
+    width: 100px;
+    height: 100px;
+  }
 }
