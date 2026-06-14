@@ -1,6 +1,6 @@
 /* =========================================================
    YUMEVERSE - SCRIPT.JS
-   Funciona con index, favoritos, explorador anime y colección anime.
+   Funciona con index, favoritos, explorador anime y mi colección anime.
 ========================================================= */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -154,7 +154,12 @@ async function cargarFavoritos() {
   if (!contenedor) return;
 
   try {
-    const ruta = rutaSegunPagina("data/favoritos.json", "../data/favoritos.json", "../../data/favoritos.json");
+    const ruta = rutaSegunPagina(
+      "data/favoritos.json",
+      "../data/favoritos.json",
+      "../../data/favoritos.json"
+    );
+
     const datos = await cargarJSON(ruta);
 
     const favoritos = [
@@ -217,15 +222,19 @@ function actualizarContadoresFavoritos(datos) {
 
   asignarTexto("total-favoritos", total);
   asignarTexto("total-anime", (datos.anime || []).length);
-  asignarTexto("total-asiaticos",
+
+  asignarTexto(
+    "total-asiaticos",
     (datos.manga || []).length +
-    (datos.manhua || []).length +
-    (datos.manhwa || []).length +
-    (datos.comics || []).length
+      (datos.manhua || []).length +
+      (datos.manhwa || []).length +
+      (datos.comics || []).length
   );
-  asignarTexto("total-arte",
+
+  asignarTexto(
+    "total-arte",
     (datos.personajes || []).length +
-    (datos.ilustraciones || []).length
+      (datos.ilustraciones || []).length
   );
 }
 
@@ -238,9 +247,10 @@ function iniciarFiltrosFavoritos(items) {
       tab.classList.add("active");
 
       const filtro = tab.dataset.filter;
-      const filtrados = filtro === "todos"
-        ? items
-        : items.filter((item) => normalizar(item.tipo) === filtro);
+      const filtrados =
+        filtro === "todos"
+          ? items
+          : items.filter((item) => normalizar(item.tipo) === filtro);
 
       pintarFavoritos(filtrados);
     });
@@ -249,6 +259,7 @@ function iniciarFiltrosFavoritos(items) {
 
 /* =========================
    ANIME - EXPLORADOR
+   Usa: data/anime-explorador.json
 ========================= */
 
 let animeExplorer = [];
@@ -264,11 +275,12 @@ async function cargarExploradorAnime() {
     pintarExploradorAnime(animeExplorer);
     cargarOpcionesExplorador(animeExplorer);
     iniciarFiltrosExplorador();
+    iniciarAnimaciones();
   } catch (error) {
     console.error(error);
     contenedor.innerHTML = `
       <p class="empty-message">
-        No se pudo cargar el catálogo de anime.
+        No se pudo cargar ../../data/anime-explorador.json
       </p>
     `;
   }
@@ -405,10 +417,12 @@ function aplicarFiltrosExplorador() {
   }
 
   pintarExploradorAnime(resultado);
+  iniciarAnimaciones();
 }
 
 /* =========================
    ANIME - MI COLECCIÓN
+   Usa: data/anime-mi-coleccion.json
 ========================= */
 
 let coleccionAnime = [];
@@ -420,18 +434,17 @@ async function cargarColeccionAnime() {
   if (!contenedor) return;
 
   try {
-    const datos = await cargarJSON("../../data/anime-mi-coleccion.json");
-
-    coleccionAnime = datos.filter((anime) => anime.coleccion);
+    coleccionAnime = await cargarJSON("../../data/anime-mi-coleccion.json");
 
     pintarColeccionAnime(coleccionAnime);
     actualizarContadoresColeccion(coleccionAnime);
     iniciarFiltrosColeccion();
+    iniciarAnimaciones();
   } catch (error) {
     console.error(error);
     contenedor.innerHTML = `
       <p class="empty-message">
-        No se pudo cargar tu colección de anime.
+        No se pudo cargar ../../data/anime-mi-coleccion.json
       </p>
     `;
   }
@@ -453,11 +466,9 @@ function pintarColeccionAnime(items) {
   if (empty) empty.hidden = true;
 
   items.forEach((anime) => {
-    const coleccion = anime.coleccion || {};
-    const vistos = coleccion.episodios_vistos || anime.episodios_vistos || 0;
-    const totales = coleccion.episodios_totales || anime.episodios_totales || 0;
+    const vistos = anime.episodios_vistos || 0;
+    const totales = anime.episodios_totales || 0;
     const progreso = calcularProgreso(vistos, totales);
-    const estadoColeccion = coleccion.estado || "pendiente";
 
     contenedor.innerHTML += `
       <article class="collection-card">
@@ -466,7 +477,9 @@ function pintarColeccionAnime(items) {
         </a>
 
         <div class="collection-info">
-          <span class="collection-status">${formatearEstadoColeccion(estadoColeccion)}</span>
+          <span class="collection-status">
+            ${formatearEstadoColeccion(anime.estado)}
+          </span>
 
           <h3>${anime.titulo}</h3>
 
@@ -482,7 +495,7 @@ function pintarColeccionAnime(items) {
 
           <div class="rating">
             ⭐ ${anime.valoracion ?? "N/A"}
-            ${coleccion.favorito ? " · ♡ Favorito" : ""}
+            ${anime.favorito ? " · ♡ Favorito" : ""}
           </div>
         </div>
       </article>
@@ -491,12 +504,12 @@ function pintarColeccionAnime(items) {
 }
 
 function actualizarContadoresColeccion(items) {
-  const vistos = items.filter((anime) => (anime.coleccion?.episodios_vistos || 0) > 0).length;
-  const completados = items.filter((anime) => anime.coleccion?.estado === "completado").length;
-  const viendo = items.filter((anime) => anime.coleccion?.estado === "viendo").length;
-  const pendientes = items.filter((anime) => anime.coleccion?.estado === "pendiente").length;
-  const abandonados = items.filter((anime) => anime.coleccion?.estado === "abandonado").length;
-  const favoritos = items.filter((anime) => anime.coleccion?.favorito).length;
+  const vistos = items.filter((anime) => (anime.episodios_vistos || 0) > 0).length;
+  const completados = items.filter((anime) => anime.estado === "completado").length;
+  const viendo = items.filter((anime) => anime.estado === "viendo").length;
+  const pendientes = items.filter((anime) => anime.estado === "pendiente").length;
+  const abandonados = items.filter((anime) => anime.estado === "abandonado").length;
+  const favoritos = items.filter((anime) => anime.favorito).length;
 
   asignarTexto("total-vistos", vistos);
   asignarTexto("total-completados", completados);
@@ -538,9 +551,9 @@ function aplicarFiltrosColeccion() {
 
   if (filtroColeccionActual !== "todos") {
     if (filtroColeccionActual === "favorito") {
-      resultado = resultado.filter((anime) => anime.coleccion?.favorito);
+      resultado = resultado.filter((anime) => anime.favorito);
     } else {
-      resultado = resultado.filter((anime) => anime.coleccion?.estado === filtroColeccionActual);
+      resultado = resultado.filter((anime) => anime.estado === filtroColeccionActual);
     }
   }
 
@@ -561,13 +574,22 @@ function aplicarFiltrosColeccion() {
 
   if (orden === "progreso") {
     resultado.sort((a, b) => {
-      const progresoA = calcularProgreso(a.coleccion?.episodios_vistos || 0, a.coleccion?.episodios_totales || 0);
-      const progresoB = calcularProgreso(b.coleccion?.episodios_vistos || 0, b.coleccion?.episodios_totales || 0);
+      const progresoA = calcularProgreso(
+        a.episodios_vistos || 0,
+        a.episodios_totales || 0
+      );
+
+      const progresoB = calcularProgreso(
+        b.episodios_vistos || 0,
+        b.episodios_totales || 0
+      );
+
       return progresoB - progresoA;
     });
   }
 
   pintarColeccionAnime(resultado);
+  iniciarAnimaciones();
 }
 
 /* =========================
@@ -634,8 +656,10 @@ function iniciarAnimaciones() {
   );
 
   elementos.forEach((elemento) => {
-    elemento.classList.add("hidden");
-    observer.observe(elemento);
+    if (!elemento.classList.contains("show")) {
+      elemento.classList.add("hidden");
+      observer.observe(elemento);
+    }
   });
 }
 
