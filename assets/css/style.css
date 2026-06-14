@@ -187,7 +187,7 @@ textarea {
   border-right: 1px solid var(--border);
   background:
     linear-gradient(90deg, rgba(5, 7, 18, 0.95) 0%, rgba(5, 7, 18, 0.65) 42%, rgba(5, 7, 18, 0.15) 100%),
-    url("../img/general/banner-home.jpg") center/cover no-repeat;
+    url("../img/general/fondo.png") center/cover no-repeat;
 }
 
 .hero::after {
@@ -1519,3 +1519,39 @@ select option {
     url("../img/general/anime-banner.jpg") center/cover no-repeat;
 }
 
+
+
+/* =========================
+   LOGO YUMEVERSE
+========================= */
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-container img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 12px rgba(255, 79, 163, 0.35));
+}
+
+.logo-container > span {
+  color: white;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.logo-container > span > span {
+  color: var(--pink);
+}
+
+/* Hero usando fondo.png del borrador */
+.hero {
+  background:
+    linear-gradient(90deg, rgba(5, 7, 18, 0.96) 0%, rgba(5, 7, 18, 0.68) 42%, rgba(5, 7, 18, 0.18) 100%),
+    url("../img/general/fondo.png") center/cover no-repeat;
+}
