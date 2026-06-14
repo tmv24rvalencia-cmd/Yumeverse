@@ -1,0 +1,26 @@
+[
+  {
+    "id": "solo-leveling",
+    "titulo": "Solo Leveling",
+    "estado": "emision",
+    "episodios_vistos": 12,
+    "episodios_totales": 24,
+    "valoracion": 9.5,
+    "favorito": true,
+    "imagen": "../../assets/img/anime/solo-leveling/portada.webp",
+    "descripcion": "El ascenso del cazador más débil al más poderoso.",
+    "coleccion": {
+      "estado": "viendo",
+      "episodios_vistos": 12,
+      "episodios_totales": 24,
+      "favorito": true
+    },
+    "tipo": "Anime",
+    "year": 2024,
+    "generos": [
+      "Acción",
+      "Aventura"
+    ],
+    "subtitulo": "Anime · 2024"
+  }
+]
