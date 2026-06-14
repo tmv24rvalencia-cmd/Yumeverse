@@ -1480,3 +1480,42 @@ select option {
   background: #111525;
   color: white;
 }
+
+/* =========================
+   Logo
+========================= */
+.logo-with-img {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-with-img img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.logo-with-img span {
+  color: white;
+}
+
+.logo-with-img b {
+  color: var(--pink);
+}
+
+.explorer-panel {
+  margin: 28px 0 34px;
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(17, 21, 37, 0.75);
+  box-shadow: var(--shadow);
+}
+
+.anime-hero {
+  background:
+    linear-gradient(90deg, rgba(7, 9, 20, 0.96), rgba(7, 9, 20, 0.35)),
+    url("../img/general/anime-banner.jpg") center/cover no-repeat;
+}
+
