@@ -1,0 +1,90 @@
+[
+  {
+    "id": "solo-leveling",
+    "titulo": "Solo Leveling",
+    "estado": "viendo",
+    "episodios_vistos": 12,
+    "episodios_totales": 24,
+    "valoracion": 9.5,
+    "favorito": true,
+    "imagen": "../../assets/img/anime/solo-leveling/portada.webp",
+    "descripcion": "El ascenso del cazador más débil al más poderoso."
+  },
+  {
+    "id": "frieren",
+    "titulo": "Frieren",
+    "estado": "completado",
+    "episodios_vistos": 28,
+    "episodios_totales": 28,
+    "valoracion": 9.8,
+    "favorito": true,
+    "imagen": "../../assets/img/anime/frieren/portada.webp",
+    "descripcion": "Una emotiva aventura después de derrotar al Rey Demonio."
+  },
+  {
+    "id": "jujutsu-kaisen",
+    "titulo": "Jujutsu Kaisen",
+    "estado": "viendo",
+    "episodios_vistos": 35,
+    "episodios_totales": 47,
+    "valoracion": 9.2,
+    "favorito": true,
+    "imagen": "../../assets/img/anime/jujutsu-kaisen/portada.webp",
+    "descripcion": "Maldiciones, hechiceros y combates espectaculares."
+  },
+  {
+    "id": "naruto",
+    "titulo": "Naruto",
+    "estado": "completado",
+    "episodios_vistos": 720,
+    "episodios_totales": 720,
+    "valoracion": 9.7,
+    "favorito": true,
+    "imagen": "../../assets/img/anime/naruto/portada.webp",
+    "descripcion": "La historia del ninja que soñaba con convertirse en Hokage."
+  },
+  {
+    "id": "one-piece",
+    "titulo": "One Piece",
+    "estado": "viendo",
+    "episodios_vistos": 1105,
+    "episodios_totales": 9999,
+    "valoracion": 10,
+    "favorito": true,
+    "imagen": "../../assets/img/anime/one-piece/portada.webp",
+    "descripcion": "La búsqueda del legendario tesoro One Piece."
+  },
+  {
+    "id": "chainsaw-man",
+    "titulo": "Chainsaw Man",
+    "estado": "pendiente",
+    "episodios_vistos": 0,
+    "episodios_totales": 12,
+    "valoracion": 8.8,
+    "favorito": false,
+    "imagen": "../../assets/img/anime/chainsaw-man/portada.webp",
+    "descripcion": "Acción brutal y demonios."
+  },
+  {
+    "id": "vinland-saga",
+    "titulo": "Vinland Saga",
+    "estado": "completado",
+    "episodios_vistos": 48,
+    "episodios_totales": 48,
+    "valoracion": 9.6,
+    "favorito": true,
+    "imagen": "../../assets/img/anime/vinland-saga/portada.webp",
+    "descripcion": "Vikingos, guerra y redención."
+  },
+  {
+    "id": "tokyo-ghoul",
+    "titulo": "Tokyo Ghoul",
+    "estado": "abandonado",
+    "episodios_vistos": 24,
+    "episodios_totales": 48,
+    "valoracion": 7.2,
+    "favorito": false,
+    "imagen": "../../assets/img/anime/tokyo-ghoul/portada.webp",
+    "descripcion": "Un estudiante atrapado entre humanos y ghouls."
+  }
+]

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Mi Colección de Anime | Yumeverse</title>
+
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <a href="../../index.html" class="logo">YUME<span>VERSE</span></a>
+
+      <ul class="nav-links">
+        <li><a href="../../index.html">Inicio</a></li>
+        <li><a href="explorador.html" class="active">Anime</a></li>
+        <li><a href="../asiaticos/catalogo.html">Asiáticos</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../galeria/index.html">Galería</a></li>
+        <li><a href="../favoritos.html">Favoritos</a></li>
+        <li><a href="../../contacto.html">Contacto</a></li>
+      </ul>
+
+      <button class="search-btn" aria-label="Buscar">⌕</button>
+    </nav>
+  </header>
+
+  <main class="collection-page">
+
+    <section class="collection-hero">
+      <div>
+        <span class="section-label">🎌 Anime</span>
+        <h1>Mi Colección de Anime</h1>
+        <p>
+          Organiza los animes que estás viendo, completaste, dejaste pendientes
+          o marcaste como favoritos.
+        </p>
+      </div>
+    </section>
+
+    <section class="collection-summary">
+      <article>
+        <h3 id="total-vistos">0</h3>
+        <p>Vistos</p>
+      </article>
+
+      <article>
+        <h3 id="total-completados">0</h3>
+        <p>Completados</p>
+      </article>
+
+      <article>
+        <h3 id="total-viendo">0</h3>
+        <p>Viendo</p>
+      </article>
+
+      <article>
+        <h3 id="total-pendientes">0</h3>
+        <p>Pendientes</p>
+      </article>
+
+      <article>
+        <h3 id="total-abandonados">0</h3>
+        <p>Abandonados</p>
+      </article>
+
+      <article>
+        <h3 id="total-favoritos-anime">0</h3>
+        <p>Favoritos</p>
+      </article>
+    </section>
+
+    <section class="collection-controls">
+      <div class="collection-tabs">
+        <button class="collection-tab active" data-filter="todos">Todos</button>
+        <button class="collection-tab" data-filter="viendo">Viendo</button>
+        <button class="collection-tab" data-filter="completado">Completados</button>
+        <button class="collection-tab" data-filter="pendiente">Pendientes</button>
+        <button class="collection-tab" data-filter="abandonado">Abandonados</button>
+        <button class="collection-tab" data-filter="favorito">Favoritos</button>
+      </div>
+
+      <div class="collection-tools">
+        <input
+          type="search"
+          id="buscar-coleccion"
+          placeholder="Buscar en mi colección..."
+        />
+
+        <select id="ordenar-coleccion">
+          <option value="nombre">Ordenar por nombre</option>
+          <option value="valoracion">Ordenar por valoración</option>
+          <option value="progreso">Ordenar por progreso</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Animes guardados</h2>
+        <a href="explorador.html">Explorar más</a>
+      </div>
+
+      <div class="collection-grid" id="coleccion-anime-container">
+        <!-- Se carga desde ../../data/anime-mi-coleccion.json -->
+      </div>
+
+      <p class="empty-message" id="empty-coleccion" hidden>
+        No hay animes para mostrar.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h2>YUME<span>VERSE</span></h2>
+        <p>Tu universo de anime, manga, arte y mucho más.</p>
+
+        <div class="socials">
+          <a href="#">Discord</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+
+      <div>
+        <h3>Navegación</h3>
+        <a href="../../index.html">Inicio</a>
+        <a href="explorador.html">Anime</a>
+        <a href="../asiaticos/catalogo.html">Asiáticos</a>
+        <a href="../blog/index.html">Blog</a>
+        <a href="../galeria/index.html">Galería</a>
+        <a href="../favoritos.html">Favoritos</a>
+      </div>
+
+      <div>
+        <h3>Recursos</h3>
+        <a href="mi-coleccion.html">Mi colección</a>
+        <a href="explorador.html">Explorador</a>
+        <a href="../galeria/anime.html">Galería anime</a>
+        <a href="../favoritos.html">Favoritos</a>
+      </div>
+
+      <div>
+        <h3>Newsletter</h3>
+        <p>Recibe novedades y actualizaciones.</p>
+
+        <form class="newsletter">
+          <input type="email" placeholder="Tu correo electrónico" />
+          <button type="submit">Suscribirme</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2024 Yumeverse. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../../assets/js/script.js"></script>
+</body>
+</html>
