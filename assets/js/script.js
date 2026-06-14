@@ -1,8 +1,69 @@
 document.addEventListener("DOMContentLoaded", () => {
+  cargarHome();
   iniciarNewsletter();
   iniciarBuscador();
   iniciarAnimaciones();
 });
+
+async function cargarHome() {
+  try {
+    const respuesta = await fetch("data/home.json");
+
+    if (!respuesta.ok) {
+      throw new Error("No se pudo cargar data/home.json");
+    }
+
+    const datos = await respuesta.json();
+
+    pintarCards(datos.novedades, "novedades-container");
+    pintarCards(datos.recomendaciones, "recomendaciones-container");
+    pintarBlog(datos.blog, "blog-container");
+
+    iniciarAnimaciones();
+  } catch (error) {
+    console.error("Error cargando home.json:", error);
+  }
+}
+
+function pintarCards(items, contenedorId) {
+  const contenedor = document.getElementById(contenedorId);
+
+  if (!contenedor || !items) return;
+
+  contenedor.innerHTML = "";
+
+  items.forEach((item) => {
+    contenedor.innerHTML += `
+      <a href="${item.url}" class="anime-card">
+        <img src="${item.imagen}" alt="${item.titulo}">
+        <h3>${item.titulo}</h3>
+        ${item.subtitulo ? `<p>${item.subtitulo}</p>` : ""}
+        <span>⭐ ${item.valoracion}</span>
+      </a>
+    `;
+  });
+}
+
+function pintarBlog(items, contenedorId) {
+  const contenedor = document.getElementById(contenedorId);
+
+  if (!contenedor || !items) return;
+
+  contenedor.innerHTML = "";
+
+  items.forEach((item) => {
+    contenedor.innerHTML += `
+      <a href="${item.url}" class="blog-card">
+        <img src="${item.imagen}" alt="${item.titulo}">
+        <div>
+          <h3>${item.titulo}</h3>
+          <p>${item.categoria}</p>
+          <span>${item.fecha}</span>
+        </div>
+      </a>
+    `;
+  });
+}
 
 function iniciarNewsletter() {
   const form = document.querySelector(".newsletter");
@@ -40,17 +101,22 @@ function iniciarBuscador() {
 }
 
 function iniciarAnimaciones() {
-  const elementos = document.querySelectorAll(".section, .anime-card, .blog-card, .quick-card");
+  const elementos = document.querySelectorAll(
+    ".section, .anime-card, .blog-card, .quick-card"
+  );
 
-  const observer = new IntersectionObserver((entradas) => {
-    entradas.forEach((entrada) => {
-      if (entrada.isIntersecting) {
-        entrada.target.classList.add("show");
-      }
-    });
-  }, {
-    threshold: 0.15
-  });
+  const observer = new IntersectionObserver(
+    (entradas) => {
+      entradas.forEach((entrada) => {
+        if (entrada.isIntersecting) {
+          entrada.target.classList.add("show");
+        }
+      });
+    },
+    {
+      threshold: 0.15,
+    }
+  );
 
   elementos.forEach((elemento) => {
     elemento.classList.add("hidden");
@@ -59,6 +125,12 @@ function iniciarAnimaciones() {
 }
 
 function mostrarMensaje(texto) {
+  const mensajeAnterior = document.querySelector(".toast");
+
+  if (mensajeAnterior) {
+    mensajeAnterior.remove();
+  }
+
   const mensaje = document.createElement("div");
   mensaje.className = "toast";
   mensaje.textContent = texto;
@@ -71,6 +143,9 @@ function mostrarMensaje(texto) {
 
   setTimeout(() => {
     mensaje.classList.remove("visible");
-    setTimeout(() => mensaje.remove(), 300);
+
+    setTimeout(() => {
+      mensaje.remove();
+    }, 300);
   }, 3000);
 }

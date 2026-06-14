@@ -1,0 +1,48 @@
+{
+  "novedades": [
+    {
+      "titulo": "Jujutsu Kaisen",
+      "subtitulo": "Temporada 2",
+      "valoracion": 9.2,
+      "imagen": "assets/img/anime/jujutsu-kaisen/portada.jpg",
+      "url": "pages/anime/detalle.html?id=jujutsu-kaisen"
+    },
+    {
+      "titulo": "Solo Leveling",
+      "subtitulo": "Temporada 1",
+      "valoracion": 9.5,
+      "imagen": "assets/img/asiaticos/solo-leveling/portada.jpg",
+      "url": "pages/asiaticos/detalle.html?id=solo-leveling"
+    }
+  ],
+  "recomendaciones": [
+    {
+      "titulo": "Attack on Titan",
+      "valoracion": 9.3,
+      "imagen": "assets/img/anime/attack-on-titan/portada.jpg",
+      "url": "pages/anime/detalle.html?id=attack-on-titan"
+    },
+    {
+      "titulo": "Demon Slayer",
+      "valoracion": 9.4,
+      "imagen": "assets/img/anime/demon-slayer/portada.jpg",
+      "url": "pages/anime/detalle.html?id=demon-slayer"
+    }
+  ],
+  "blog": [
+    {
+      "titulo": "Nuevo tráiler de Demon Slayer: Infinity Castle",
+      "categoria": "Noticias de Anime",
+      "fecha": "12 May 2024",
+      "imagen": "assets/img/blog/noticia-1.jpg",
+      "url": "pages/blog/noticias-anime.html"
+    },
+    {
+      "titulo": "Cómo mejorar tus fondos de paisaje en arte digital",
+      "categoria": "Noticias de Arte",
+      "fecha": "10 May 2024",
+      "imagen": "assets/img/blog/noticia-2.jpg",
+      "url": "pages/blog/noticias-arte.html"
+    }
+  ]
+}
