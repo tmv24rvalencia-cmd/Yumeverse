@@ -1,0 +1,16 @@
+{
+  "anime": [
+    {
+      "titulo": "Naruto",
+      "tipo": "anime",
+      "imagen": "../assets/img/anime/naruto/portada.jpg",
+      "descripcion": "Uno de mis animes favoritos."
+    }
+  ],
+  "manga": [],
+  "manhua": [],
+  "manhwa": [],
+  "comics": [],
+  "personajes": [],
+  "ilustraciones": []
+}

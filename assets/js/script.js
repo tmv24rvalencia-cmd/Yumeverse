@@ -149,3 +149,82 @@ function mostrarMensaje(texto) {
     }, 300);
   }, 3000);
 }
+async function cargarFavoritos() {
+  const contenedor = document.getElementById("favoritos-container");
+
+  if (!contenedor) return;
+
+  try {
+    const respuesta = await fetch("../data/favoritos.json");
+
+    if (!respuesta.ok) {
+      throw new Error("No se pudo cargar favoritos.json");
+    }
+
+    const datos = await respuesta.json();
+
+    const favoritos = [
+      ...datos.anime,
+      ...datos.manga,
+      ...datos.manhua,
+      ...datos.manhwa,
+      ...datos.comics,
+      ...datos.personajes,
+      ...datos.ilustraciones
+    ];
+
+    pintarFavoritos(favoritos);
+    actualizarContadores(datos);
+
+  } catch (error) {
+    console.error(error);
+    contenedor.innerHTML = `<p class="empty-message">No se pudieron cargar los favoritos.</p>`;
+  }
+}
+
+function pintarFavoritos(items) {
+  const contenedor = document.getElementById("favoritos-container");
+  const empty = document.getElementById("empty-favoritos");
+
+  contenedor.innerHTML = "";
+
+  if (!items.length) {
+    empty.hidden = false;
+    return;
+  }
+
+  empty.hidden = true;
+
+  items.forEach(item => {
+    contenedor.innerHTML += `
+      <article class="favorite-card" data-tipo="${item.tipo}">
+        <img src="${item.imagen}" alt="${item.titulo}">
+        <div class="favorite-card-content">
+          <span class="favorite-type">${item.tipo}</span>
+          <h3>${item.titulo}</h3>
+          <p>${item.descripcion || ""}</p>
+        </div>
+      </article>
+    `;
+  });
+}
+
+function actualizarContadores(datos) {
+  const total =
+    datos.anime.length +
+    datos.manga.length +
+    datos.manhua.length +
+    datos.manhwa.length +
+    datos.comics.length +
+    datos.personajes.length +
+    datos.ilustraciones.length;
+
+  document.getElementById("total-favoritos").textContent = total;
+  document.getElementById("total-anime").textContent = datos.anime.length;
+
+  document.getElementById("total-asiaticos").textContent =
+    datos.manga.length + datos.manhua.length + datos.manhwa.length + datos.comics.length;
+
+  document.getElementById("total-arte").textContent =
+    datos.personajes.length + datos.ilustraciones.length;
+}
