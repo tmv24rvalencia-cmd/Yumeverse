@@ -1,3 +1,11 @@
+/* =========================================================
+   YUMEVERSE - STYLE.CSS
+   ========================================================= */
+
+/* =========================
+   1. VARIABLES
+========================= */
+
 :root {
   --bg: #070914;
   --bg-soft: #0d1020;
@@ -9,13 +17,19 @@
   --pink-soft: #ff7bc2;
   --purple: #8b5cf6;
   --blue: #38bdf8;
+  --yellow: #ffc857;
 
   --text: #ffffff;
   --muted: #b8b8c8;
 
   --radius: 18px;
   --shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  --transition: 0.25s ease;
 }
+
+/* =========================
+   2. RESET GENERAL
+========================= */
 
 * {
   margin: 0;
@@ -28,13 +42,13 @@ html {
 }
 
 body {
+  min-height: 100vh;
   font-family: "Poppins", Arial, sans-serif;
+  color: var(--text);
   background:
     radial-gradient(circle at top left, rgba(255, 79, 163, 0.14), transparent 35%),
     radial-gradient(circle at top right, rgba(139, 92, 246, 0.16), transparent 35%),
     linear-gradient(180deg, #050712, #080b16 45%, #050711);
-  color: var(--text);
-  min-height: 100vh;
 }
 
 a {
@@ -47,7 +61,9 @@ img {
   display: block;
 }
 
-/* HEADER */
+/* =========================
+   3. HEADER / NAVBAR
+========================= */
 
 .header {
   position: sticky;
@@ -88,11 +104,11 @@ img {
 }
 
 .nav-links a {
+  position: relative;
   color: var(--muted);
   font-size: 0.95rem;
   font-weight: 600;
-  transition: 0.25s ease;
-  position: relative;
+  transition: var(--transition);
 }
 
 .nav-links a:hover,
@@ -121,12 +137,43 @@ img {
   opacity: 0.9;
 }
 
-/* HERO */
+/* =========================
+   4. BOTONES
+========================= */
+
+.btn {
+  padding: 15px 28px;
+  border-radius: 8px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--pink), #d93a91);
+  box-shadow: 0 0 25px rgba(255, 79, 163, 0.35);
+}
+
+.btn-dark {
+  background: rgba(8, 10, 20, 0.9);
+  border: 1px solid var(--border);
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.1);
+}
+
+/* =========================
+   5. HERO INDEX
+========================= */
 
 .hero {
   max-width: 1180px;
-  margin: 0 auto;
   min-height: 420px;
+  margin: 0 auto;
   padding: 90px 70px;
   position: relative;
   overflow: hidden;
@@ -174,39 +221,16 @@ img {
   flex-wrap: wrap;
 }
 
-.btn {
-  padding: 15px 28px;
-  border-radius: 8px;
-  font-weight: 800;
-  transition: 0.25s ease;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn-primary {
-  background: linear-gradient(135deg, var(--pink), #d93a91);
-  box-shadow: 0 0 25px rgba(255, 79, 163, 0.35);
-}
-
-.btn-dark {
-  background: rgba(8, 10, 20, 0.9);
-  border: 1px solid var(--border);
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-  filter: brightness(1.1);
-}
-
-/* ACCESOS */
+/* =========================
+   6. ACCESOS RÁPIDOS
+========================= */
 
 .quick-access {
   max-width: 1120px;
   margin: -35px auto 30px;
+  padding: 20px;
   position: relative;
   z-index: 5;
-  padding: 20px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 18px;
@@ -227,7 +251,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 14px;
-  transition: 0.25s ease;
+  transition: var(--transition);
 }
 
 .quick-card span {
@@ -248,7 +272,9 @@ img {
   box-shadow: 0 0 30px rgba(255, 79, 163, 0.15);
 }
 
-/* SECCIONES */
+/* =========================
+   7. SECCIONES GENERALES
+========================= */
 
 .section {
   max-width: 1120px;
@@ -273,6 +299,10 @@ img {
   font-size: 0.9rem;
 }
 
+/* =========================
+   8. TARJETAS ANIME
+========================= */
+
 .cards-row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -285,7 +315,7 @@ img {
   background: rgba(17, 21, 37, 0.85);
   border: 1px solid var(--border);
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-  transition: 0.25s ease;
+  transition: var(--transition);
 }
 
 .anime-card:hover {
@@ -313,12 +343,14 @@ img {
 .anime-card span {
   display: block;
   padding: 0 12px 14px;
-  color: #ffc857;
+  color: var(--yellow);
   font-weight: 800;
   font-size: 0.9rem;
 }
 
-/* BLOG */
+/* =========================
+   9. BLOG INDEX
+========================= */
 
 .blog-row {
   display: grid;
@@ -327,14 +359,14 @@ img {
 }
 
 .blog-card {
+  min-height: 130px;
+  padding: 14px;
   display: flex;
   gap: 16px;
-  padding: 14px;
-  min-height: 130px;
   background: rgba(17, 21, 37, 0.88);
   border: 1px solid var(--border);
   border-radius: 14px;
-  transition: 0.25s ease;
+  transition: var(--transition);
 }
 
 .blog-card:hover {
@@ -367,165 +399,9 @@ img {
   font-size: 0.8rem;
 }
 
-/* FOOTER */
-
-.footer {
-  margin-top: 55px;
-  border-top: 1px solid var(--border);
-  background: rgba(5, 7, 18, 0.92);
-}
-
-.footer-grid {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 48px 20px;
-  display: grid;
-  grid-template-columns: 1.4fr 0.8fr 0.8fr 1.2fr;
-  gap: 44px;
-}
-
-.footer h2 {
-  color: var(--pink);
-  margin-bottom: 18px;
-}
-
-.footer h3 {
-  margin-bottom: 18px;
-  font-size: 1.05rem;
-}
-
-.footer p {
-  color: var(--muted);
-  line-height: 1.7;
-}
-
-.footer a {
-  display: block;
-  color: var(--muted);
-  margin-bottom: 10px;
-  transition: 0.25s ease;
-}
-
-.footer a:hover {
-  color: var(--pink-soft);
-}
-
-.socials {
-  margin-top: 22px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-}
-
-.socials a {
-  color: var(--blue);
-  font-size: 0.9rem;
-  margin: 0;
-}
-
-.newsletter {
-  margin-top: 18px;
-  display: grid;
-  gap: 12px;
-}
-
-.newsletter input {
-  width: 100%;
-  padding: 15px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  background: rgba(255,255,255,0.06);
-  color: white;
-  outline: none;
-}
-
-.newsletter input::placeholder {
-  color: var(--muted);
-}
-
-.newsletter button {
-  border: none;
-  padding: 15px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, var(--pink), #d93a91);
-  color: white;
-  font-weight: 800;
-  cursor: pointer;
-  transition: 0.25s ease;
-}
-
-.newsletter button:hover {
-  filter: brightness(1.12);
-  transform: translateY(-2px);
-}
-
-.footer-bottom {
-  border-top: 1px solid var(--border);
-  padding: 18px;
-  text-align: center;
-  color: var(--muted);
-}
-
-/* RESPONSIVE */
-
-@media (max-width: 950px) {
-  .nav-links {
-    display: none;
-  }
-
-  .hero {
-    padding: 70px 30px;
-  }
-
-  .quick-access,
-  .cards-row {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .blog-row,
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 520px) {
-  .navbar {
-    padding: 16px;
-  }
-
-  .hero {
-    min-height: 380px;
-    padding: 55px 22px;
-  }
-
-  .hero p {
-    font-size: 1.15rem;
-  }
-
-  .quick-access {
-    grid-template-columns: 1fr;
-    margin: -25px 16px 25px;
-  }
-
-  .cards-row {
-    grid-template-columns: 1fr;
-  }
-
-  .anime-card img {
-    height: 230px;
-  }
-
-  .blog-card {
-    flex-direction: column;
-  }
-
-  .blog-card img {
-    width: 100%;
-    height: 180px;
-  }
-}
-
-/* CONTACTO */
+/* =========================
+   10. CONTACTO
+========================= */
 
 .contact-page {
   max-width: 1180px;
@@ -534,18 +410,18 @@ img {
 }
 
 .contact-hero {
+  min-height: 680px;
+  padding: 38px;
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   gap: 28px;
-  min-height: 680px;
-  padding: 38px;
+  overflow: hidden;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background:
     radial-gradient(circle at top left, rgba(255, 79, 163, 0.18), transparent 35%),
     linear-gradient(135deg, rgba(17, 21, 37, 0.95), rgba(7, 9, 20, 0.95));
   box-shadow: var(--shadow);
-  overflow: hidden;
 }
 
 .contact-content h1 {
@@ -554,11 +430,11 @@ img {
 }
 
 .contact-content > p {
+  max-width: 620px;
+  margin-bottom: 28px;
   color: var(--muted);
   font-size: 1rem;
   line-height: 1.7;
-  max-width: 620px;
-  margin-bottom: 28px;
 }
 
 .contact-info {
@@ -568,10 +444,10 @@ img {
 }
 
 .contact-box {
+  padding: 16px;
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 16px;
   border: 1px solid var(--border);
   border-radius: 14px;
   background: rgba(255,255,255,0.04);
@@ -638,8 +514,8 @@ img {
 .contact-image {
   position: relative;
   min-height: 100%;
-  border-radius: 18px;
   overflow: hidden;
+  border-radius: 18px;
   border: 1px solid var(--border);
 }
 
@@ -654,6 +530,10 @@ img {
   inset: 0;
   background: linear-gradient(90deg, rgba(7,9,20,0.15), rgba(255,79,163,0.08));
 }
+
+/* =========================
+   11. CONTACTO - REDES Y SOBRE
+========================= */
 
 .social-section,
 .about-project {
@@ -683,13 +563,13 @@ img {
 
 .social-card {
   min-height: 110px;
-  border-radius: 14px;
-  border: 1px solid var(--border);
-  background: rgba(255,255,255,0.04);
   display: grid;
   place-items: center;
   text-align: center;
-  transition: 0.25s ease;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  transition: var(--transition);
 }
 
 .social-card span {
@@ -725,6 +605,167 @@ img {
   padding-left: 20px;
 }
 
+/* =========================
+   12. FOOTER
+========================= */
+
+.footer {
+  margin-top: 55px;
+  border-top: 1px solid var(--border);
+  background: rgba(5, 7, 18, 0.92);
+}
+
+.footer-grid {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 48px 20px;
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr 0.8fr 1.2fr;
+  gap: 44px;
+}
+
+.footer h2 {
+  margin-bottom: 18px;
+  color: var(--pink);
+}
+
+.footer h3 {
+  margin-bottom: 18px;
+  font-size: 1.05rem;
+}
+
+.footer p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.footer a {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--muted);
+  transition: var(--transition);
+}
+
+.footer a:hover {
+  color: var(--pink-soft);
+}
+
+.socials {
+  margin-top: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.socials a {
+  margin: 0;
+  color: var(--blue);
+  font-size: 0.9rem;
+}
+
+.newsletter {
+  margin-top: 18px;
+  display: grid;
+  gap: 12px;
+}
+
+.newsletter input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.06);
+  color: white;
+  outline: none;
+}
+
+.newsletter input::placeholder {
+  color: var(--muted);
+}
+
+.newsletter button {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--pink), #d93a91);
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.newsletter button:hover {
+  filter: brightness(1.12);
+  transform: translateY(-2px);
+}
+
+.footer-bottom {
+  padding: 18px;
+  text-align: center;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+}
+
+/* =========================
+   13. ANIMACIONES JS
+========================= */
+
+.hidden {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: 0.6s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 999;
+  padding: 14px 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  color: white;
+  font-weight: 700;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.3s ease;
+}
+
+.toast.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =========================
+   14. RESPONSIVE TABLET
+========================= */
+
+@media (max-width: 950px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hero {
+    padding: 70px 30px;
+  }
+
+  .quick-access,
+  .cards-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog-row,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 900px) {
   .contact-hero {
     grid-template-columns: 1fr;
@@ -739,16 +780,52 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .about-project {
-    grid-template-columns: 1fr;
-  }
-
+  .about-project,
   .form-row {
     grid-template-columns: 1fr;
   }
 }
 
+/* =========================
+   15. RESPONSIVE MÓVIL
+========================= */
+
 @media (max-width: 520px) {
+  .navbar {
+    padding: 16px;
+  }
+
+  .hero {
+    min-height: 380px;
+    padding: 55px 22px;
+  }
+
+  .hero p {
+    font-size: 1.15rem;
+  }
+
+  .quick-access {
+    grid-template-columns: 1fr;
+    margin: -25px 16px 25px;
+  }
+
+  .cards-row {
+    grid-template-columns: 1fr;
+  }
+
+  .anime-card img {
+    height: 230px;
+  }
+
+  .blog-card {
+    flex-direction: column;
+  }
+
+  .blog-card img {
+    width: 100%;
+    height: 180px;
+  }
+
   .contact-content h1 {
     font-size: 2.2rem;
   }
