@@ -1,0 +1,82 @@
+[
+  {
+    "id": "luffy",
+    "titulo": "Luffy",
+    "categoria": "anime",
+    "tipo": "fanart",
+    "imagen": "../../assets/img/anime/one-piece/portada.webp",
+    "favorito": true
+  },
+  {
+    "id": "naruto",
+    "titulo": "Naruto",
+    "categoria": "anime",
+    "tipo": "personaje",
+    "imagen": "../../assets/img/anime/naruto/portada.jpg",
+    "favorito": true
+  },
+  {
+    "id": "paisaje",
+    "titulo": "Paisaje mágico",
+    "categoria": "arte",
+    "tipo": "ilustracion",
+    "imagen": "../../assets/img/blog/noticia-2.jpg",
+    "favorito": false
+  },
+  {
+    "id": "estudio",
+    "titulo": "Estudio nocturno",
+    "categoria": "arte",
+    "tipo": "concept art",
+    "imagen": "../../assets/img/galeria/arte/ilustracion.jpg",
+    "favorito": true
+  },
+  {
+    "id": "jujutsu",
+    "titulo": "Jujutsu Kaisen",
+    "categoria": "anime",
+    "tipo": "fanart",
+    "imagen": "../../assets/img/anime/jujutsu-kaisen/portada.jpg",
+    "favorito": true
+  },
+  {
+    "id": "demon",
+    "titulo": "Demon Slayer",
+    "categoria": "anime",
+    "tipo": "escena",
+    "imagen": "../../assets/img/anime/demon-slayer/portada.jpg",
+    "favorito": false
+  },
+  {
+    "id": "fondo-ciudad",
+    "titulo": "Ciudad violeta",
+    "categoria": "arte",
+    "tipo": "fondo",
+    "imagen": "../../assets/img/general/fondo.png",
+    "favorito": false
+  },
+  {
+    "id": "solo",
+    "titulo": "Solo Leveling",
+    "categoria": "anime",
+    "tipo": "fanart",
+    "imagen": "../../assets/img/anime/solo-leveling/portada.webp",
+    "favorito": true
+  },
+  {
+    "id": "frieren",
+    "titulo": "Frieren",
+    "categoria": "anime",
+    "tipo": "personaje",
+    "imagen": "../../assets/img/anime/frieren/portada.webp",
+    "favorito": true
+  },
+  {
+    "id": "flores",
+    "titulo": "Flores lunares",
+    "categoria": "arte",
+    "tipo": "ilustracion",
+    "imagen": "../../assets/img/general/favoritos-banner.jpg",
+    "favorito": false
+  }
+]

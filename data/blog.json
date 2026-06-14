@@ -1,0 +1,62 @@
+[
+  {
+    "id": "demon-slayer-trailer",
+    "titulo": "Demon Slayer: Rumbo al Entrenamiento de los Pilares ya tiene fecha de estreno",
+    "categoria": "anime",
+    "tag": "Estreno",
+    "fecha": "12 Mayo 2024",
+    "comentarios": 24,
+    "imagen": "../../assets/img/blog/noticia-1.jpg",
+    "descripcion": "La nueva película llegará a cines de todo el mundo este próximo verano."
+  },
+  {
+    "id": "jujutsu-temporada-3",
+    "titulo": "Jujutsu Kaisen temporada 3 CONFIRMADA",
+    "categoria": "anime",
+    "tag": "Anime",
+    "fecha": "10 Mayo 2024",
+    "comentarios": 16,
+    "imagen": "../../assets/img/anime/jujutsu-kaisen/portada.jpg",
+    "descripcion": "Nuevo visual y teaser revelados durante el evento especial."
+  },
+  {
+    "id": "fondos-paisaje",
+    "titulo": "Cómo crear atmósferas increíbles en tus ilustraciones",
+    "categoria": "arte",
+    "tag": "Tutorial",
+    "fecha": "8 Mayo 2024",
+    "comentarios": 32,
+    "imagen": "../../assets/img/blog/noticia-2.jpg",
+    "descripcion": "Aprende técnicas de iluminación, color y composición para dar vida a tus escenas."
+  },
+  {
+    "id": "tabletas-graficas",
+    "titulo": "Las mejores tabletas gráficas para dibujar en 2024",
+    "categoria": "arte",
+    "tag": "Herramientas",
+    "fecha": "11 Mayo 2024",
+    "comentarios": 19,
+    "imagen": "../../assets/img/galeria/arte/ilustracion.jpg",
+    "descripcion": "Guía completa para elegir una tableta según tu presupuesto."
+  },
+  {
+    "id": "one-piece-saga",
+    "titulo": "One Piece anuncia una nueva saga para el anime",
+    "categoria": "anime",
+    "tag": "Anuncio",
+    "fecha": "10 Mayo 2024",
+    "comentarios": 18,
+    "imagen": "../../assets/img/anime/one-piece/portada.webp",
+    "descripcion": "La historia de Luffy continúa con una aventura épica."
+  },
+  {
+    "id": "teoria-color",
+    "titulo": "Teoría del color: cómo elegir paletas efectivas",
+    "categoria": "arte",
+    "tag": "Tutorial",
+    "fecha": "8 Mayo 2024",
+    "comentarios": 17,
+    "imagen": "../../assets/img/general/fondo.png",
+    "descripcion": "Entiende colores y emociones para transmitir mejor."
+  }
+]

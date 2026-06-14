@@ -1,68 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Explorador Anime | Yumeverse</title>
-
-  <link rel="icon" type="image/png" href="../../assets/img/iconos/logo.png" />
-  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="icon" type="image/png" href="../../assets/img/general/logo.png">
+  <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
-
-<body>
-
+<body class="">
 <header class="header">
   <nav class="navbar">
-
-    <a href="../../index.html" class="logo logo-with-img">
-      <img src="../../assets/img/general/logo.png" alt="Logo Yumeverse">
-      <span>YUME<b>VERSE</b></span>
+    <a href="../../index.html" class="logo logo-container">
+      <img src="../../assets/img/general/logo.png" alt="Yumeverse Logo">
+      <span>YUME<span>VERSE</span></span>
     </a>
 
     <ul class="nav-links">
-      <li><a href="../../index.html">Inicio</a></li>
+      <li><a href="../../index.html" class="">Inicio</a></li>
 
       <li class="nav-dropdown">
-        <a href="explorador.html" class="active">Anime</a>
+        <a href="../../pages/anime/explorador.html" class="active">Anime</a>
         <div class="dropdown-menu">
-          <a href="explorador.html">Explorador</a>
-          <a href="mi-coleccion.html">Mi colección</a>
+          <a href="../../pages/anime/explorador.html">Explorador</a>
+          <a href="../../pages/anime/mi-coleccion.html">Mi colección</a>
         </div>
       </li>
 
       <li class="nav-dropdown">
-        <a href="../asiaticos/catalogo.html">Asiáticos</a>
+        <a href="../../pages/asiaticos/catalogo.html" class="">Asiáticos</a>
         <div class="dropdown-menu">
-          <a href="../asiaticos/catalogo.html">Catálogo</a>
-          <a href="../asiaticos/manga.html">Manga</a>
-          <a href="../asiaticos/manhua.html">Manhua</a>
-          <a href="../asiaticos/manhwa.html">Manhwa</a>
-          <a href="../asiaticos/occidentales.html">Occidentales</a>
-          <a href="../asiaticos/mi-coleccion.html">Mi colección</a>
+          <a href="../../pages/asiaticos/catalogo.html">Catálogo</a>
+          <a href="../../pages/asiaticos/manga.html">Manga</a>
+          <a href="../../pages/asiaticos/manhua.html">Manhua</a>
+          <a href="../../pages/asiaticos/manhwa.html">Manhwa</a>
+          <a href="../../pages/asiaticos/occidentales.html">Occidentales</a>
+          <a href="../../pages/asiaticos/mi-coleccion.html">Mi colección</a>
         </div>
       </li>
 
       <li class="nav-dropdown">
-        <a href="../blog/index.html">Blog</a>
+        <a href="../../pages/blog/index.html" class="">Blog</a>
         <div class="dropdown-menu">
-          <a href="../blog/index.html">Blog principal</a>
-          <a href="../blog/noticias-anime.html">Noticias Anime</a>
-          <a href="../blog/noticias-arte.html">Noticias Arte</a>
+          <a href="../../pages/blog/index.html">Blog principal</a>
+          <a href="../../pages/blog/noticias-anime.html">Noticias Anime</a>
+          <a href="../../pages/blog/noticias-arte.html">Noticias Arte</a>
         </div>
       </li>
 
       <li class="nav-dropdown">
-        <a href="../galeria/index.html">Galería</a>
+        <a href="../../pages/galeria/index.html" class="">Galería</a>
         <div class="dropdown-menu">
-          <a href="../galeria/index.html">Galería principal</a>
-          <a href="../galeria/anime.html">Anime</a>
-          <a href="../galeria/arte.html">Arte</a>
+          <a href="../../pages/galeria/index.html">Galería principal</a>
+          <a href="../../pages/galeria/anime.html">Anime</a>
+          <a href="../../pages/galeria/arte.html">Arte</a>
         </div>
       </li>
 
-      <li><a href="../favoritos.html">Favoritos</a></li>
-      <li><a href="../../contacto.html">Contacto</a></li>
+      <li><a href="../../pages/favoritos.html" class="">Favoritos</a></li>
+      <li><a href="../../contacto.html" class="">Contacto</a></li>
     </ul>
 
     <button class="search-btn" aria-label="Buscar">⌕</button>
@@ -70,80 +65,68 @@
 </header>
 
 <main class="explorer-page">
-
   <section class="explorer-hero anime-hero">
     <div class="hero-content">
-      <span class="section-label">🎌 Explorador Anime</span>
-
-      <h1>Descubre nuevas historias</h1>
-
-      <p>
-        Busca, filtra y explora todo el catálogo anime de Yumeverse.
-        Encuentra tus próximos favoritos y abre su ficha completa.
-      </p>
-
-      <div class="hero-buttons">
-        <a href="mi-coleccion.html" class="btn btn-primary">Mi colección</a>
-        <a href="#anime-explorer-container" class="btn btn-dark">Explorar catálogo</a>
+      <span class="section-label">▻ Explorador Anime</span>
+      <h1>Explorador de Anime</h1>
+      <p>Descubre nuevos animes, busca por género, estado, año y valoración.</p>
+      <div class="hero-buttons"><a href="mi-coleccion.html" class="btn btn-primary">Mi colección</a><a href="#anime-explorer-container" class="btn btn-dark">Ver catálogo</a></div>
+    </div>
+  </section>
+  <section class="explorer-panel">
+    <div class="explorer-search"><input type="text" id="anime-search" placeholder="Buscar anime, género, estudio..."></div>
+    <div class="explorer-filters">
+      <select id="filter-genero"><option value="">Género: todos</option></select>
+      <select id="filter-estado"><option value="">Estado: todos</option><option value="emision">En emisión</option><option value="finalizado">Finalizado</option><option value="pausado">Pausado</option><option value="cancelado">Cancelado</option></select>
+      <select id="filter-year"><option value="">Año: todos</option></select>
+      <select id="sort-anime"><option value="titulo">Ordenar por nombre</option><option value="valoracion">Mejor valoración</option><option value="year">Más reciente</option></select>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-header"><h2>Catálogo Anime</h2><span id="anime-count">0 resultados</span></div>
+    <div class="explorer-grid" id="anime-explorer-container"></div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <h2>YUME<span>VERSE</span></h2>
+      <p>Tu universo de anime, manga, arte y mucho más.</p>
+      <div class="socials">
+        <a href="#">Discord</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">YouTube</a>
       </div>
     </div>
-  </section>
-
-  <section class="explorer-panel">
-
-    <div class="explorer-search">
-      <input
-        type="text"
-        id="anime-search"
-        placeholder="Buscar anime por nombre o descripción..."
-      />
+    <div>
+      <h3>Navegación</h3>
+      <a href="../../index.html">Inicio</a>
+      <a href="../../pages/anime/explorador.html">Anime</a>
+      <a href="../../pages/asiaticos/catalogo.html">Asiáticos</a>
+      <a href="../../pages/blog/index.html">Blog</a>
+      <a href="../../pages/galeria/index.html">Galería</a>
+      <a href="../../pages/favoritos.html">Favoritos</a>
     </div>
-
-    <div class="explorer-filters">
-      <select id="filter-genero">
-        <option value="">Todos los géneros</option>
-      </select>
-
-      <select id="filter-estado">
-        <option value="">Todos los estados</option>
-        <option value="emision">En emisión</option>
-        <option value="finalizado">Finalizado</option>
-        <option value="pausado">Pausado</option>
-        <option value="cancelado">Cancelado</option>
-      </select>
-
-      <select id="filter-year">
-        <option value="">Todos los años</option>
-      </select>
-
-      <select id="sort-anime">
-        <option value="titulo">Nombre A-Z</option>
-        <option value="valoracion">Mejor valoración</option>
-        <option value="year">Año más reciente</option>
-      </select>
+    <div>
+      <h3>Recursos</h3>
+      <a href="../../pages/anime/explorador.html">Novedades</a>
+      <a href="../../pages/anime/mi-coleccion.html">Mi colección</a>
+      <a href="../../pages/galeria/anime.html">Personajes</a>
+      <a href="../../pages/galeria/arte.html">Ilustraciones</a>
+      <a href="../../contacto.html">Contacto</a>
     </div>
-
-  </section>
-
-  <section class="section">
-    <div class="section-header">
-      <h2>Catálogo Anime</h2>
-      <span id="anime-count">0 resultados</span>
+    <div>
+      <h3>Newsletter</h3>
+      <p>Recibe novedades y actualizaciones.</p>
+      <form class="newsletter">
+        <input type="email" placeholder="Tu correo electrónico">
+        <button type="submit">Suscribirme</button>
+      </form>
     </div>
-
-    <div class="explorer-grid" id="anime-explorer-container">
-      <!-- Se carga desde ../../data/anime-explorador.json -->
-    </div>
-  </section>
-
-</main>
-
-<footer class="footer">
-  <div class="footer-bottom">
-    <p>© 2025 Yumeverse. Todos los derechos reservados.</p>
   </div>
+  <div class="footer-bottom"><p>© 2025 Yumeverse. Todos los derechos reservados.</p></div>
 </footer>
-
 <script src="../../assets/js/script.js"></script>
 </body>
 </html>
