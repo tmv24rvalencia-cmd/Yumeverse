@@ -228,3 +228,377 @@ function actualizarContadores(datos) {
   document.getElementById("total-arte").textContent =
     datos.personajes.length + datos.ilustraciones.length;
 }
+let coleccionAnime = [];
+
+async function cargarColeccionAnime() {
+  const contenedor = document.getElementById("coleccion-anime-container");
+
+  if (!contenedor) return;
+
+  try {
+    const respuesta = await fetch("../../data/anime-mi-coleccion.json");
+
+    if (!respuesta.ok) {
+      throw new Error("No se pudo cargar anime-mi-coleccion.json");
+    }
+
+    coleccionAnime = await respuesta.json();
+
+    pintarColeccionAnime(coleccionAnime);
+    actualizarContadoresColeccion(coleccionAnime);
+    iniciarFiltrosColeccion();
+
+  } catch (error) {
+    console.error(error);
+    contenedor.innerHTML = `
+      <p class="empty-message">
+        No se pudo cargar tu colección de anime.
+      </p>
+    `;
+  }
+}
+
+function pintarColeccionAnime(items) {
+  const contenedor = document.getElementById("coleccion-anime-container");
+  const empty = document.getElementById("empty-coleccion");
+
+  if (!contenedor) return;
+
+  contenedor.innerHTML = "";
+
+  if (!items.length) {
+    if (empty) empty.hidden = false;
+    return;
+  }
+
+  if (empty) empty.hidden = true;
+
+  items.forEach((anime) => {
+    const progreso = calcularProgreso(
+      anime.episodios_vistos,
+      anime.episodios_totales
+    );
+
+    contenedor.innerHTML += `
+      <article class="collection-card">
+        <a href="detalle.html?id=${anime.id}">
+          <img src="${anime.imagen}" alt="${anime.titulo}">
+        </a>
+
+        <div class="collection-info">
+          <span class="collection-status">${formatearEstado(anime.estado)}</span>
+
+          <h3>${anime.titulo}</h3>
+
+          <p>${anime.descripcion}</p>
+
+          <p>
+            Episodios: ${anime.episodios_vistos} / 
+            ${anime.episodios_totales === 9999 ? "?" : anime.episodios_totales}
+          </p>
+
+          <div class="progress-bar">
+            <div class="progress" style="width: ${progreso}%"></div>
+          </div>
+
+          <div class="rating">
+            ⭐ ${anime.valoracion}
+            ${anime.favorito ? " · ♡ Favorito" : ""}
+          </div>
+        </div>
+      </article>
+    `;
+  });
+}
+
+function actualizarContadoresColeccion(items) {
+  const vistos = items.filter(item => item.episodios_vistos > 0).length;
+  const completados = items.filter(item => item.estado === "completado").length;
+  const viendo = items.filter(item => item.estado === "viendo").length;
+  const pendientes = items.filter(item => item.estado === "pendiente").length;
+  const abandonados = items.filter(item => item.estado === "abandonado").length;
+  const favoritos = items.filter(item => item.favorito).length;
+
+  asignarTexto("total-vistos", vistos);
+  asignarTexto("total-completados", completados);
+  asignarTexto("total-viendo", viendo);
+  asignarTexto("total-pendientes", pendientes);
+  asignarTexto("total-abandonados", abandonados);
+  asignarTexto("total-favoritos-anime", favoritos);
+}
+
+function iniciarFiltrosColeccion() {
+  const tabs = document.querySelectorAll(".collection-tab");
+  const buscador = document.getElementById("buscar-coleccion");
+  const ordenar = document.getElementById("ordenar-coleccion");
+
+  let filtroActual = "todos";
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach((btn) => btn.classList.remove("active"));
+      tab.classList.add("active");
+
+      filtroActual = tab.dataset.filter;
+      aplicarFiltrosColeccion(filtroActual);
+    });
+  });
+
+  if (buscador) {
+    buscador.addEventListener("input", () => {
+      aplicarFiltrosColeccion(filtroActual);
+    });
+  }
+
+  if (ordenar) {
+    ordenar.addEventListener("change", () => {
+      aplicarFiltrosColeccion(filtroActual);
+    });
+  }
+}
+
+function aplicarFiltrosColeccion(filtro) {
+  const buscador = document.getElementById("buscar-coleccion");
+  const ordenar = document.getElementById("ordenar-coleccion");
+
+  const texto = buscador ? buscador.value.toLowerCase().trim() : "";
+  const orden = ordenar ? ordenar.value : "nombre";
+
+  let resultado = [...coleccionAnime];
+
+  if (filtro !== "todos") {
+    if (filtro === "favorito") {
+      resultado = resultado.filter(item => item.favorito);
+    } else {
+      resultado = resultado.filter(item => item.estado === filtro);
+    }
+  }
+
+  if (texto) {
+    resultado = resultado.filter(item =>
+      item.titulo.toLowerCase().includes(texto) ||
+      item.descripcion.toLowerCase().includes(texto)
+    );
+  }
+
+  if (orden === "nombre") {
+    resultado.sort((a, b) => a.titulo.localeCompare(b.titulo));
+  }
+
+  if (orden === "valoracion") {
+    resultado.sort((a, b) => b.valoracion - a.valoracion);
+  }
+
+  if (orden === "progreso") {
+    resultado.sort((a, b) => {
+      const progresoA = calcularProgreso(a.episodios_vistos, a.episodios_totales);
+      const progresoB = calcularProgreso(b.episodios_vistos, b.episodios_totales);
+      return progresoB - progresoA;
+    });
+  }
+
+  pintarColeccionAnime(resultado);
+}
+
+function calcularProgreso(vistos, totales) {
+  if (!totales || totales === 9999) return 50;
+
+  const progreso = (vistos / totales) * 100;
+
+  return Math.min(Math.round(progreso), 100);
+}
+
+function formatearEstado(estado) {
+  const estados = {
+    viendo: "Viendo",
+    completado: "Completado",
+    pendiente: "Pendiente",
+    abandonado: "Abandonado"
+  };
+
+  return estados[estado] || estado;
+}
+
+function asignarTexto(id, valor) {
+  const elemento = document.getElementById(id);
+
+  if (elemento) {
+    elemento.textContent = valor;
+  }
+}
+let animeExplorer = [];
+
+async function cargarExploradorAnime() {
+  const contenedor = document.getElementById("anime-explorer-container");
+
+  if (!contenedor) return;
+
+  try {
+    const respuesta = await fetch("../../data/anime.json");
+
+    if (!respuesta.ok) {
+      throw new Error("No se pudo cargar anime.json");
+    }
+
+    animeExplorer = await respuesta.json();
+
+    pintarExploradorAnime(animeExplorer);
+    cargarOpcionesExplorador(animeExplorer);
+    iniciarFiltrosExplorador();
+  } catch (error) {
+    console.error(error);
+    contenedor.innerHTML = `
+      <p class="empty-message">
+        No se pudo cargar el catálogo de anime.
+      </p>
+    `;
+  }
+}
+
+function pintarExploradorAnime(items) {
+  const contenedor = document.getElementById("anime-explorer-container");
+  const contador = document.getElementById("anime-count");
+
+  if (!contenedor) return;
+
+  contenedor.innerHTML = "";
+
+  if (contador) {
+    contador.textContent = `${items.length} resultados`;
+  }
+
+  if (!items.length) {
+    contenedor.innerHTML = `
+      <p class="empty-message">
+        No se encontraron animes.
+      </p>
+    `;
+    return;
+  }
+
+  items.forEach((anime) => {
+    contenedor.innerHTML += `
+      <article class="explorer-card">
+        <img src="${anime.imagen}" alt="${anime.titulo}">
+
+        <div class="explorer-card-content">
+          <h3>${anime.titulo}</h3>
+          <p>${anime.generos.join(" · ")}</p>
+          <p>${formatearEstadoAnime(anime.estado)} · ${anime.year}</p>
+
+          <div class="explorer-meta">
+            <span>⭐ ${anime.valoracion}</span>
+            <span>${anime.tipo || "Anime"}</span>
+          </div>
+
+          <a href="detalle.html?id=${anime.id}" class="explorer-btn">
+            Ver detalle
+          </a>
+        </div>
+      </article>
+    `;
+  });
+}
+
+function cargarOpcionesExplorador(items) {
+  const selectGenero = document.getElementById("filter-genero");
+  const selectYear = document.getElementById("filter-year");
+
+  if (!selectGenero || !selectYear) return;
+
+  const generos = new Set();
+  const years = new Set();
+
+  items.forEach((anime) => {
+    anime.generos.forEach((genero) => generos.add(genero));
+    years.add(anime.year);
+  });
+
+  [...generos].sort().forEach((genero) => {
+    selectGenero.innerHTML += `
+      <option value="${genero}">${genero}</option>
+    `;
+  });
+
+  [...years].sort((a, b) => b - a).forEach((year) => {
+    selectYear.innerHTML += `
+      <option value="${year}">${year}</option>
+    `;
+  });
+}
+
+function iniciarFiltrosExplorador() {
+  const buscador = document.getElementById("anime-search");
+  const genero = document.getElementById("filter-genero");
+  const estado = document.getElementById("filter-estado");
+  const year = document.getElementById("filter-year");
+  const ordenar = document.getElementById("sort-anime");
+
+  [buscador, genero, estado, year, ordenar].forEach((elemento) => {
+    if (!elemento) return;
+
+    elemento.addEventListener("input", aplicarFiltrosExplorador);
+    elemento.addEventListener("change", aplicarFiltrosExplorador);
+  });
+}
+
+function aplicarFiltrosExplorador() {
+  const buscador = document.getElementById("anime-search");
+  const genero = document.getElementById("filter-genero");
+  const estado = document.getElementById("filter-estado");
+  const year = document.getElementById("filter-year");
+  const ordenar = document.getElementById("sort-anime");
+
+  const texto = buscador ? buscador.value.toLowerCase().trim() : "";
+  const generoValor = genero ? genero.value : "";
+  const estadoValor = estado ? estado.value : "";
+  const yearValor = year ? year.value : "";
+  const ordenValor = ordenar ? ordenar.value : "titulo";
+
+  let resultado = [...animeExplorer];
+
+  if (texto) {
+    resultado = resultado.filter((anime) =>
+      anime.titulo.toLowerCase().includes(texto)
+    );
+  }
+
+  if (generoValor) {
+    resultado = resultado.filter((anime) =>
+      anime.generos.includes(generoValor)
+    );
+  }
+
+  if (estadoValor) {
+    resultado = resultado.filter((anime) => anime.estado === estadoValor);
+  }
+
+  if (yearValor) {
+    resultado = resultado.filter((anime) => String(anime.year) === yearValor);
+  }
+
+  if (ordenValor === "titulo") {
+    resultado.sort((a, b) => a.titulo.localeCompare(b.titulo));
+  }
+
+  if (ordenValor === "valoracion") {
+    resultado.sort((a, b) => b.valoracion - a.valoracion);
+  }
+
+  if (ordenValor === "year") {
+    resultado.sort((a, b) => b.year - a.year);
+  }
+
+  pintarExploradorAnime(resultado);
+}
+
+function formatearEstadoAnime(estado) {
+  const estados = {
+    emision: "En emisión",
+    finalizado: "Finalizado",
+    pausado: "Pausado",
+    cancelado: "Cancelado"
+  };
+
+  return estados[estado] || estado;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Explorador Anime | Yumeverse</title>
+
+<link rel="stylesheet" href="../../assets/css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar">
+
+    <a href="../../index.html" class="logo">
+      YUME<span>VERSE</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="../../index.html">Inicio</a></li>
+      <li><a class="active" href="#">Anime</a></li>
+      <li><a href="../asiaticos/catalogo.html">Asiáticos</a></li>
+      <li><a href="../blog/index.html">Blog</a></li>
+      <li><a href="../galeria/index.html">Galería</a></li>
+      <li><a href="../favoritos.html">Favoritos</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+<main class="explorer-page">
+
+<section class="explorer-hero">
+
+<div class="hero-content">
+
+<span class="section-label">
+🎌 Explorador Anime
+</span>
+
+<h1>
+Descubre nuevas historias
+</h1>
+
+<p>
+Busca, filtra y explora todo el catálogo anime
+de Yumeverse.
+</p>
+
+</div>
+
+</section>
+
+<section class="explorer-search">
+
+<input
+type="text"
+id="anime-search"
+placeholder="Buscar anime..."
+>
+
+</section>
+
+<section class="explorer-filters">
+
+<select id="filter-genero">
+<option value="">Todos los géneros</option>
+</select>
+
+<select id="filter-estado">
+<option value="">Todos los estados</option>
+<option value="emision">En emisión</option>
+<option value="finalizado">Finalizado</option>
+</select>
+
+<select id="filter-year">
+<option value="">Todos los años</option>
+</select>
+
+<select id="sort-anime">
+<option value="titulo">Nombre A-Z</option>
+<option value="valoracion">Valoración</option>
+<option value="year">Año</option>
+</select>
+
+</section>
+
+<section class="section">
+
+<div class="section-header">
+
+<h2>
+Catálogo Anime
+</h2>
+
+<span id="anime-count">
+0 resultados
+</span>
+
+</div>
+
+<div
+class="explorer-grid"
+id="anime-explorer-container">
+
+</div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+
+<div class="footer-bottom">
+© 2025 Yumeverse
+</div>
+
+</footer>
+
+<script src="../../assets/js/script.js"></script>
+
+</body>
+</html>

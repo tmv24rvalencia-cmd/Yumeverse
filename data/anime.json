@@ -86,5 +86,14 @@
     "favorito": false,
     "imagen": "../../assets/img/anime/tokyo-ghoul/portada.webp",
     "descripcion": "Un estudiante atrapado entre humanos y ghouls."
+  },
+  {
+    "id":"naruto",
+    "titulo":"Naruto",
+    "imagen":"../../assets/img/anime/naruto/cover.webp",
+    "generos":["Acción","Shonen"],
+    "estado":"finalizado",
+    "year":2002,
+    "valoracion":9.4
   }
 ]
