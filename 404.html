@@ -1,20 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Yumeverse: anime, manga, arte y colección.">
-    <title>404 | Yumeverse</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="La página que buscas no existe.">
+  <title>Página no encontrada | Yumeverse</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-    <header id="cabecera-principal"></header>
+  <header class="cabecera-sitio">
+    <nav class="contenedor" aria-label="Navegación principal">
+      <a href="index.html" aria-label="Ir al inicio">Yumeverse</a>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="anime/index.html">Anime</a></li>
+        <li><a href="asiaticos/index.html">Asiáticos</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="galeria/index.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <h1>404</h1>
-    </main>
+  <main class="contenido-principal">
+    <section class="contenedor cabecera-pagina">
+      <p class="cabecera-pagina__etiqueta">Yumeverse</p>
+      <h1>Página no encontrada</h1>
+      <p>La página que buscas no existe.</p>
+    </section>
+  </main>
 
-    <footer id="pie-principal"></footer>
-    <script type="module" src="/assets/js/main.js"></script>
+  <footer class="contenedor">
+    <p>&copy; <span id="current-year"></span> Yumeverse.</p>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
+  <script src="assets/js/navigation.js" defer></script>
 </body>
 </html>

@@ -1,10 +1,22 @@
+/* Identidad visual de Yumeverse */
 :root {
-    --color-fondo: #0d1020;
-    --color-superficie: #171a2e;
-    --color-texto: #f8f7ff;
-    --color-texto-suave: #b8b9c9;
-    --color-principal: #8b5cf6;
-    --color-secundario: #ec4899;
-    --radio: 16px;
-    --sombra: 0 18px 45px rgba(0, 0, 0, 0.25);
+  --color-fondo: #100d19;
+  --color-superficie: #1a1528;
+  --color-superficie-clara: #241c36;
+  --color-texto: #f8f5ff;
+  --color-texto-suave: #bdb5cc;
+  --color-primario: #ee5da8;
+  --color-secundario: #8d6bff;
+  --color-borde: rgba(255, 255, 255, 0.12);
+
+  --fuente-titulos: "Bodoni Moda", Georgia, serif;
+  --fuente-menu: "Marcellus", Georgia, serif;
+  --fuente-texto: "Manrope", Arial, sans-serif;
+
+  --radio-sm: 0.5rem;
+  --radio-md: 1rem;
+  --radio-lg: 1.5rem;
+  --sombra: 0 1.25rem 3.5rem rgba(0, 0, 0, 0.28);
+  --ancho-contenido: 75rem;
+  --transicion: 180ms ease;
 }
