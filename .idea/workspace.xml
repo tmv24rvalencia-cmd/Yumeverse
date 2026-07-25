@@ -4,81 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30644a7-7003-4c6d-a4d2-d3072d898724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/yumeverse.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/505.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/505.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tareas.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tareas.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/binan-koukou/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/chibi-devi/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/dr-stone/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/fairy-tail/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/binan-koukou.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/chibi-devi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/dr-stone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/fairy-tail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/given.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/horimiya.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/inazuma-eleven.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/iruma-kun.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/junjou-romantica.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/kimetsu-no-yaiba.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/loveless.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/mahoutsukai-no-yome.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/nanbaka.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/servamp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/sk8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/slime.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/solo-leveling.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/super-lovers.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/ufo-baby.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/favoritos/yuri-on-ice.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/given/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/horimiya/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/inazuma-eleven/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/iruma-kun/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/junjou-romantica/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/kimetsu-no-yaiba/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/kimetsu-no-yaiba/portada.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/loveless/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/mahoutsukai-no-yome/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/nanbaka/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/servamp/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/servamp/portada.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/sk8/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/slime/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/solo-leveling/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/super-lovers/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/ufo-baby/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/anime/yuri-on-ice/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/asiaticos/solo-leveling/portada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favoritos/favoritos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/galeria/arte/ilustracion.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/general/asiaticos-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/general/blog-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/busqueda.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/busqueda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/anime/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/anime/detalle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/anime/explorador.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/anime/explorador.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/anime/mi-coleccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/anime/mi-coleccion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/asiaticos/catalogo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaticos/catalogo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/asiaticos/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaticos/detalle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/asiaticos/manga.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaticos/manga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/asiaticos/manhua.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaticos/manhua.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/asiaticos/manhwa.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaticos/manhwa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/asiaticos/mi-coleccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaticos/mi-coleccion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/asiaticos/occidentales.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaticos/occidentales.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog/noticias-anime.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/noticias-anime.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog/noticias-arte.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/noticias-arte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/favoritos.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/favoritos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/galeria/anime.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/galeria/anime.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/galeria/arte.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/galeria/arte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/galeria/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/galeria/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacidad.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/privacidad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sobre-mi.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sobre-mi.html" afterDir="false" />
+    <list default="true" id="d30644a7-7003-4c6d-a4d2-d3072d898724" name="Changes" comment="main">
+      <change beforePath="$PROJECT_DIR$/anime/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/detalle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/explorador.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/explorador.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anime/mi-coleccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/mi-coleccion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/components.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/pages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crear_estructura_yumeverse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +39,65 @@
     &quot;accountId&quot;: &quot;bddae014-7382-457f-ac75-37af8e3305b6&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0" />
+      <entry key="M30" value="1.0" />
+      <entry key="H1" value="1.0" />
+      <entry key="H2" value="1.0" />
+      <entry key="H4" value="1.0" />
+      <entry key="D1" value="1.0" />
+      <entry key="W1" value="1.0" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9330329915368074" />
+      <entry key="MS500" value="0.9862327044933592" />
+      <entry key="S2" value="0.9965402628278678" />
+      <entry key="S5" value="0.9986146661010289" />
+      <entry key="S10" value="0.9993070929904525" />
+      <entry key="S30" value="0.9997689776295918" />
+      <entry key="S60" value="0.9998844821426083" />
+      <entry key="M2" value="0.9999422394031608" />
+      <entry key="M5" value="0.9999768953608976" />
+      <entry key="M10" value="0.99998844761372" />
+      <entry key="M15" value="0.9999922983943179" />
+      <entry key="M30" value="0.9999961491897447" />
+      <entry key="H1" value="0.9999980745930187" />
+      <entry key="H2" value="0.999999037296046" />
+      <entry key="H4" value="0.9999995186479071" />
+      <entry key="D1" value="0.9999999197746351" />
+      <entry key="W1" value="0.9999999885392332" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -111,29 +109,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.crear_estructura_yumeverse.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tmv24/OneDrive/Documentos/Yumeverse&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.crear_estructura_yumeverse.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/tmv24/PycharmProjects/Yumeverse",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tmv24\PycharmProjects\Yumeverse" />
       <recent name="C:\Users\tmv24\OneDrive\Documentos\Yumeverse" />
       <recent name="C:\Users\tmv24\OneDrive\Documentos\Yumeverse\assets\css" />
     </key>
@@ -188,13 +188,27 @@
       <option name="presentableId" value="Default" />
       <updated>1781963224305</updated>
       <workItem from="1784973682463" duration="3773000" />
+      <workItem from="1784995042918" duration="3133000" />
     </task>
+    <task id="LOCAL-00001" summary="main">
+      <option name="closed" value="true" />
+      <created>1784995191660</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784995191661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main" />
+    <option name="LAST_COMMIT_MESSAGE" value="main" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Yumeverse$crear_estructura_yumeverse.coverage" NAME="crear_estructura_yumeverse Coverage Results" MODIFIED="1784994499561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Yumeverse$crear_estructura_yumeverse.coverage" NAME="crear_estructura_yumeverse Coverage Results" MODIFIED="1784995130902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

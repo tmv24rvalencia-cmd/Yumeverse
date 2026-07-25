@@ -1,16 +1,365 @@
-/* Adaptación a tabletas y móviles */
-@media (max-width: 56rem) {
-  .rejilla {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+@media (max-width: 1160px) {
+  :root {
+    --container: 1040px;
+  }
+
+  .container {
+    width: min(var(--container), calc(100% - 48px));
+  }
+
+  .header-main {
+    gap: 20px;
+  }
+
+  .search__label,
+  .header-action--profile {
+    display: none;
+  }
+
+  .main-nav__inner {
+    width: 100%;
+  }
+
+  .nav-link {
+    min-width: 0;
+    padding-inline: 18px;
+  }
+
+  .nav-item,
+  .nav-parent {
+    flex: 1;
+  }
+
+  .nav-item .nav-link {
+    flex: 1;
+  }
+
+  .hero-note {
+    right: 24px;
+  }
+
+  .updates-grid {
+    grid-template-columns: 1.25fr 1fr;
+  }
+
+  .update-card--art {
+    min-height: 290px;
+    grid-column: 1 / -1;
+  }
+
+  .collection-panel {
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
   }
 }
 
-@media (max-width: 42rem) {
-  .contenido-principal {
-    padding-block: 3.5rem;
+@media (max-width: 820px) {
+  :root {
+    --header-main-height: 68px;
+    --nav-height: 0px;
   }
 
-  .rejilla {
+  html {
+    scroll-padding-top: 84px;
+  }
+
+  .container {
+    width: calc(100% - 36px);
+  }
+
+  .header-main {
+    position: relative;
+    gap: 12px;
+  }
+
+  .brand__symbol {
+    width: 36px;
+    height: 36px;
+  }
+
+  .brand__name {
+    font-size: 1.05rem;
+  }
+
+  .search {
+    height: 40px;
+  }
+
+  .search__button {
+    width: 44px;
+    flex-basis: 44px;
+  }
+
+  .header-actions {
+    display: none;
+  }
+
+  .menu-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex: 0 0 40px;
+    border-radius: var(--radius-xs);
+    background: #1c1a27;
+  }
+
+  .menu-button span {
+    width: 18px;
+    height: 1px;
+    display: block;
+    background: var(--color-white);
+    transition: transform var(--transition), opacity var(--transition);
+  }
+
+  .nav-check:checked + .menu-button span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .nav-check:checked + .menu-button span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-check:checked + .menu-button span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  .main-nav {
+    max-height: 0;
+    position: absolute;
+    top: var(--header-main-height);
+    left: 0;
+    right: 0;
+    overflow: auto;
+    border-top: 0;
+    box-shadow: var(--shadow-deep);
+    transition: max-height 320ms ease;
+  }
+
+  .header-main:has(.nav-check:checked) + .main-nav {
+    max-height: calc(100vh - var(--header-main-height));
+    border-top: 1px solid var(--color-line);
+  }
+
+  .main-nav__inner {
+    width: 100%;
+    height: auto;
+    padding: 9px;
+    display: block;
+  }
+
+  .nav-item,
+  .nav-parent {
+    width: 100%;
+    display: flex;
+  }
+
+  .nav-link {
+    min-height: 48px;
+    padding-inline: 18px;
+    flex: 1;
+    justify-content: flex-start;
+    border-bottom: 0;
+    border-left: 2px solid transparent;
+  }
+
+  .nav-link.is-active {
+    border-left-color: var(--color-pink);
+  }
+
+  .nav-spark {
+    width: 50px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.025);
+  }
+
+  .nav-dropdown,
+  .nav-item:hover .nav-dropdown {
+    width: 100%;
+    max-height: 0;
+    position: static;
+    padding: 0 8px 0 20px;
+    overflow: hidden;
+    border: 0;
+    box-shadow: none;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition: max-height var(--transition), padding var(--transition);
+  }
+
+  .nav-item:focus-within .nav-dropdown {
+    max-height: 160px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+  }
+
+  .hero {
+    min-height: 660px;
+  }
+
+  .hero__image {
+    background-position: 62% center;
+  }
+
+  .hero__veil {
+    background:
+      linear-gradient(90deg, rgba(8, 8, 17, 0.97), rgba(8, 8, 17, 0.56)),
+      linear-gradient(0deg, var(--color-ink-900), transparent 38%);
+  }
+
+  .hero h1 {
+    font-size: clamp(3.6rem, 12vw, 5.5rem);
+  }
+
+  .hero-note,
+  .hero__ornament--two {
+    display: none;
+  }
+
+  .section-heading {
+    display: block;
+  }
+
+  .section-heading > p {
+    margin-top: 20px;
+  }
+
+  .updates-grid,
+  .worlds-grid,
+  .collection-panel,
+  .start-panel {
     grid-template-columns: 1fr;
+  }
+
+  .update-card,
+  .update-card--art {
+    min-height: 320px;
+    grid-column: auto;
+  }
+
+  .collection-panel {
+    gap: 48px;
+  }
+
+  .start-panel {
+    gap: 35px;
+  }
+
+  .start-panel__star {
+    right: 30px;
+  }
+
+  .site-footer__main {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+}
+
+@media (max-width: 560px) {
+  .brand__name {
+    display: none;
+  }
+
+  .search input {
+    padding-inline: 10px;
+    font-size: 0.68rem;
+  }
+
+  .hero__content {
+    padding-block: 74px 100px;
+  }
+
+  .hero h1 {
+    font-size: clamp(3.15rem, 15vw, 4.55rem);
+    letter-spacing: -0.055em;
+  }
+
+  .hero__description {
+    font-size: 0.86rem;
+  }
+
+  .hero__actions,
+  .collection-panel__actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .update-card {
+    min-height: 310px;
+    padding: 23px;
+  }
+
+  .worlds-grid {
+    display: block;
+  }
+
+  .world-card {
+    min-height: 310px;
+    margin-bottom: 12px;
+    padding: 24px;
+  }
+
+  .world-card__number {
+    left: 23px;
+    top: 21px;
+  }
+
+  .collection-stats > div {
+    min-height: 125px;
+    padding: 20px;
+  }
+
+  .collection-stats strong {
+    font-size: 1.9rem;
+  }
+
+  .start-panel {
+    padding: 29px 24px;
+  }
+
+  .footer-nav {
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+  }
+
+  .footer-nav > div:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .site-footer__bottom {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 390px) {
+  .search input::placeholder {
+    color: transparent;
+  }
+
+  .hero h1 {
+    font-size: 3.05rem;
+  }
+
+  .collection-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .collection-stats > div,
+  .collection-stats > div:nth-child(2n),
+  .collection-stats > div:nth-child(n + 3) {
+    border-right: 0;
+    border-bottom: 1px solid var(--color-line);
+  }
+
+  .collection-stats > div:last-child {
+    border-bottom: 0;
   }
 }

@@ -1,22 +1,44 @@
 /* Identidad visual de Yumeverse */
 :root {
-  --color-fondo: #100d19;
-  --color-superficie: #1a1528;
-  --color-superficie-clara: #241c36;
-  --color-texto: #f8f5ff;
-  --color-texto-suave: #bdb5cc;
-  --color-primario: #ee5da8;
-  --color-secundario: #8d6bff;
-  --color-borde: rgba(255, 255, 255, 0.12);
+  /* Tipografía */
+  --font-display: "Bodoni Moda", Didot, "Times New Roman", serif;
+  --font-nav: "Marcellus", Georgia, serif;
+  --font-body: "Manrope", Arial, sans-serif;
 
-  --fuente-titulos: "Bodoni Moda", Georgia, serif;
-  --fuente-menu: "Marcellus", Georgia, serif;
-  --fuente-texto: "Manrope", Arial, sans-serif;
+  /* Colores */
+  --color-ink-950: #07070d;
+  --color-ink-900: #0b0a13;
+  --color-ink-850: #11101b;
+  --color-ink-800: #161522;
+  --color-ink-700: #201e2e;
+  --color-paper: #f7f2eb;
+  --color-paper-deep: #ece3d8;
+  --color-white: #ffffff;
+  --color-text: #f7f4fa;
+  --color-text-muted: #aaa6b2;
+  --color-text-dark: #1b1720;
+  --color-text-dark-muted: #716a74;
+  --color-pink: #ff4fa3;
+  --color-pink-light: #ff8bc4;
+  --color-pink-deep: #b82470;
+  --color-violet: #8b5fbd;
+  --color-lilac: #c7a6e8;
+  --color-gold: #d8bb83;
+  --color-line: rgba(255, 255, 255, 0.11);
+  --color-line-dark: rgba(28, 22, 32, 0.14);
 
-  --radio-sm: 0.5rem;
-  --radio-md: 1rem;
-  --radio-lg: 1.5rem;
-  --sombra: 0 1.25rem 3.5rem rgba(0, 0, 0, 0.28);
-  --ancho-contenido: 75rem;
-  --transicion: 180ms ease;
+  /* Sombras */
+  --shadow-soft: 0 18px 55px rgba(0, 0, 0, 0.24);
+  --shadow-deep: 0 28px 80px rgba(0, 0, 0, 0.48);
+  --shadow-pink: 0 12px 34px rgba(255, 79, 163, 0.24);
+
+  /* Bordes y medidas */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --container: 1320px;
+  --header-main-height: 78px;
+  --nav-height: 52px;
+  --transition: 220ms cubic-bezier(0.2, 0.7, 0.2, 1);
 }
