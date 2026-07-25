@@ -1,0 +1,1 @@
+// Búsqueda global de contenido

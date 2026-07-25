@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "label": "Inicio",
+      "url": "index.html"
+    },
+    {
+      "label": "Anime",
+      "url": "anime/index.html"
+    },
+    {
+      "label": "Asiáticos",
+      "url": "asiaticos/index.html"
+    },
+    {
+      "label": "Blog",
+      "url": "blog/index.html"
+    },
+    {
+      "label": "Galería",
+      "url": "galeria/index.html"
+    },
+    {
+      "label": "Contacto",
+      "url": "contacto.html"
+    }
+  ]
+}

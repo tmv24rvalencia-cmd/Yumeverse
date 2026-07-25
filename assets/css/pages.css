@@ -1,0 +1,22 @@
+/* Estilos específicos de páginas */
+.cabecera-pagina {
+  max-width: 48rem;
+}
+
+.cabecera-pagina__etiqueta {
+  margin-bottom: 0.75rem;
+  color: var(--color-primario);
+  font-family: var(--fuente-menu);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.cabecera-pagina h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(2.7rem, 7vw, 5.5rem);
+}
+
+.cabecera-pagina p {
+  color: var(--color-texto-suave);
+  font-size: 1.1rem;
+}

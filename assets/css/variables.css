@@ -1,0 +1,10 @@
+:root {
+    --color-fondo: #0d1020;
+    --color-superficie: #171a2e;
+    --color-texto: #f8f7ff;
+    --color-texto-suave: #b8b9c9;
+    --color-principal: #8b5cf6;
+    --color-secundario: #ec4899;
+    --radio: 16px;
+    --sombra: 0 18px 45px rgba(0, 0, 0, 0.25);
+}

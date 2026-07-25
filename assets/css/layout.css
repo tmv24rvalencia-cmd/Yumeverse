@@ -1,0 +1,16 @@
+/* Estructura y distribución */
+.contenedor {
+  width: min(calc(100% - 2rem), var(--ancho-contenido));
+  margin-inline: auto;
+}
+
+.contenido-principal {
+  min-height: 65vh;
+  padding-block: 5rem;
+}
+
+.rejilla {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
