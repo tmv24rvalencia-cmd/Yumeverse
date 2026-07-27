@@ -1,3 +1,455 @@
 {
-  "items": []
+  "schemaVersion": 1,
+  "section": "asiaticos",
+  "updatedAt": "2026-07-27",
+  "home": {
+    "featured": [
+      "solo-leveling",
+      "frieren",
+      "heaven-official",
+      "omniscient-reader",
+      "horimiya",
+      "nocturne-city"
+    ],
+    "latest": [
+      "after-the-rain",
+      "martial-peak",
+      "astral-guard",
+      "jujutsu-kaisen"
+    ]
+  },
+  "works": [
+    {
+      "id": "solo-leveling",
+      "title": "Solo Leveling",
+      "native": "나 혼자만 레벨업",
+      "type": "Manhwa",
+      "origin": "Corea del Sur",
+      "status": "Completado",
+      "year": "2018–2021",
+      "chapters": 200,
+      "chapterLabel": "200 capítulos",
+      "rating": 9.6,
+      "image": "../assets/images/asiaticos/solo-leveling.jpg",
+      "author": "Chugong",
+      "artist": "DUBU (REDICE Studio)",
+      "publisher": "D&C Media",
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Fantasía"
+      ],
+      "summary": "El cazador más débil recibe una capacidad extraordinaria: crecer sin límites en un mundo donde nadie más puede hacerlo.",
+      "synopsis": "Hace más de una década aparecieron portales que conectan nuestro mundo con dimensiones pobladas por monstruos. Sung Jinwoo, conocido como el cazador más débil, sobrevive a una mazmorra imposible y despierta un sistema que solo él puede ver. Cada misión transforma su fuerza, pero también lo acerca a secretos capaces de cambiar el equilibrio entre ambos mundos."
+    },
+    {
+      "id": "omniscient-reader",
+      "title": "Omniscient Reader",
+      "native": "전지적 독자 시점",
+      "type": "Manhwa",
+      "origin": "Corea del Sur",
+      "status": "En publicación",
+      "year": "2020–",
+      "chapters": 245,
+      "chapterLabel": "245 capítulos",
+      "rating": 9.4,
+      "image": "../assets/images/asiaticos/omniscient-reader.png",
+      "author": "sing N song",
+      "artist": "Sleepy-C",
+      "publisher": "REDICE Studio",
+      "genres": [
+        "Acción",
+        "Supervivencia",
+        "Fantasía"
+      ],
+      "summary": "El único lector de una novela olvidada descubre que el mundo empieza a seguir exactamente la historia que conoce.",
+      "synopsis": "Kim Dokja termina una novela web que ha leído durante años justo antes de que la realidad adopte sus reglas. Gracias a su conocimiento del argumento, deberá negociar con constelaciones, superar escenarios mortales y cambiar el destino de personajes que hasta entonces solo existían en una pantalla."
+    },
+    {
+      "id": "after-the-rain",
+      "title": "After the Rain Letters",
+      "native": "비가 그친 뒤의 편지",
+      "type": "Manhwa",
+      "origin": "Corea del Sur",
+      "status": "En publicación",
+      "year": "2024–",
+      "chapters": 86,
+      "chapterLabel": "86 capítulos",
+      "rating": 8.8,
+      "image": "../assets/images/asiaticos/after-the-rain.png",
+      "author": "Han Seo-yun",
+      "artist": "Mina Park",
+      "publisher": "Yume Editions",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Vida cotidiana"
+      ],
+      "summary": "Una editora encuentra cartas anónimas dentro de libros devueltos y comienza a reconstruir una historia que también habla de ella.",
+      "synopsis": "En una librería de Seúl, Ji-eun descubre notas manuscritas que conectan a lectores desconocidos. Mientras busca a su autor, aprende a mirar su propia vida con más ternura y a aceptar que algunas historias necesitan tiempo antes de poder nombrarse."
+    },
+    {
+      "id": "heaven-official",
+      "title": "Heaven Official's Blessing",
+      "native": "天官赐福",
+      "type": "Manhua",
+      "origin": "China",
+      "status": "En publicación",
+      "year": "2019–",
+      "chapters": 105,
+      "chapterLabel": "105 capítulos",
+      "rating": 9.2,
+      "image": "../assets/images/asiaticos/heaven-official.png",
+      "author": "Mo Xiang Tong Xiu",
+      "artist": "STARember",
+      "publisher": "Bilibili Comics",
+      "genres": [
+        "Fantasía",
+        "Romance",
+        "Aventura"
+      ],
+      "summary": "Un dios caído asciende por tercera vez y conoce a un misterioso soberano fantasmal que parece saberlo todo sobre su pasado.",
+      "synopsis": "Ocho siglos después de su primera ascensión, Xie Lian regresa al reino celestial sin seguidores ni prestigio. Una misión aparentemente sencilla lo conduce hasta Hua Cheng, un temido rey fantasma, y hacia una cadena de recuerdos que revelan lealtades, pérdidas y promesas nunca olvidadas."
+    },
+    {
+      "id": "martial-peak",
+      "title": "Martial Peak",
+      "native": "武炼巅峰",
+      "type": "Manhua",
+      "origin": "China",
+      "status": "En publicación",
+      "year": "2018–",
+      "chapters": 3800,
+      "chapterLabel": "3.800+ capítulos",
+      "rating": 8.6,
+      "image": "../assets/images/asiaticos/martial-peak.png",
+      "author": "Momo",
+      "artist": "Pikapi",
+      "publisher": "AC.QQ",
+      "genres": [
+        "Artes marciales",
+        "Fantasía",
+        "Aventura"
+      ],
+      "summary": "Un discípulo perseverante encuentra un libro negro que abre el camino hacia la cima de las artes marciales.",
+      "synopsis": "Yang Kai ocupa el escalón más bajo de su secta, pero su determinación nunca se quiebra. Cuando un misterioso legado elige reconocerlo, comienza una ascensión llena de pruebas, rivales y reinos cada vez más vastos."
+    },
+    {
+      "id": "kimetsu-no-yaiba",
+      "title": "Kimetsu no Yaiba",
+      "native": "鬼滅の刃",
+      "type": "Manga",
+      "origin": "Japón",
+      "status": "Completado",
+      "year": "2016–2020",
+      "chapters": 205,
+      "chapterLabel": "205 capítulos",
+      "rating": 9,
+      "image": "../assets/images/asiaticos/kimetsu-no-yaiba.jpg",
+      "author": "Koyoharu Gotouge",
+      "artist": "Koyoharu Gotouge",
+      "publisher": "Shueisha",
+      "genres": [
+        "Acción",
+        "Sobrenatural",
+        "Drama"
+      ],
+      "summary": "Tanjiro emprende un viaje para devolverle la humanidad a su hermana y enfrentarse al origen de los demonios.",
+      "synopsis": "Después de perder a su familia, Tanjiro se une al cuerpo de cazadores de demonios. Su bondad y su férrea disciplina lo acompañan en una historia de duelos, vínculos familiares y sacrificios inolvidables."
+    },
+    {
+      "id": "jujutsu-kaisen",
+      "title": "Jujutsu Kaisen",
+      "native": "呪術廻戦",
+      "type": "Manga",
+      "origin": "Japón",
+      "status": "Completado",
+      "year": "2018–2024",
+      "chapters": 271,
+      "chapterLabel": "271 capítulos",
+      "rating": 9.1,
+      "image": "../assets/images/asiaticos/jujutsu-kaisen.jpg",
+      "author": "Gege Akutami",
+      "artist": "Gege Akutami",
+      "publisher": "Shueisha",
+      "genres": [
+        "Acción",
+        "Sobrenatural",
+        "Oscuro"
+      ],
+      "summary": "Un estudiante se convierte en el recipiente de una maldición legendaria y entra en el mundo de los hechiceros.",
+      "synopsis": "Yuji Itadori ingiere un objeto maldito para salvar a sus amigos y queda ligado a Ryomen Sukuna. Desde entonces, su vida transcurre entre combates, pérdidas y preguntas difíciles sobre la forma correcta de morir."
+    },
+    {
+      "id": "frieren",
+      "title": "Frieren",
+      "native": "葬送のフリーレン",
+      "type": "Manga",
+      "origin": "Japón",
+      "status": "En publicación",
+      "year": "2020–",
+      "chapters": 140,
+      "chapterLabel": "140+ capítulos",
+      "rating": 9.5,
+      "image": "../assets/images/asiaticos/frieren.jpg",
+      "author": "Kanehito Yamada",
+      "artist": "Tsukasa Abe",
+      "publisher": "Shogakukan",
+      "genres": [
+        "Fantasía",
+        "Aventura",
+        "Drama"
+      ],
+      "summary": "Una elfa inmortal inicia un nuevo viaje para comprender los breves años que compartió con sus compañeros humanos.",
+      "synopsis": "Tras derrotar al Rey Demonio, Frieren contempla cómo el tiempo transforma a quienes ama. Décadas después, emprende una ruta hacia el norte acompañada por una nueva generación y por preguntas que antes nunca supo formular."
+    },
+    {
+      "id": "dr-stone",
+      "title": "Dr. Stone",
+      "native": "ドクターストーン",
+      "type": "Manga",
+      "origin": "Japón",
+      "status": "Completado",
+      "year": "2017–2022",
+      "chapters": 232,
+      "chapterLabel": "232 capítulos",
+      "rating": 8.7,
+      "image": "../assets/images/asiaticos/dr-stone.jpg",
+      "author": "Riichiro Inagaki",
+      "artist": "Boichi",
+      "publisher": "Shueisha",
+      "genres": [
+        "Ciencia ficción",
+        "Aventura",
+        "Comedia"
+      ],
+      "summary": "Miles de años después de la petrificación de la humanidad, Senku decide reconstruir la civilización con ciencia.",
+      "synopsis": "En un mundo devuelto a la edad de piedra, el conocimiento se convierte en la herramienta más poderosa. Senku y sus aliados avanzan invento a invento mientras descubren qué provocó el desastre."
+    },
+    {
+      "id": "fairy-tail",
+      "title": "Fairy Tail",
+      "native": "フェアリーテイル",
+      "type": "Manga",
+      "origin": "Japón",
+      "status": "Completado",
+      "year": "2006–2017",
+      "chapters": 545,
+      "chapterLabel": "545 capítulos",
+      "rating": 8.5,
+      "image": "../assets/images/asiaticos/fairy-tail.jpg",
+      "author": "Hiro Mashima",
+      "artist": "Hiro Mashima",
+      "publisher": "Kodansha",
+      "genres": [
+        "Fantasía",
+        "Aventura",
+        "Comedia"
+      ],
+      "summary": "Un gremio de magos convierte cada misión en una aventura sobre la amistad, la pérdida y la familia elegida.",
+      "synopsis": "Lucy sueña con unirse a Fairy Tail. Al conocer a Natsu y Happy, entra en un gremio caótico donde cada nuevo encargo pone a prueba la magia y los vínculos de sus integrantes."
+    },
+    {
+      "id": "horimiya",
+      "title": "Horimiya",
+      "native": "ホリミヤ",
+      "type": "Manga",
+      "origin": "Japón",
+      "status": "Completado",
+      "year": "2011–2021",
+      "chapters": 122,
+      "chapterLabel": "122 capítulos",
+      "rating": 8.9,
+      "image": "../assets/images/asiaticos/horimiya.jpg",
+      "author": "HERO",
+      "artist": "Daisuke Hagiwara",
+      "publisher": "Square Enix",
+      "genres": [
+        "Romance",
+        "Comedia",
+        "Escolar"
+      ],
+      "summary": "Dos estudiantes descubren las versiones de sí mismos que esconden fuera del instituto.",
+      "synopsis": "Hori parece popular y perfecta; Miyamura, reservado y distante. Cuando sus vidas privadas se cruzan, nace una relación cálida que también transforma a su grupo de amigos."
+    },
+    {
+      "id": "mahoutsukai-no-yome",
+      "title": "The Ancient Magus' Bride",
+      "native": "魔法使いの嫁",
+      "type": "Manga",
+      "origin": "Japón",
+      "status": "En publicación",
+      "year": "2013–",
+      "chapters": 100,
+      "chapterLabel": "100+ capítulos",
+      "rating": 8.8,
+      "image": "../assets/images/asiaticos/mahoutsukai-no-yome.jpg",
+      "author": "Kore Yamazaki",
+      "artist": "Kore Yamazaki",
+      "publisher": "Bushiroad Works",
+      "genres": [
+        "Fantasía",
+        "Drama",
+        "Sobrenatural"
+      ],
+      "summary": "Chise entra en un mundo de magia antigua, criaturas feéricas y afectos que todavía debe aprender a reconocer.",
+      "synopsis": "Sin un lugar al que pertenecer, Chise Hatori acepta convertirse en aprendiz de Elias Ainsworth. La convivencia abre una puerta hacia lo sobrenatural y hacia una forma distinta de reconstruirse."
+    },
+    {
+      "id": "given",
+      "title": "Given",
+      "native": "ギヴン",
+      "type": "Manga",
+      "origin": "Japón",
+      "status": "Completado",
+      "year": "2013–2023",
+      "chapters": 51,
+      "chapterLabel": "51 capítulos",
+      "rating": 9,
+      "image": "../assets/images/asiaticos/given.jpg",
+      "author": "Natsuki Kizu",
+      "artist": "Natsuki Kizu",
+      "publisher": "Shinshokan",
+      "genres": [
+        "Música",
+        "Romance",
+        "Drama"
+      ],
+      "summary": "Una guitarra, una voz contenida y una banda permiten que varias heridas empiecen a encontrar palabras.",
+      "synopsis": "Ritsuka ha perdido la ilusión por tocar hasta que conoce a Mafuyu y escucha su voz. La música los acerca mientras ambos aprenden a sostener recuerdos que todavía pesan."
+    },
+    {
+      "id": "slime",
+      "title": "That Time I Got Reincarnated as a Slime",
+      "native": "転生したらスライムだった件",
+      "type": "Manga",
+      "origin": "Japón",
+      "status": "En publicación",
+      "year": "2015–",
+      "chapters": 130,
+      "chapterLabel": "130+ capítulos",
+      "rating": 8.7,
+      "image": "../assets/images/asiaticos/slime.jpg",
+      "author": "Fuse",
+      "artist": "Taiki Kawakami",
+      "publisher": "Kodansha",
+      "genres": [
+        "Fantasía",
+        "Aventura",
+        "Comedia"
+      ],
+      "summary": "Reencarnado como slime, Rimuru construye una nación donde distintas especies puedan vivir sin miedo.",
+      "synopsis": "Una segunda vida aparentemente absurda se convierte en una aventura política y fantástica. Rimuru reúne aliados, transforma enemigos y descubre el verdadero alcance de sus nuevas habilidades."
+    },
+    {
+      "id": "nocturne-city",
+      "title": "Nocturne City",
+      "native": "Volumen I: La lluvia roja",
+      "type": "Cómic occidental",
+      "origin": "Estados Unidos",
+      "status": "En serie",
+      "year": "2023–",
+      "chapters": 28,
+      "chapterLabel": "28 números",
+      "rating": 8.7,
+      "image": "../assets/images/asiaticos/nocturne-city.png",
+      "author": "Elena Ward",
+      "artist": "Marcus Hale",
+      "publisher": "Northlight Press",
+      "genres": [
+        "Noir",
+        "Acción",
+        "Misterio"
+      ],
+      "summary": "Un vigilante sin nombre persigue la verdad bajo la lluvia perpetua de una ciudad construida sobre secretos.",
+      "synopsis": "Nocturne City ha olvidado la luz. Cuando una serie de símbolos aparece en sus azoteas, un vigilante ligado a la caída de la ciudad descubre una conspiración que atraviesa generaciones."
+    },
+    {
+      "id": "astral-guard",
+      "title": "Astral Guard",
+      "native": "Volumen II: Órbita de fuego",
+      "type": "Cómic occidental",
+      "origin": "Estados Unidos",
+      "status": "En serie",
+      "year": "2024–",
+      "chapters": 18,
+      "chapterLabel": "18 números",
+      "rating": 9.1,
+      "image": "../assets/images/asiaticos/astral-guard.png",
+      "author": "Naomi Rivers",
+      "artist": "Claire Sun",
+      "publisher": "Lumen Comics",
+      "genres": [
+        "Ciencia ficción",
+        "Aventura",
+        "Superhéroes"
+      ],
+      "summary": "Una ingeniera capaz de escuchar el pulso de las estrellas protege una ciudad que existe entre dos galaxias.",
+      "synopsis": "Amara Vale activa por accidente una tecnología anterior a la humanidad. Convertida en guardiana de un corredor cósmico, deberá decidir qué mundos pueden cruzarlo y cuál es el precio de mantenerlos a salvo."
+    }
+  ],
+  "collection": [
+    {
+      "workId": "solo-leveling",
+      "state": "Completado",
+      "progress": 100,
+      "note": "Un ascenso adictivo; la evolución visual es espectacular."
+    },
+    {
+      "workId": "omniscient-reader",
+      "state": "En progreso",
+      "progress": 72,
+      "note": "Cada escenario cambia las reglas de forma inteligente."
+    },
+    {
+      "workId": "frieren",
+      "state": "En progreso",
+      "progress": 64,
+      "note": "La forma en que habla del tiempo me parece preciosa."
+    },
+    {
+      "workId": "horimiya",
+      "state": "Completado",
+      "progress": 100,
+      "note": "Sincero, cálido y con personajes que se sienten reales."
+    },
+    {
+      "workId": "heaven-official",
+      "state": "En progreso",
+      "progress": 48,
+      "note": "Una ambientación delicada y llena de misterio."
+    },
+    {
+      "workId": "nocturne-city",
+      "state": "Pendiente",
+      "progress": 0,
+      "note": "La estética noir me llamó la atención desde la portada."
+    }
+  ],
+  "comments": [
+    {
+      "id": "asian-comment-01",
+      "workId": "frieren",
+      "title": "Frieren",
+      "date": "2026-07-18",
+      "text": "Una historia tranquila que hace que el paso del tiempo tenga un significado completamente distinto.",
+      "rating": 10
+    },
+    {
+      "id": "asian-comment-02",
+      "workId": "solo-leveling",
+      "title": "Solo Leveling",
+      "date": "2026-07-08",
+      "text": "El ritmo y la evolución visual convierten cada nuevo arco en una experiencia más intensa.",
+      "rating": 9.6
+    },
+    {
+      "id": "asian-comment-03",
+      "workId": "heaven-official",
+      "title": "Heaven Official's Blessing",
+      "date": "2026-06-29",
+      "text": "La ambientación, los colores y la relación entre sus personajes dejan una impresión preciosa.",
+      "rating": 9.2
+    }
+  ]
 }

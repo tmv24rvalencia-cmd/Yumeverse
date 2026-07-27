@@ -28,15 +28,10 @@
   <link rel="stylesheet" href="../assets/css/pages.css">
   <link rel="stylesheet" href="../assets/css/responsive.css">
 
-  <script src="../assets/js/storage.js" defer></script>
-  <script src="../assets/js/navigation.js" defer></script>
-  <script src="../assets/js/collection.js" defer></script>
-  <script src="../assets/js/favorites.js" defer></script>
-  <script src="../assets/js/anime-detail.js" defer></script>
-  <script src="../assets/js/app.js" defer></script>
+  <script src="../assets/js/anime-data.js" defer></script>
 </head>
 
-<body class="page page--anime page--anime-detail">
+<body class="page page--anime page--anime-detail" data-page="detalle">
   <a class="skip-link" href="#contenido-principal">
     Saltar al contenido
   </a>
@@ -124,7 +119,7 @@
           <div class="nav-parent">
             <a
               class="nav-link is-active"
-              href="index.html"
+              href="index_anime.html"
               aria-current="page"
             >
               Anime
@@ -291,7 +286,7 @@
         <nav class="breadcrumbs breadcrumbs--light" aria-label="Ruta de navegación">
           <a href="../index.html">Inicio</a>
           <span aria-hidden="true">✦</span>
-          <a href="index.html">Anime</a>
+          <a href="index_anime.html">Anime</a>
           <span aria-hidden="true">✦</span>
           <a href="explorador.html">Explorador</a>
           <span aria-hidden="true">✦</span>
@@ -1278,6 +1273,7 @@
     <div class="site-footer__bottom container">
       <small>
         © 2026 Yumeverse. Proyecto personal cultural, sin venta ni streaming.
+        <span aria-hidden="true">♫</span>
       </small>
 
       <span>

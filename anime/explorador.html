@@ -1,1369 +1,344 @@
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta
-    name="description"
-    content="Explora el catálogo de anime de Yumeverse y filtra tus próximas historias por género, formato, año, estado y valoración."
-  >
-  <meta name="theme-color" content="#090812">
-
-  <title>Explorador de Anime | Yumeverse</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,ital,wght@6..96,400;6..96,500;6..96,600;6..96,700&family=Manrope:wght@400;500;600;700&family=Marcellus&display=swap"
-    rel="stylesheet"
-  >
-
-  <link rel="stylesheet" href="../assets/css/reset.css">
-  <link rel="stylesheet" href="../assets/css/variables.css">
-  <link rel="stylesheet" href="../assets/css/base.css">
-  <link rel="stylesheet" href="../assets/css/layout.css">
-  <link rel="stylesheet" href="../assets/css/components.css">
-  <link rel="stylesheet" href="../assets/css/pages.css">
-  <link rel="stylesheet" href="../assets/css/responsive.css">
-
-  <script src="../assets/js/storage.js" defer></script>
-  <script src="../assets/js/navigation.js" defer></script>
-  <script src="../assets/js/filters.js" defer></script>
-  <script src="../assets/js/collection.js" defer></script>
-  <script src="../assets/js/favorites.js" defer></script>
-  <script src="../assets/js/app.js" defer></script>
-</head>
-
-<body class="page page--anime page--explorador">
-  <a class="skip-link" href="#contenido-principal">
-    Saltar al contenido
-  </a>
-
-  <header class="site-header">
-    <div class="header-main container">
-      <a class="brand" href="../index.html" aria-label="Yumeverse, página de inicio">
-        <span class="brand__symbol" aria-hidden="true">
-          <span class="brand__moon"></span>
-          <span class="brand__star">✦</span>
-        </span>
-
-        <span class="brand__name">
-          Yume<span>verse</span>
-        </span>
-      </a>
-
-      <form class="search" action="../busqueda.html" method="get" role="search">
-        <label class="sr-only" for="busqueda-global">
-          Buscar en Yumeverse
-        </label>
-
-        <span class="search__label" aria-hidden="true">
-          Buscar en todo
-        </span>
-
-        <input
-          id="busqueda-global"
-          name="q"
-          type="search"
-          placeholder="Anime, personajes, estudios, géneros..."
-          autocomplete="off"
-        >
-
-        <button class="search__button" type="submit" aria-label="Buscar">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <circle cx="11" cy="11" r="6.5"></circle>
-            <path d="m16 16 4 4"></path>
-          </svg>
-        </button>
-      </form>
-
-      <div class="header-actions">
-        <a class="header-action" href="../favoritos.html">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"></path>
-          </svg>
-
-          <span>
-            <small>Mis listas</small>
-            <strong>Favoritos</strong>
-          </span>
-        </a>
-
-        <a class="header-action header-action--profile" href="../sobre-mi.html">
-          <span class="profile-mark" aria-hidden="true">Y</span>
-
-          <span>
-            <small>Mi espacio</small>
-            <strong>Sobre mí</strong>
-          </span>
-        </a>
-      </div>
-
-      <input class="nav-check" type="checkbox" id="nav-check">
-
-      <label
-        class="menu-button"
-        for="nav-check"
-        aria-label="Abrir o cerrar el menú"
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-    </div>
-
-    <nav class="main-nav" aria-label="Navegación principal">
-      <div class="main-nav__inner container">
-        <a class="nav-link" href="../index.html">
-          Inicio
-        </a>
-
-        <div class="nav-item nav-item--dropdown">
-          <div class="nav-parent">
-            <a
-              class="nav-link is-active"
-              href="index.html"
-              aria-current="page"
-            >
-              Anime
-            </a>
-
-            <button
-              class="nav-spark"
-              type="button"
-              aria-label="Mostrar opciones de Anime"
-            >
-              ✦
-            </button>
-          </div>
-
-          <div class="nav-dropdown">
-            <a href="explorador.html" aria-current="page">
-              <span class="dropdown-number">01</span>
-
-              <span>
-                <strong>Explorador</strong>
-                <small>Todos los animes</small>
-              </span>
-            </a>
-
-            <a href="mi-coleccion.html">
-              <span class="dropdown-number">02</span>
-
-              <span>
-                <strong>Mi colección</strong>
-                <small>Progreso, listas y notas</small>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <div class="nav-item nav-item--dropdown">
-          <div class="nav-parent">
-            <a class="nav-link" href="../asiaticos/index.html">
-              Asiáticos
-            </a>
-
-            <button
-              class="nav-spark"
-              type="button"
-              aria-label="Mostrar opciones de Asiáticos"
-            >
-              ✦
-            </button>
-          </div>
-
-          <div class="nav-dropdown">
-            <a href="../asiaticos/explorador.html">
-              <span class="dropdown-number">01</span>
-
-              <span>
-                <strong>Explorador</strong>
-                <small>Manga, manhwa, manhua y cómic</small>
-              </span>
-            </a>
-
-            <a href="../asiaticos/mi-coleccion.html">
-              <span class="dropdown-number">02</span>
-
-              <span>
-                <strong>Mi colección</strong>
-                <small>Lecturas y seguimiento</small>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <div class="nav-item nav-item--dropdown">
-          <div class="nav-parent">
-            <a class="nav-link" href="../blog/index.html">
-              Blog
-            </a>
-
-            <button
-              class="nav-spark"
-              type="button"
-              aria-label="Mostrar opciones del Blog"
-            >
-              ✦
-            </button>
-          </div>
-
-          <div class="nav-dropdown">
-            <a href="../blog/explorador.html">
-              <span class="dropdown-number">01</span>
-
-              <span>
-                <strong>Explorador</strong>
-                <small>Anime, arte y procesos</small>
-              </span>
-            </a>
-
-            <a href="../blog/mi-coleccion.html">
-              <span class="dropdown-number">02</span>
-
-              <span>
-                <strong>Mi colección</strong>
-                <small>Artículos guardados</small>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <div class="nav-item nav-item--dropdown">
-          <div class="nav-parent">
-            <a class="nav-link" href="../galeria/index.html">
-              Galería
-            </a>
-
-            <button
-              class="nav-spark"
-              type="button"
-              aria-label="Mostrar opciones de Galería"
-            >
-              ✦
-            </button>
-          </div>
-
-          <div class="nav-dropdown">
-            <a href="../galeria/explorador.html">
-              <span class="dropdown-number">01</span>
-
-              <span>
-                <strong>Explorador</strong>
-                <small>Fanart y otras obras</small>
-              </span>
-            </a>
-
-            <a href="../galeria/mi-coleccion.html">
-              <span class="dropdown-number">02</span>
-
-              <span>
-                <strong>Mi colección</strong>
-                <small>Mi archivo creativo</small>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <a class="nav-link" href="../contacto.html">
-          Contacto
-        </a>
-      </div>
-    </nav>
-  </header>
-
-  <main id="contenido-principal">
-    <section class="catalog-hero catalog-hero--anime">
-      <div class="catalog-hero__background" aria-hidden="true"></div>
-      <div class="catalog-hero__veil" aria-hidden="true"></div>
-
-      <div class="catalog-hero__content container">
-        <nav class="breadcrumbs" aria-label="Ruta de navegación">
-          <a href="../index.html">Inicio</a>
-          <span aria-hidden="true">✦</span>
-          <a href="index.html">Anime</a>
-          <span aria-hidden="true">✦</span>
-          <span aria-current="page">Explorador</span>
-        </nav>
-
-        <p class="eyebrow">
-          <span></span>
-          Archivo de historias
-        </p>
-
-        <h1>
-          Encuentra tu próxima<br>
-          <em>obsesión.</em>
-        </h1>
-
-        <p class="catalog-hero__description">
-          Explora series y películas, descubre nuevas historias y filtra el
-          catálogo según el género, el formato, el año o el estado que prefieras.
-        </p>
-
-        <div class="catalog-hero__actions">
-          <a class="button button--primary" href="#catalogo-anime">
-            Explorar catálogo
-            <span aria-hidden="true">→</span>
-          </a>
-
-          <a class="button button--ghost" href="mi-coleccion.html">
-            Ver mi colección
-          </a>
-        </div>
-
-        <div class="catalog-hero__stats" aria-label="Resumen del catálogo">
-          <div>
-            <strong>148</strong>
-            <span>Títulos registrados</span>
-          </div>
-
-          <div>
-            <strong>24</strong>
-            <span>Géneros diferentes</span>
-          </div>
-
-          <div>
-            <strong>36</strong>
-            <span>Nuevas historias</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="catalog-section" id="catalogo-anime">
-      <div class="container">
-        <header class="section-heading">
-          <div>
-            <p class="eyebrow">
-              <span></span>
-              Explorador de Anime
-            </p>
-
-            <h2>
-              Todo el universo<br>
-              <em>a tu alcance.</em>
-            </h2>
-          </div>
-
-          <p>
-            Utiliza los filtros para encontrar una historia concreta o déjate
-            sorprender por el catálogo completo de Yumeverse.
-          </p>
-        </header>
-
-        <div class="catalog-layout">
-          <aside class="filter-panel" aria-labelledby="filter-title">
-            <div class="filter-panel__header">
-              <div>
-                <span class="filter-panel__number">01</span>
-                <h2 id="filter-title">Filtrar catálogo</h2>
-              </div>
-
-              <button
-                class="filter-reset"
-                id="reset-filters"
-                type="button"
-              >
-                Limpiar
-              </button>
-            </div>
-
-            <form class="catalog-filters" id="anime-filters">
-              <div class="filter-field filter-field--search">
-                <label for="anime-search">
-                  Buscar anime
-                </label>
-
-                <div class="filter-search">
-                  <input
-                    id="anime-search"
-                    name="buscar"
-                    type="search"
-                    placeholder="Título, estudio o palabra clave..."
-                    autocomplete="off"
-                  >
-
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <circle cx="11" cy="11" r="6.5"></circle>
-                    <path d="m16 16 4 4"></path>
-                  </svg>
-                </div>
-              </div>
-
-              <div class="filter-field">
-                <label for="filter-genero">
-                  Género
-                </label>
-
-                <select id="filter-genero" name="genero">
-                  <option value="">Todos los géneros</option>
-                  <option value="accion">Acción</option>
-                  <option value="aventura">Aventura</option>
-                  <option value="comedia">Comedia</option>
-                  <option value="drama">Drama</option>
-                  <option value="fantasia">Fantasía</option>
-                  <option value="misterio">Misterio</option>
-                  <option value="romance">Romance</option>
-                  <option value="ciencia-ficcion">Ciencia ficción</option>
-                  <option value="sobrenatural">Sobrenatural</option>
-                  <option value="vida-cotidiana">Vida cotidiana</option>
-                </select>
-              </div>
-
-              <div class="filter-field">
-                <label for="filter-formato">
-                  Formato
-                </label>
-
-                <select id="filter-formato" name="formato">
-                  <option value="">Todos los formatos</option>
-                  <option value="serie">Serie</option>
-                  <option value="pelicula">Película</option>
-                  <option value="ova">OVA</option>
-                  <option value="ona">ONA</option>
-                  <option value="especial">Especial</option>
-                </select>
-              </div>
-
-              <div class="filter-field">
-                <label for="filter-estado">
-                  Estado
-                </label>
-
-                <select id="filter-estado" name="estado">
-                  <option value="">Todos los estados</option>
-                  <option value="en-emision">En emisión</option>
-                  <option value="finalizado">Finalizado</option>
-                  <option value="proximamente">Próximamente</option>
-                  <option value="pausado">Pausado</option>
-                </select>
-              </div>
-
-              <div class="filter-field">
-                <label for="filter-year">
-                  Año
-                </label>
-
-                <select id="filter-year" name="year">
-                  <option value="">Todos los años</option>
-                  <option value="2026">2026</option>
-                  <option value="2025">2025</option>
-                  <option value="2024">2024</option>
-                  <option value="2023">2023</option>
-                  <option value="2022">2022</option>
-                  <option value="2021">2021</option>
-                  <option value="2020">2020</option>
-                  <option value="anteriores">Antes de 2020</option>
-                </select>
-              </div>
-
-              <div class="filter-field">
-                <label for="filter-valoracion">
-                  Valoración mínima
-                </label>
-
-                <select id="filter-valoracion" name="valoracion">
-                  <option value="">Cualquier valoración</option>
-                  <option value="9">9 o más</option>
-                  <option value="8">8 o más</option>
-                  <option value="7">7 o más</option>
-                  <option value="6">6 o más</option>
-                </select>
-              </div>
-
-              <fieldset class="filter-field filter-field--status">
-                <legend>
-                  Estado en mi colección
-                </legend>
-
-                <label class="filter-check">
-                  <input type="checkbox" name="coleccion" value="viendo">
-                  <span>Viendo</span>
-                </label>
-
-                <label class="filter-check">
-                  <input type="checkbox" name="coleccion" value="completado">
-                  <span>Completado</span>
-                </label>
-
-                <label class="filter-check">
-                  <input type="checkbox" name="coleccion" value="pendiente">
-                  <span>Pendiente</span>
-                </label>
-
-                <label class="filter-check">
-                  <input type="checkbox" name="coleccion" value="favorito">
-                  <span>Favorito</span>
-                </label>
-              </fieldset>
-
-              <button class="button button--primary filter-submit" type="submit">
-                Aplicar filtros
-                <span aria-hidden="true">→</span>
-              </button>
-            </form>
-          </aside>
-
-          <div class="catalog-results">
-            <div class="catalog-toolbar">
-              <div>
-                <span class="catalog-toolbar__label">Catálogo Anime</span>
-
-                <p
-                  id="anime-count"
-                  class="catalog-toolbar__count"
-                  aria-live="polite"
-                >
-                  Mostrando <strong>8 títulos</strong>
-                </p>
-              </div>
-
-              <div class="catalog-toolbar__actions">
-                <label class="sort-field" for="sort-anime">
-                  <span>Ordenar por</span>
-
-                  <select id="sort-anime" name="orden">
-                    <option value="recomendados">Recomendados</option>
-                    <option value="valoracion">Mejor valoración</option>
-                    <option value="recientes">Más recientes</option>
-                    <option value="titulo-asc">Título: A–Z</option>
-                    <option value="titulo-desc">Título: Z–A</option>
-                  </select>
-                </label>
-
-                <div class="view-switcher" aria-label="Cambiar vista del catálogo">
-                  <button
-                    class="view-button is-active"
-                    type="button"
-                    data-view="grid"
-                    aria-label="Vista de cuadrícula"
-                    aria-pressed="true"
-                  >
-                    <svg viewBox="0 0 24 24" aria-hidden="true">
-                      <rect x="3" y="3" width="7" height="7"></rect>
-                      <rect x="14" y="3" width="7" height="7"></rect>
-                      <rect x="3" y="14" width="7" height="7"></rect>
-                      <rect x="14" y="14" width="7" height="7"></rect>
-                    </svg>
-                  </button>
-
-                  <button
-                    class="view-button"
-                    type="button"
-                    data-view="list"
-                    aria-label="Vista de lista"
-                    aria-pressed="false"
-                  >
-                    <svg viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M8 6h13"></path>
-                      <path d="M8 12h13"></path>
-                      <path d="M8 18h13"></path>
-                      <circle cx="3.5" cy="6" r=".8"></circle>
-                      <circle cx="3.5" cy="12" r=".8"></circle>
-                      <circle cx="3.5" cy="18" r=".8"></circle>
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="active-filters" id="active-filters" aria-live="polite">
-              <span class="active-filters__label">
-                Filtros activos:
-              </span>
-
-              <button type="button" data-filter-remove="todos">
-                Todos los animes
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-
-            <div class="anime-grid" id="anime-explorer-container">
-              <article
-                class="anime-card"
-                data-id="solo-leveling"
-                data-title="Solo Leveling"
-                data-genres="accion fantasia aventura"
-                data-format="serie"
-                data-status="finalizado"
-                data-year="2024"
-                data-rating="8.8"
-              >
-                <a
-                  class="anime-card__image"
-                  href="detalle.html?id=solo-leveling"
-                  aria-label="Ver expediente de Solo Leveling"
-                >
-                  <img
-                    src="../assets/images/anime/solo-leveling.jpg"
-                    alt="Portada de Solo Leveling"
-                    loading="lazy"
-                  >
-
-                  <span class="anime-card__overlay"></span>
-
-                  <span class="anime-card__status">
-                    Finalizado
-                  </span>
-
-                  <span class="anime-card__rating">
-                    <span aria-hidden="true">★</span>
-                    8.8
-                  </span>
-                </a>
-
-                <div class="anime-card__body">
-                  <div class="anime-card__topline">
-                    <span>Serie</span>
-                    <span>2024</span>
-                    <span>12 episodios</span>
-                  </div>
-
-                  <h3>
-                    <a href="detalle.html?id=solo-leveling">
-                      Solo Leveling
-                    </a>
-                  </h3>
-
-                  <p>
-                    Un cazador considerado débil recibe la oportunidad de
-                    aumentar su poder sin límites.
-                  </p>
-
-                  <div class="anime-card__genres">
-                    <a href="?genero=accion">Acción</a>
-                    <a href="?genero=fantasia">Fantasía</a>
-                  </div>
-
-                  <div class="anime-card__actions">
-                    <a
-                      class="anime-card__detail"
-                      href="detalle.html?id=solo-leveling"
-                    >
-                      Ver expediente
-                      <span aria-hidden="true">→</span>
-                    </a>
-
-                    <button
-                      class="favorite-button"
-                      type="button"
-                      data-favorite-id="solo-leveling"
-                      aria-label="Añadir Solo Leveling a favoritos"
-                      aria-pressed="false"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </article>
-
-              <article
-                class="anime-card"
-                data-id="frieren"
-                data-title="Frieren: Más allá del final del viaje"
-                data-genres="aventura drama fantasia"
-                data-format="serie"
-                data-status="finalizado"
-                data-year="2023"
-                data-rating="9.1"
-              >
-                <a
-                  class="anime-card__image"
-                  href="detalle.html?id=frieren"
-                  aria-label="Ver expediente de Frieren"
-                >
-                  <img
-                    src="../assets/images/anime/frieren.jpg"
-                    alt="Portada de Frieren: Más allá del final del viaje"
-                    loading="lazy"
-                  >
-
-                  <span class="anime-card__overlay"></span>
-
-                  <span class="anime-card__status">
-                    Finalizado
-                  </span>
-
-                  <span class="anime-card__rating">
-                    <span aria-hidden="true">★</span>
-                    9.1
-                  </span>
-                </a>
-
-                <div class="anime-card__body">
-                  <div class="anime-card__topline">
-                    <span>Serie</span>
-                    <span>2023</span>
-                    <span>28 episodios</span>
-                  </div>
-
-                  <h3>
-                    <a href="detalle.html?id=frieren">
-                      Frieren
-                    </a>
-                  </h3>
-
-                  <p>
-                    Una elfa inmortal inicia un viaje para comprender mejor a
-                    las personas que marcaron su vida.
-                  </p>
-
-                  <div class="anime-card__genres">
-                    <a href="?genero=aventura">Aventura</a>
-                    <a href="?genero=fantasia">Fantasía</a>
-                  </div>
-
-                  <div class="anime-card__actions">
-                    <a class="anime-card__detail" href="detalle.html?id=frieren">
-                      Ver expediente
-                      <span aria-hidden="true">→</span>
-                    </a>
-
-                    <button
-                      class="favorite-button"
-                      type="button"
-                      data-favorite-id="frieren"
-                      aria-label="Añadir Frieren a favoritos"
-                      aria-pressed="false"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </article>
-
-              <article
-                class="anime-card"
-                data-id="jujutsu-kaisen"
-                data-title="Jujutsu Kaisen"
-                data-genres="accion sobrenatural fantasia"
-                data-format="serie"
-                data-status="en-emision"
-                data-year="2020"
-                data-rating="8.6"
-              >
-                <a
-                  class="anime-card__image"
-                  href="detalle.html?id=jujutsu-kaisen"
-                  aria-label="Ver expediente de Jujutsu Kaisen"
-                >
-                  <img
-                    src="../assets/images/anime/jujutsu-kaisen.jpg"
-                    alt="Portada de Jujutsu Kaisen"
-                    loading="lazy"
-                  >
-
-                  <span class="anime-card__overlay"></span>
-
-                  <span class="anime-card__status anime-card__status--airing">
-                    En emisión
-                  </span>
-
-                  <span class="anime-card__rating">
-                    <span aria-hidden="true">★</span>
-                    8.6
-                  </span>
-                </a>
-
-                <div class="anime-card__body">
-                  <div class="anime-card__topline">
-                    <span>Serie</span>
-                    <span>2020</span>
-                    <span>47 episodios</span>
-                  </div>
-
-                  <h3>
-                    <a href="detalle.html?id=jujutsu-kaisen">
-                      Jujutsu Kaisen
-                    </a>
-                  </h3>
-
-                  <p>
-                    Un estudiante entra en un mundo oculto dominado por
-                    maldiciones y hechiceros.
-                  </p>
-
-                  <div class="anime-card__genres">
-                    <a href="?genero=accion">Acción</a>
-                    <a href="?genero=sobrenatural">Sobrenatural</a>
-                  </div>
-
-                  <div class="anime-card__actions">
-                    <a
-                      class="anime-card__detail"
-                      href="detalle.html?id=jujutsu-kaisen"
-                    >
-                      Ver expediente
-                      <span aria-hidden="true">→</span>
-                    </a>
-
-                    <button
-                      class="favorite-button"
-                      type="button"
-                      data-favorite-id="jujutsu-kaisen"
-                      aria-label="Añadir Jujutsu Kaisen a favoritos"
-                      aria-pressed="false"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </article>
-
-              <article
-                class="anime-card"
-                data-id="kimetsu-no-yaiba"
-                data-title="Kimetsu no Yaiba"
-                data-genres="accion aventura fantasia"
-                data-format="serie"
-                data-status="en-emision"
-                data-year="2019"
-                data-rating="8.7"
-              >
-                <a
-                  class="anime-card__image"
-                  href="detalle.html?id=kimetsu-no-yaiba"
-                  aria-label="Ver expediente de Kimetsu no Yaiba"
-                >
-                  <img
-                    src="../assets/images/anime/kimetsu-no-yaiba.jpg"
-                    alt="Portada de Kimetsu no Yaiba"
-                    loading="lazy"
-                  >
-
-                  <span class="anime-card__overlay"></span>
-
-                  <span class="anime-card__status anime-card__status--airing">
-                    En emisión
-                  </span>
-
-                  <span class="anime-card__rating">
-                    <span aria-hidden="true">★</span>
-                    8.7
-                  </span>
-                </a>
-
-                <div class="anime-card__body">
-                  <div class="anime-card__topline">
-                    <span>Serie</span>
-                    <span>2019</span>
-                    <span>63 episodios</span>
-                  </div>
-
-                  <h3>
-                    <a href="detalle.html?id=kimetsu-no-yaiba">
-                      Kimetsu no Yaiba
-                    </a>
-                  </h3>
-
-                  <p>
-                    Tanjiro comienza un peligroso viaje para salvar a su hermana
-                    y enfrentarse a los demonios.
-                  </p>
-
-                  <div class="anime-card__genres">
-                    <a href="?genero=accion">Acción</a>
-                    <a href="?genero=aventura">Aventura</a>
-                  </div>
-
-                  <div class="anime-card__actions">
-                    <a
-                      class="anime-card__detail"
-                      href="detalle.html?id=kimetsu-no-yaiba"
-                    >
-                      Ver expediente
-                      <span aria-hidden="true">→</span>
-                    </a>
-
-                    <button
-                      class="favorite-button"
-                      type="button"
-                      data-favorite-id="kimetsu-no-yaiba"
-                      aria-label="Añadir Kimetsu no Yaiba a favoritos"
-                      aria-pressed="false"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </article>
-
-              <article
-                class="anime-card"
-                data-id="spy-x-family"
-                data-title="Spy x Family"
-                data-genres="accion comedia vida-cotidiana"
-                data-format="serie"
-                data-status="en-emision"
-                data-year="2022"
-                data-rating="8.4"
-              >
-                <a
-                  class="anime-card__image"
-                  href="detalle.html?id=spy-x-family"
-                  aria-label="Ver expediente de Spy x Family"
-                >
-                  <img
-                    src="../assets/images/anime/spy-x-family.jpg"
-                    alt="Portada de Spy x Family"
-                    loading="lazy"
-                  >
-
-                  <span class="anime-card__overlay"></span>
-
-                  <span class="anime-card__status anime-card__status--airing">
-                    En emisión
-                  </span>
-
-                  <span class="anime-card__rating">
-                    <span aria-hidden="true">★</span>
-                    8.4
-                  </span>
-                </a>
-
-                <div class="anime-card__body">
-                  <div class="anime-card__topline">
-                    <span>Serie</span>
-                    <span>2022</span>
-                    <span>37 episodios</span>
-                  </div>
-
-                  <h3>
-                    <a href="detalle.html?id=spy-x-family">
-                      Spy × Family
-                    </a>
-                  </h3>
-
-                  <p>
-                    Un espía, una asesina y una niña telépata forman una familia
-                    tan falsa como inesperadamente real.
-                  </p>
-
-                  <div class="anime-card__genres">
-                    <a href="?genero=comedia">Comedia</a>
-                    <a href="?genero=accion">Acción</a>
-                  </div>
-
-                  <div class="anime-card__actions">
-                    <a
-                      class="anime-card__detail"
-                      href="detalle.html?id=spy-x-family"
-                    >
-                      Ver expediente
-                      <span aria-hidden="true">→</span>
-                    </a>
-
-                    <button
-                      class="favorite-button"
-                      type="button"
-                      data-favorite-id="spy-x-family"
-                      aria-label="Añadir Spy x Family a favoritos"
-                      aria-pressed="false"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </article>
-
-              <article
-                class="anime-card"
-                data-id="violet-evergarden"
-                data-title="Violet Evergarden"
-                data-genres="drama fantasia romance"
-                data-format="serie"
-                data-status="finalizado"
-                data-year="2018"
-                data-rating="8.7"
-              >
-                <a
-                  class="anime-card__image"
-                  href="detalle.html?id=violet-evergarden"
-                  aria-label="Ver expediente de Violet Evergarden"
-                >
-                  <img
-                    src="../assets/images/anime/violet-evergarden.jpg"
-                    alt="Portada de Violet Evergarden"
-                    loading="lazy"
-                  >
-
-                  <span class="anime-card__overlay"></span>
-
-                  <span class="anime-card__status">
-                    Finalizado
-                  </span>
-
-                  <span class="anime-card__rating">
-                    <span aria-hidden="true">★</span>
-                    8.7
-                  </span>
-                </a>
-
-                <div class="anime-card__body">
-                  <div class="anime-card__topline">
-                    <span>Serie</span>
-                    <span>2018</span>
-                    <span>13 episodios</span>
-                  </div>
-
-                  <h3>
-                    <a href="detalle.html?id=violet-evergarden">
-                      Violet Evergarden
-                    </a>
-                  </h3>
-
-                  <p>
-                    Una antigua soldado aprende a comprender las emociones a
-                    través de las cartas que escribe.
-                  </p>
-
-                  <div class="anime-card__genres">
-                    <a href="?genero=drama">Drama</a>
-                    <a href="?genero=romance">Romance</a>
-                  </div>
-
-                  <div class="anime-card__actions">
-                    <a
-                      class="anime-card__detail"
-                      href="detalle.html?id=violet-evergarden"
-                    >
-                      Ver expediente
-                      <span aria-hidden="true">→</span>
-                    </a>
-
-                    <button
-                      class="favorite-button"
-                      type="button"
-                      data-favorite-id="violet-evergarden"
-                      aria-label="Añadir Violet Evergarden a favoritos"
-                      aria-pressed="false"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </article>
-
-              <article
-                class="anime-card"
-                data-id="your-name"
-                data-title="Your Name"
-                data-genres="romance drama sobrenatural"
-                data-format="pelicula"
-                data-status="finalizado"
-                data-year="2016"
-                data-rating="8.8"
-              >
-                <a
-                  class="anime-card__image"
-                  href="detalle.html?id=your-name"
-                  aria-label="Ver expediente de Your Name"
-                >
-                  <img
-                    src="../assets/images/anime/your-name.jpg"
-                    alt="Portada de Your Name"
-                    loading="lazy"
-                  >
-
-                  <span class="anime-card__overlay"></span>
-
-                  <span class="anime-card__status">
-                    Película
-                  </span>
-
-                  <span class="anime-card__rating">
-                    <span aria-hidden="true">★</span>
-                    8.8
-                  </span>
-                </a>
-
-                <div class="anime-card__body">
-                  <div class="anime-card__topline">
-                    <span>Película</span>
-                    <span>2016</span>
-                    <span>106 minutos</span>
-                  </div>
-
-                  <h3>
-                    <a href="detalle.html?id=your-name">
-                      Your Name
-                    </a>
-                  </h3>
-
-                  <p>
-                    Dos jóvenes conectados por un misterioso intercambio de
-                    cuerpos intentan encontrarse.
-                  </p>
-
-                  <div class="anime-card__genres">
-                    <a href="?genero=romance">Romance</a>
-                    <a href="?genero=drama">Drama</a>
-                  </div>
-
-                  <div class="anime-card__actions">
-                    <a
-                      class="anime-card__detail"
-                      href="detalle.html?id=your-name"
-                    >
-                      Ver expediente
-                      <span aria-hidden="true">→</span>
-                    </a>
-
-                    <button
-                      class="favorite-button"
-                      type="button"
-                      data-favorite-id="your-name"
-                      aria-label="Añadir Your Name a favoritos"
-                      aria-pressed="false"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </article>
-
-              <article
-                class="anime-card"
-                data-id="bocchi-the-rock"
-                data-title="Bocchi the Rock"
-                data-genres="comedia vida-cotidiana"
-                data-format="serie"
-                data-status="finalizado"
-                data-year="2022"
-                data-rating="8.8"
-              >
-                <a
-                  class="anime-card__image"
-                  href="detalle.html?id=bocchi-the-rock"
-                  aria-label="Ver expediente de Bocchi the Rock"
-                >
-                  <img
-                    src="../assets/images/anime/bocchi-the-rock.jpg"
-                    alt="Portada de Bocchi the Rock"
-                    loading="lazy"
-                  >
-
-                  <span class="anime-card__overlay"></span>
-
-                  <span class="anime-card__status">
-                    Finalizado
-                  </span>
-
-                  <span class="anime-card__rating">
-                    <span aria-hidden="true">★</span>
-                    8.8
-                  </span>
-                </a>
-
-                <div class="anime-card__body">
-                  <div class="anime-card__topline">
-                    <span>Serie</span>
-                    <span>2022</span>
-                    <span>12 episodios</span>
-                  </div>
-
-                  <h3>
-                    <a href="detalle.html?id=bocchi-the-rock">
-                      Bocchi the Rock!
-                    </a>
-                  </h3>
-
-                  <p>
-                    Una guitarrista extremadamente tímida descubre un nuevo
-                    mundo al entrar en una banda.
-                  </p>
-
-                  <div class="anime-card__genres">
-                    <a href="?genero=comedia">Comedia</a>
-                    <a href="?genero=vida-cotidiana">Vida cotidiana</a>
-                  </div>
-
-                  <div class="anime-card__actions">
-                    <a
-                      class="anime-card__detail"
-                      href="detalle.html?id=bocchi-the-rock"
-                    >
-                      Ver expediente
-                      <span aria-hidden="true">→</span>
-                    </a>
-
-                    <button
-                      class="favorite-button"
-                      type="button"
-                      data-favorite-id="bocchi-the-rock"
-                      aria-label="Añadir Bocchi the Rock a favoritos"
-                      aria-pressed="false"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div
-              class="catalog-empty"
-              id="anime-empty"
-              aria-live="polite"
-              hidden
-            >
-              <span aria-hidden="true">✦</span>
-
-              <h2>No encontramos resultados</h2>
-
-              <p>
-                Prueba con otro título o elimina alguno de los filtros activos.
-              </p>
-
-              <button class="button button--primary" type="button">
-                Limpiar filtros
-              </button>
-            </div>
-
-            <nav class="pagination" aria-label="Páginas del catálogo">
-              <a
-                class="pagination__arrow is-disabled"
-                href="#"
-                aria-label="Página anterior"
-                aria-disabled="true"
-                tabindex="-1"
-              >
-                ←
-              </a>
-
-              <a class="is-active" href="?pagina=1" aria-current="page">
-                1
-              </a>
-
-              <a href="?pagina=2">
-                2
-              </a>
-
-              <a href="?pagina=3">
-                3
-              </a>
-
-              <span aria-hidden="true">…</span>
-
-              <a href="?pagina=12">
-                12
-              </a>
-
-              <a
-                class="pagination__arrow"
-                href="?pagina=2"
-                aria-label="Página siguiente"
-              >
-                →
-              </a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="explorer-cta">
-      <div class="explorer-cta__inner container">
-        <span class="explorer-cta__star" aria-hidden="true">✦</span>
-
-        <div>
-          <p class="eyebrow">
-            <span></span>
-            Tu archivo personal
-          </p>
-
-          <h2>
-            Guarda las historias que<br>
-            <em>quieres recordar.</em>
-          </h2>
-
-          <p>
-            Añade títulos a tu colección, registra tu progreso y conserva tus
-            valoraciones y notas personales.
-          </p>
-        </div>
-
-        <a class="button button--primary" href="mi-coleccion.html">
-          Abrir mi colección
-          <span aria-hidden="true">→</span>
-        </a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="site-footer__main container">
-      <div>
-        <a class="brand brand--footer" href="../index.html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Explora el catálogo de anime de Yumeverse y filtra historias por género, estado, año o valoración."
+    >
+    <title>Explorador de Anime | Yumeverse</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&family=Marcellus&display=swap"
+      rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/variables.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/pages.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/anime-fixes.css">
+  </head>
+
+  <body data-page="explorador">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+      <div class="header-main container">
+        <a class="brand" href="../index.html" aria-label="Yumeverse, inicio">
           <span class="brand__symbol" aria-hidden="true">
             <span class="brand__moon"></span>
             <span class="brand__star">✦</span>
           </span>
-
-          <span class="brand__name">
-            Yume<span>verse</span>
-          </span>
+          <span class="brand__name">Yume<span>verse</span></span>
         </a>
 
-        <p>
-          Historias que inspiran. Mundos que permanecen.
-        </p>
+        <form class="search" id="global-search-form" role="search">
+          <label class="search__label" for="global-search">Buscar</label>
+          <input
+            id="global-search"
+            type="search"
+            placeholder="Anime, personajes, estudios, géneros..."
+            autocomplete="off"
+          >
+          <button class="search__button" type="submit" aria-label="Buscar en el catálogo">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="6.5"></circle>
+              <path d="m16 16 4 4"></path>
+            </svg>
+          </button>
+        </form>
+
+        <div class="header-actions">
+          <a class="header-action" href="mi-coleccion.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 4.5h14v15H5z"></path>
+              <path d="M8 8h8M8 12h8"></path>
+            </svg>
+            <span>
+              <small>Mi espacio</small>
+              <strong>Mi colección</strong>
+            </span>
+          </a>
+        </div>
+
+        <input class="nav-check" id="nav-check" type="checkbox">
+        <label class="menu-button" for="nav-check" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </label>
       </div>
 
-      <nav class="footer-nav" aria-label="Enlaces secundarios">
-        <div>
-          <strong>Yumeverse</strong>
-          <a href="../sobre-mi.html">Sobre mí</a>
-          <a href="../contacto.html">Contacto</a>
-          <a href="../busqueda.html">Búsqueda</a>
-        </div>
-
-        <div>
-          <strong>Mi espacio</strong>
-          <a href="../favoritos.html">Favoritos</a>
-          <a href="mi-coleccion.html">Anime</a>
-          <a href="../galeria/mi-coleccion.html">Galería</a>
-        </div>
-
-        <div>
-          <strong>Legal</strong>
-          <a href="../privacidad.html">Privacidad</a>
-          <a href="../cookies.html">Cookies</a>
-          <a href="../aviso-legal.html">Aviso legal</a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <div class="main-nav__inner container">
+          <div class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </div>
+          <div class="nav-item nav-item--dropdown">
+            <div class="nav-parent">
+              <a class="nav-link is-active" href="explorador.html">Anime</a>
+              <button class="nav-spark" type="button" aria-label="Mostrar opciones de Anime">✦</button>
+            </div>
+            <div class="nav-dropdown">
+              <a href="explorador.html">
+                <span class="dropdown-number">01</span>
+                <span><strong>Explorador</strong><small>Buscar nuevas historias</small></span>
+              </a>
+              <a href="mi-coleccion.html">
+                <span class="dropdown-number">02</span>
+                <span><strong>Mi colección</strong><small>Progreso y valoraciones</small></span>
+              </a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="../asiaticos/index.html">Asiáticos</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="../blog/index.html">Blog</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="../galeria/index.html">Galería</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="../contacto.html">Contacto</a>
+          </div>
         </div>
       </nav>
-    </div>
+    </header>
 
-    <div class="site-footer__bottom container">
-      <small>
-        © 2026 Yumeverse. Proyecto personal cultural, sin venta ni streaming.
-      </small>
+    <main id="contenido">
+      <section class="explorer-hero">
+        <div class="explorer-hero__content container">
+          <nav class="breadcrumbs breadcrumbs--light" aria-label="Migas de pan">
+            <a href="../index.html">Inicio</a>
+            <span aria-hidden="true">✦</span>
+            <a href="index_anime.html">Anime</a>
+            <span aria-hidden="true">✦</span>
+            <span>Explorador</span>
+          </nav>
 
-      <span>
-        Creado con imaginación
-        <i aria-hidden="true">✦</i>
-      </span>
-    </div>
-  </footer>
-</body>
+          <p class="eyebrow"><span></span>Archivo de historias</p>
+          <h1>Encuentra tu próxima<br><em>obsesión.</em></h1>
+          <p>
+            Explora series y películas, descubre nuevas historias y filtra el
+            catálogo según el género, el formato, el año o el estado que prefieras.
+          </p>
+
+          <div class="explorer-hero__actions">
+            <a class="button button--primary" href="#catalogo">
+              Explorar catálogo <span aria-hidden="true">→</span>
+            </a>
+            <a class="button button--ghost" href="mi-coleccion.html">
+              Ver mi colección
+            </a>
+          </div>
+
+          <dl class="explorer-hero__stats" aria-label="Resumen del catálogo">
+            <div><dd id="catalog-total">0</dd><dt>Títulos registrados</dt></div>
+            <div><dd id="catalog-genres">0</dd><dt>Géneros diferentes</dt></div>
+            <div><dd id="catalog-new">0</dd><dt>Historias recientes</dt></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="explorer-section section" id="catalogo">
+        <div class="container">
+          <header class="section-heading explorer-intro">
+            <div>
+              <p class="eyebrow"><span></span>Explorador de anime</p>
+              <h2>Todo el universo<br><em>a tu alcance.</em></h2>
+            </div>
+            <p>
+              Utiliza los filtros para encontrar una historia concreta o déjate
+              sorprender por el catálogo completo de Yumeverse.
+            </p>
+          </header>
+
+          <div class="explorer-layout">
+            <aside class="explorer-sidebar" aria-label="Filtros del catálogo">
+              <div class="explorer-sidebar__heading">
+                <div>
+                  <span class="sidebar-number">01</span>
+                  <h2>Filtrar catálogo</h2>
+                </div>
+                <button class="clear-filters" id="clear-filters" type="button">
+                  Limpiar
+                </button>
+              </div>
+
+              <form class="explorer-filters" id="explorer-filters">
+                <div class="filter-group">
+                  <label class="filter-label" for="anime-search">Buscar anime</label>
+                  <input
+                    class="filter-control"
+                    id="anime-search"
+                    type="search"
+                    placeholder="Título, estudio o palabra clave"
+                    autocomplete="off"
+                  >
+                </div>
+
+                <div class="filter-group">
+                  <label class="filter-label" for="filter-genre">Género</label>
+                  <select class="filter-control" id="filter-genre">
+                    <option value="">Todos los géneros</option>
+                  </select>
+                </div>
+
+                <div class="filter-group">
+                  <label class="filter-label" for="filter-format">Formato</label>
+                  <select class="filter-control" id="filter-format">
+                    <option value="">Todos los formatos</option>
+                    <option value="Serie">Serie</option>
+                    <option value="Película">Película</option>
+                  </select>
+                </div>
+
+                <div class="filter-group">
+                  <label class="filter-label" for="filter-status">Estado</label>
+                  <select class="filter-control" id="filter-status">
+                    <option value="">Todos los estados</option>
+                    <option value="emision">En emisión</option>
+                    <option value="finalizado">Finalizado</option>
+                  </select>
+                </div>
+
+                <div class="filter-group">
+                  <label class="filter-label" for="filter-year">Año</label>
+                  <select class="filter-control" id="filter-year">
+                    <option value="">Todos los años</option>
+                  </select>
+                </div>
+
+                <div class="filter-group">
+                  <div class="range-label">
+                    <label class="filter-label" for="filter-rating">Valoración mínima</label>
+                    <output id="rating-output" for="filter-rating">Cualquiera</output>
+                  </div>
+                  <input
+                    class="rating-range"
+                    id="filter-rating"
+                    type="range"
+                    min="0"
+                    max="10"
+                    step="0.5"
+                    value="0"
+                  >
+                </div>
+
+                <fieldset class="filter-group">
+                  <legend>Estado en mi colección</legend>
+                  <div class="collection-filter-grid">
+                    <label><input type="checkbox" name="collection-state" value="viendo"> Viendo</label>
+                    <label><input type="checkbox" name="collection-state" value="completado"> Completado</label>
+                    <label><input type="checkbox" name="collection-state" value="pendiente"> Pendiente</label>
+                    <label><input type="checkbox" name="collection-state" value="favorito"> Favorito</label>
+                  </div>
+                </fieldset>
+
+                <button class="button button--primary apply-filters" type="submit">
+                  Aplicar filtros <span aria-hidden="true">→</span>
+                </button>
+              </form>
+            </aside>
+
+            <div class="explorer-main">
+              <div class="explorer-toolbar">
+                <p class="explorer-results">
+                  Catálogo Anime<br>
+                  Mostrando <strong id="anime-count">0 títulos</strong>
+                </p>
+
+                <div class="explorer-toolbar__actions">
+                  <label class="sort-label" for="sort-anime">Ordenar por</label>
+                  <select class="explorer-sort" id="sort-anime">
+                    <option value="recommended">Recomendados</option>
+                    <option value="rating-desc">Mejor valoración</option>
+                    <option value="year-desc">Más recientes</option>
+                    <option value="title-asc">Título: A-Z</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="active-filters" id="active-filters" aria-live="polite"></div>
+              <div class="explorer-grid" id="anime-grid" aria-live="polite"></div>
+
+              <div class="explorer-empty" id="explorer-empty" hidden>
+                <span class="explorer-empty__star" aria-hidden="true">✦</span>
+                <h2>No encontramos esa historia</h2>
+                <p>Prueba con otros filtros o vuelve a mostrar todo el catálogo.</p>
+              </div>
+
+              <nav class="pagination" id="pagination" aria-label="Páginas del catálogo"></nav>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection-cta">
+        <div class="collection-cta__inner container">
+          <span class="collection-cta__star" aria-hidden="true">✦</span>
+          <div>
+            <p class="eyebrow"><span></span>Tu archivo personal</p>
+            <h2>Guarda las historias que<br><em>quieres recordar.</em></h2>
+            <p>
+              Añade títulos a tu colección, registra tu progreso y conserva tus
+              valoraciones y notas personales.
+            </p>
+          </div>
+          <a class="button button--primary" href="mi-coleccion.html">
+            Abrir mi colección <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__main container">
+        <div>
+          <a class="brand brand--footer" href="../index.html">
+            <span class="brand__symbol" aria-hidden="true">
+              <span class="brand__moon"></span>
+              <span class="brand__star">✦</span>
+            </span>
+            <span class="brand__name">Yume<span>verse</span></span>
+          </a>
+          <p>Historias que inspiran. Mundos que permanecen.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Enlaces secundarios">
+          <div>
+            <strong>Yumeverse</strong>
+            <a href="../sobre-mi.html">Sobre mí</a>
+            <a href="../contacto.html">Contacto</a>
+            <a href="../busqueda.html">Búsqueda</a>
+          </div>
+          <div>
+            <strong>Mi espacio</strong>
+            <a href="../favoritos.html">Favoritos</a>
+            <a href="mi-coleccion.html">Anime</a>
+            <a href="../galeria/mi-coleccion.html">Galería</a>
+          </div>
+          <div>
+            <strong>Legal</strong>
+            <a href="../privacidad.html">Privacidad</a>
+            <a href="../cookies.html">Cookies</a>
+            <a href="../aviso-legal.html">Aviso legal</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="site-footer__bottom container">
+        <small>© 2026 Yumeverse. Proyecto personal cultural, sin venta ni streaming. <span aria-hidden="true">♫</span></small>
+        <span>Creado con imaginación <i aria-hidden="true">✦</i></span>
+      </div>
+    </footer>
+
+    <script src="../assets/js/anime-data.js" defer></script>
+  </body>
 </html>

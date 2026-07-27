@@ -50,6 +50,17 @@ textarea {
   color: inherit;
 }
 
+fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  padding: 0;
+}
+
 button {
   border: 0;
 }

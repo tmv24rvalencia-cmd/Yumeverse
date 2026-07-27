@@ -3,44 +3,339 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Manga, manhwa, manhua y cómic asiático.">
+  <meta name="description" content="Descubre manga, manhwa, manhua y cómic occidental en el universo de lectura de Yumeverse.">
+  <meta name="theme-color" content="#050812">
   <title>Asiáticos | Yumeverse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,ital,wght@6..96,400;6..96,500;6..96,600;6..96,700&family=Manrope:wght@400;500;600;700&family=Marcellus&display=swap"
+    rel="stylesheet"
+  >
   <link rel="stylesheet" href="../assets/css/reset.css">
   <link rel="stylesheet" href="../assets/css/variables.css">
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/layout.css">
   <link rel="stylesheet" href="../assets/css/components.css">
   <link rel="stylesheet" href="../assets/css/pages.css">
+  <link rel="stylesheet" href="../assets/css/anime-fixes.css">
   <link rel="stylesheet" href="../assets/css/responsive.css">
+  <link rel="stylesheet" href="../assets/css/asiaticos.css">
+  <script src="../assets/js/asiaticos-data.js" defer></script>
 </head>
-<body>
-  <header class="cabecera-sitio">
-    <nav class="contenedor" aria-label="Navegación principal">
-      <a href="../index.html" aria-label="Ir al inicio">Yumeverse</a>
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="../anime/index.html">Anime</a></li>
-        <li><a href="index.html">Asiáticos</a></li>
-        <li><a href="../blog/index.html">Blog</a></li>
-        <li><a href="../galeria/index.html">Galería</a></li>
-        <li><a href="../contacto.html">Contacto</a></li>
-      </ul>
+<body class="page page--asiaticos asian-world">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="header-main container">
+      <a class="brand" href="../index.html" aria-label="Yumeverse, inicio">
+        <span class="brand__symbol" aria-hidden="true">
+          <span class="brand__moon"></span>
+          <span class="brand__star">✦</span>
+        </span>
+        <span class="brand__name">Yume<span>verse</span></span>
+      </a>
+
+      <form class="search" action="explorador.html" method="get" role="search">
+        <label class="sr-only" for="busqueda-global">Buscar lecturas</label>
+        <span class="search__label" aria-hidden="true">Buscar en todo</span>
+        <input
+          id="busqueda-global"
+          name="q"
+          type="search"
+          placeholder="Manga, manhwa, autores, géneros..."
+          autocomplete="off"
+        >
+        <button class="search__button" type="submit" aria-label="Buscar">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="6.5"></circle>
+            <path d="m16 16 4 4"></path>
+          </svg>
+        </button>
+      </form>
+
+      <div class="header-actions">
+        <a class="header-action" href="../favoritos.html">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"></path>
+          </svg>
+          <span><small>Mis listas</small><strong>Favoritos</strong></span>
+        </a>
+        <a class="header-action header-action--profile" href="../sobre-mi.html">
+          <span class="profile-mark" aria-hidden="true">Y</span>
+          <span><small>Mi espacio</small><strong>Sobre mí</strong></span>
+        </a>
+      </div>
+
+      <input class="nav-check" type="checkbox" id="nav-check" aria-hidden="true">
+      <label class="menu-button" for="nav-check" aria-label="Abrir o cerrar el menú">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <div class="main-nav__inner container">
+        <a class="nav-link" href="../index.html">Inicio</a>
+
+        <div class="nav-item nav-item--dropdown">
+          <div class="nav-parent">
+            <a class="nav-link" href="../anime/index.html">Anime</a>
+            <button class="nav-spark" type="button" aria-label="Mostrar opciones de Anime">✦</button>
+          </div>
+          <div class="nav-dropdown">
+            <a href="../anime/explorador.html">
+              <span class="dropdown-number">01</span>
+              <span><strong>Explorador</strong><small>Todos los animes</small></span>
+            </a>
+            <a href="../anime/mi-coleccion.html">
+              <span class="dropdown-number">02</span>
+              <span><strong>Mi colección</strong><small>Progreso, listas y notas</small></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="nav-item nav-item--dropdown">
+          <div class="nav-parent">
+            <a class="nav-link is-active" href="index.html" aria-current="page">Asiáticos</a>
+            <button class="nav-spark" type="button" aria-label="Mostrar opciones de Asiáticos">✦</button>
+          </div>
+          <div class="nav-dropdown">
+            <a href="explorador.html">
+              <span class="dropdown-number">01</span>
+              <span><strong>Explorador</strong><small>Manga, manhwa, manhua y cómic</small></span>
+            </a>
+            <a href="mi-coleccion.html">
+              <span class="dropdown-number">02</span>
+              <span><strong>Mi colección</strong><small>Lecturas y seguimiento</small></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="nav-item nav-item--dropdown">
+          <div class="nav-parent">
+            <a class="nav-link" href="../blog/index.html">Blog</a>
+            <button class="nav-spark" type="button" aria-label="Mostrar opciones del Blog">✦</button>
+          </div>
+          <div class="nav-dropdown">
+            <a href="../blog/explorador.html">
+              <span class="dropdown-number">01</span>
+              <span><strong>Explorador</strong><small>Anime, arte y procesos</small></span>
+            </a>
+            <a href="../blog/mi-coleccion.html">
+              <span class="dropdown-number">02</span>
+              <span><strong>Mi colección</strong><small>Artículos guardados</small></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="nav-item nav-item--dropdown">
+          <div class="nav-parent">
+            <a class="nav-link" href="../galeria/index.html">Galería</a>
+            <button class="nav-spark" type="button" aria-label="Mostrar opciones de Galería">✦</button>
+          </div>
+          <div class="nav-dropdown">
+            <a href="../galeria/explorador.html">
+              <span class="dropdown-number">01</span>
+              <span><strong>Explorador</strong><small>Fanart y otras obras</small></span>
+            </a>
+            <a href="../galeria/mi-coleccion.html">
+              <span class="dropdown-number">02</span>
+              <span><strong>Mi colección</strong><small>Mi archivo creativo</small></span>
+            </a>
+          </div>
+        </div>
+
+        <a class="nav-link" href="../contacto.html">Contacto</a>
+      </div>
     </nav>
   </header>
 
-  <main class="contenido-principal">
-    <section class="contenedor cabecera-pagina">
-      <p class="cabecera-pagina__etiqueta">Yumeverse</p>
-      <h1>Asiáticos</h1>
-      <p>Manga, manhwa, manhua y cómic asiático.</p>
+  <main class="yv-main" id="contenido">
+    <section class="yv-hero" style="--hero-image: url('/assets/images/asiaticos/omniscient-reader.png')">
+      <div class="yv-shell yv-hero__content">
+        <p class="yv-eyebrow">Biblioteca ilustrada</p>
+        <h1 class="yv-display">Historias que viven<br><em>entre viñetas.</em></h1>
+        <p class="yv-lead">
+          Explora manga, manhwa, manhua y cómic occidental. Conserva cada lectura,
+          registra tu progreso y vuelve siempre a los mundos que dejaron huella.
+        </p>
+
+        <div class="yv-hero__actions">
+          <a class="yv-button yv-button--primary" href="explorador.html">
+            Explorar el catálogo <span aria-hidden="true">→</span>
+          </a>
+          <a class="yv-button yv-button--ghost" href="mi-coleccion.html">
+            Abrir mi colección
+          </a>
+        </div>
+
+        <div class="yv-hero__rail" aria-label="Resumen del catálogo">
+          <div class="yv-hero__stat"><strong>08</strong><span>Mangas seleccionados</span></div>
+          <div class="yv-hero__stat"><strong>03</strong><span>Manhwas destacados</span></div>
+          <div class="yv-hero__stat"><strong>02</strong><span>Manhuas esenciales</span></div>
+          <div class="yv-hero__stat"><strong>02</strong><span>Cómics de autor</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="yv-section" aria-labelledby="destacadas-title">
+      <div class="yv-shell">
+        <header class="yv-section-head">
+          <div>
+            <p class="yv-eyebrow">Selección Yumeverse</p>
+            <h2 class="yv-section-title" id="destacadas-title">Lecturas que merecen<br><em>ser recordadas.</em></h2>
+          </div>
+          <a class="yv-text-link" href="explorador.html">Ver todo el catálogo <span aria-hidden="true">→</span></a>
+        </header>
+
+        <div class="yv-grid yv-grid--featured" id="featured-grid"></div>
+      </div>
+    </section>
+
+    <section class="yv-section yv-section--soft" aria-labelledby="categorias-title">
+      <div class="yv-shell">
+        <header class="yv-section-head">
+          <div>
+            <p class="yv-eyebrow">Cuatro maneras de leer</p>
+            <h2 class="yv-section-title" id="categorias-title">Elige el lenguaje visual<br><em>que te llama.</em></h2>
+          </div>
+        </header>
+
+        <div class="yv-category-grid">
+          <article class="yv-category">
+            <span class="yv-category__icon" aria-hidden="true">冊</span>
+            <h3>Manga</h3>
+            <p>Historias japonesas de todos los géneros, desde lo cotidiano hasta lo extraordinario.</p>
+            <a href="explorador.html?tipo=manga">Explorar manga →</a>
+          </article>
+
+          <article class="yv-category">
+            <span class="yv-category__icon" aria-hidden="true">巻</span>
+            <h3>Manhua</h3>
+            <p>Relatos chinos de cultivo, fantasía histórica, romance y mundos de gran belleza.</p>
+            <a href="explorador.html?tipo=manhua">Explorar manhua →</a>
+          </article>
+
+          <article class="yv-category">
+            <span class="yv-category__icon" aria-hidden="true">화</span>
+            <h3>Manhwa</h3>
+            <p>Lectura coreana pensada para la pantalla, con ritmo ágil y universos adictivos.</p>
+            <a href="explorador.html?tipo=manhwa">Explorar manhwa →</a>
+          </article>
+
+          <article class="yv-category">
+            <span class="yv-category__icon" aria-hidden="true">◆</span>
+            <h3>Cómic occidental</h3>
+            <p>Novela gráfica, superhéroes, misterio y propuestas de autor con identidad propia.</p>
+            <a href="explorador.html?tipo=comic-occidental">Explorar cómics →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="yv-section yv-section--ink" aria-labelledby="lectura-title">
+      <div class="yv-shell yv-reading-layout">
+        <div class="yv-reading-collage" aria-hidden="true">
+          <img src="../assets/images/asiaticos/omniscient-reader.png" alt="">
+          <img src="../assets/images/asiaticos/heaven-official.png" alt="">
+        </div>
+
+        <div class="yv-reading-copy">
+          <p class="yv-eyebrow">Tu lectura continúa</p>
+          <h2 class="yv-section-title" id="lectura-title">No pierdas el hilo<br><em>de ninguna historia.</em></h2>
+          <p>
+            Guarda el capítulo exacto, organiza tus pendientes y registra una nota
+            cuando una escena cambie tu manera de mirar la obra.
+          </p>
+
+          <div class="yv-mini-list">
+            <a class="yv-mini-item" href="detalle.html?id=omniscient-reader">
+              <img src="../assets/images/asiaticos/omniscient-reader.png" alt="">
+              <span><strong>Omniscient Reader</strong><span>Capítulo 176 de 245</span></span>
+              <span class="yv-progress" aria-label="72% leído"><i style="width:72%"></i></span>
+            </a>
+
+            <a class="yv-mini-item" href="detalle.html?id=frieren">
+              <img src="../assets/images/asiaticos/frieren.jpg" alt="">
+              <span><strong>Frieren</strong><span>Capítulo 90 de 140</span></span>
+              <span class="yv-progress" aria-label="64% leído"><i style="width:64%"></i></span>
+            </a>
+          </div>
+
+          <a class="yv-button yv-button--primary" href="mi-coleccion.html" style="margin-top:28px">Gestionar mi colección →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="yv-section" aria-labelledby="novedades-title">
+      <div class="yv-shell">
+        <header class="yv-section-head">
+          <div>
+            <p class="yv-eyebrow">Nuevas incorporaciones</p>
+            <h2 class="yv-section-title" id="novedades-title">Mundos recién abiertos<br><em>en la biblioteca.</em></h2>
+          </div>
+          <a class="yv-text-link" href="explorador.html?orden=recientes">Descubrir novedades <span aria-hidden="true">→</span></a>
+        </header>
+
+        <div class="yv-grid" id="latest-grid"></div>
+      </div>
+    </section>
+
+    <section class="yv-cta">
+      <div class="yv-shell yv-cta__inner">
+        <div>
+          <p class="yv-eyebrow">Tu próxima lectura</p>
+          <h2>Una sola viñeta puede abrir<br>un universo completo.</h2>
+        </div>
+        <a class="yv-button yv-button--primary" href="explorador.html">Elegir una historia →</a>
+      </div>
     </section>
   </main>
 
-  <footer class="contenedor">
-    <p>&copy; <span id="current-year"></span> Yumeverse.</p>
+  <footer class="site-footer">
+    <div class="site-footer__main container">
+      <div>
+        <a class="brand brand--footer" href="../index.html">
+          <span class="brand__symbol" aria-hidden="true">
+            <span class="brand__moon"></span>
+            <span class="brand__star">✦</span>
+          </span>
+          <span class="brand__name">Yume<span>verse</span></span>
+        </a>
+        <p>Historias que inspiran. Mundos que permanecen.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Enlaces secundarios">
+        <div>
+          <strong>Yumeverse</strong>
+          <a href="../sobre-mi.html">Sobre mí</a>
+          <a href="../contacto.html">Contacto</a>
+          <a href="../busqueda.html">Búsqueda</a>
+        </div>
+        <div>
+          <strong>Mi espacio</strong>
+          <a href="../favoritos.html">Favoritos</a>
+          <a href="../anime/mi-coleccion.html">Anime</a>
+          <a href="mi-coleccion.html">Asiáticos</a>
+        </div>
+        <div>
+          <strong>Legal</strong>
+          <a href="../privacidad.html">Privacidad</a>
+          <a href="../cookies.html">Cookies</a>
+          <a href="../aviso-legal.html">Aviso legal</a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="site-footer__bottom container">
+      <span class="site-footer__credit">Creado con imaginación <i aria-hidden="true">✦</i></span>
+      <small>
+        © 2026 Yumeverse. Proyecto personal cultural, sin venta ni streaming.
+        <span class="site-footer__music" aria-hidden="true">♫</span>
+      </small>
+    </div>
   </footer>
 
-  <script src="../assets/js/app.js" defer></script>
-  <script src="../assets/js/navigation.js" defer></script>
+  <div class="yv-toast" role="status" aria-live="polite" hidden></div>
 </body>
 </html>

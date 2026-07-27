@@ -5,10 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d30644a7-7003-4c6d-a4d2-d3072d898724" name="Changes" comment="main">
+      <change afterPath="$PROJECT_DIR$/assets/css/anime-fixes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/asiaticos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/chibi-devi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/fairy-tail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/given.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/horimiya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/iruma-kun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/kimetsu-no-yaiba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/mahoutsukai-no-yome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/nanbaka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/servamp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/sk8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/slime.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/solo-leveling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/ufo-baby.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/anime/yuri-on-ice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/after-the-rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/asiaticos-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/astral-guard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/coleccion-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/dr-stone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/fairy-tail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/frieren.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/given.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/heaven-official.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/horimiya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/jujutsu-kaisen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/kimetsu-no-yaiba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/mahoutsukai-no-yome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/martial-peak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/nocturne-city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/omniscient-reader.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/slime.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/solo-leveling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/general/coleccion-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/general/hero-yumeverse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/anime-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/anime-pages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/asiaticos-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/asiaticos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/anime-explorador.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/anime-mi-coleccion.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anime/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/detalle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anime/explorador.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/explorador.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anime/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anime/mi-coleccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/mi-coleccion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asiaticos/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/asiaticos/detalle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asiaticos/explorador.html" beforeDir="false" afterPath="$PROJECT_DIR$/asiaticos/explorador.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asiaticos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/asiaticos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asiaticos/mi-coleccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/asiaticos/mi-coleccion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/components.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layout.css" afterDir="false" />
@@ -16,7 +64,8 @@
       <change beforePath="$PROJECT_DIR$/assets/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/variables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crear_estructura_yumeverse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/anime.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/anime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/asiaticos.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/asiaticos.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +90,25 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
+      <entry key="MS100" value="3.312920952874302E-82" />
+      <entry key="MS500" value="5.058738320668722E-17" />
+      <entry key="S2" value="8.433552516801633E-5" />
+      <entry key="S5" value="0.023464117321789824" />
+      <entry key="S10" value="0.15318001606537918" />
+      <entry key="S30" value="0.5350580979717745" />
+      <entry key="S60" value="0.7322418746694158" />
+      <entry key="M2" value="0.8943893849410057" />
+      <entry key="M5" value="1.3562398761437724" />
+      <entry key="M10" value="1.927660938944709" />
+      <entry key="M15" value="2.2948562224960063" />
+      <entry key="M30" value="2.891335343754476" />
+      <entry key="H1" value="3.35158198958564" />
+      <entry key="H2" value="3.648347736620724" />
+      <entry key="H4" value="3.855479370335513" />
+      <entry key="D1" value="4.553361538145889" />
+      <entry key="W1" value="4.921747364146977" />
+    </decayedCancelled>
+    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
@@ -58,44 +126,25 @@
       <entry key="H4" value="1.0" />
       <entry key="D1" value="1.0" />
       <entry key="W1" value="1.0" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9330329915368074" />
-      <entry key="MS500" value="0.9862327044933592" />
-      <entry key="S2" value="0.9965402628278678" />
-      <entry key="S5" value="0.9986146661010289" />
-      <entry key="S10" value="0.9993070929904525" />
-      <entry key="S30" value="0.9997689776295918" />
-      <entry key="S60" value="0.9998844821426083" />
-      <entry key="M2" value="0.9999422394031608" />
-      <entry key="M5" value="0.9999768953608976" />
-      <entry key="M10" value="0.99998844761372" />
-      <entry key="M15" value="0.9999922983943179" />
-      <entry key="M30" value="0.9999961491897447" />
-      <entry key="H1" value="0.9999980745930187" />
-      <entry key="H2" value="0.999999037296046" />
-      <entry key="H4" value="0.9999995186479071" />
-      <entry key="D1" value="0.9999999197746351" />
-      <entry key="W1" value="0.9999999885392332" />
+      <entry key="MS100" value="5.844150488519899E-14" />
+      <entry key="MS500" value="0.0022560269229562227" />
+      <entry key="S2" value="0.21798442644116214" />
+      <entry key="S5" value="0.5618980841279567" />
+      <entry key="S10" value="0.8723547999351763" />
+      <entry key="S30" value="1.4164317617654296" />
+      <entry key="S60" value="1.6674977802501332" />
+      <entry key="M2" value="1.860364204697783" />
+      <entry key="M5" value="2.342174727979484" />
+      <entry key="M10" value="2.9205386938451436" />
+      <entry key="M15" value="3.290083570898061" />
+      <entry key="M30" value="3.888933068064791" />
+      <entry key="H1" value="4.350375419823214" />
+      <entry key="H2" value="4.647742787577696" />
+      <entry key="H4" value="4.8551764114939395" />
+      <entry key="D1" value="5.5533109316283" />
+      <entry key="W1" value="5.921740128960874" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -121,7 +170,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/tmv24/PycharmProjects/Yumeverse",
+    "last_opened_file_path": "C:/Users/tmv24/PycharmProjects/Yumeverse/data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -133,12 +182,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tmv24\PycharmProjects\Yumeverse\data" />
       <recent name="C:\Users\tmv24\PycharmProjects\Yumeverse" />
-      <recent name="C:\Users\tmv24\OneDrive\Documentos\Yumeverse" />
-      <recent name="C:\Users\tmv24\OneDrive\Documentos\Yumeverse\assets\css" />
+      <recent name="C:\Users\tmv24\PycharmProjects\Yumeverse\assets\js" />
+      <recent name="C:\Users\tmv24\PycharmProjects\Yumeverse\assets\css" />
+      <recent name="C:\Users\tmv24\PycharmProjects\Yumeverse\asiaticos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tmv24\OneDrive\Documentos\Yumeverse\pages" />
+      <recent name="C:\Users\tmv24\PycharmProjects\Yumeverse\assets\js" />
+      <recent name="C:\Users\tmv24\PycharmProjects\Yumeverse\assets\images\asiaticos" />
+      <recent name="C:\Users\tmv24\PycharmProjects\Yumeverse\asiaticos" />
+      <recent name="C:\Users\tmv24\PycharmProjects\Yumeverse" />
+      <recent name="C:\Users\tmv24\PycharmProjects\Yumeverse\anime" />
     </key>
   </component>
   <component name="RunManager">
@@ -188,7 +243,7 @@
       <option name="presentableId" value="Default" />
       <updated>1781963224305</updated>
       <workItem from="1784973682463" duration="3773000" />
-      <workItem from="1784995042918" duration="3133000" />
+      <workItem from="1784995042918" duration="15153000" />
     </task>
     <task id="LOCAL-00001" summary="main">
       <option name="closed" value="true" />
@@ -198,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784995191661</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="main">
+      <option name="closed" value="true" />
+      <created>1784998193972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1784998193972</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

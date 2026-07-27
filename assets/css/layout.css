@@ -14,7 +14,11 @@
 
 .section--paper {
   background:
-    radial-gradient(circle at 84% 5%, rgba(184, 36, 112, 0.08), transparent 28%),
+    radial-gradient(
+      circle at 84% 5%,
+      rgba(184, 36, 112, 0.08),
+      transparent 28%
+    ),
     var(--color-paper);
   color: var(--color-text-dark);
 }
@@ -37,7 +41,7 @@
 .section-heading > p {
   max-width: 500px;
   color: var(--color-text-muted);
-  font-size: 0.92rem;
+  font-size: 1.08rem;
   line-height: 1.8;
 }
 
@@ -50,8 +54,16 @@
   padding-block: clamp(80px, 9vw, 140px);
   overflow: hidden;
   background:
-    radial-gradient(circle at 20% 15%, rgba(255, 79, 163, 0.13), transparent 26%),
-    radial-gradient(circle at 90% 80%, rgba(139, 95, 189, 0.15), transparent 28%),
+    radial-gradient(
+      circle at 20% 15%,
+      rgba(255, 79, 163, 0.13),
+      transparent 26%
+    ),
+    radial-gradient(
+      circle at 90% 80%,
+      rgba(139, 95, 189, 0.15),
+      transparent 28%
+    ),
     var(--color-ink-850);
 }
 
@@ -64,7 +76,9 @@
   bottom: -320px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 50%;
-  box-shadow: 0 0 0 70px rgba(255, 255, 255, 0.018), 0 0 0 140px rgba(255, 255, 255, 0.012);
+  box-shadow:
+    0 0 0 70px rgba(255, 255, 255, 0.018),
+    0 0 0 140px rgba(255, 255, 255, 0.012);
 }
 
 .collection-panel {
