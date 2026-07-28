@@ -1,5 +1,60 @@
 {
-  "updates": [],
-  "featured": [],
-  "recommendations": []
+  "updatedAt": "2026-07-27",
+  "updates": [
+    {
+      "type": "Anime",
+      "id": "solo-leveling",
+      "title": "Solo Leveling",
+      "text": "Expediente, progreso y notas personales revisadas.",
+      "url": "anime/detalle.html?id=solo-leveling",
+      "image": "assets/images/anime/solo-leveling.jpg"
+    },
+    {
+      "type": "Lectura",
+      "id": "omniscient-reader",
+      "title": "Omniscient Reader",
+      "text": "Nueva ficha incorporada al catálogo de lecturas.",
+      "url": "asiaticos/detalle.html?id=omniscient-reader",
+      "image": "assets/images/asiaticos/omniscient-reader.png"
+    },
+    {
+      "type": "Blog",
+      "id": "color-nocturno-ilustracion",
+      "title": "Una paleta nocturna para ilustrar",
+      "text": "Nuevo artículo sobre color, luz y profundidad.",
+      "url": "blog/articulo.html?id=color-nocturno-ilustracion",
+      "image": "assets/images/asiaticos/nocturne-city.png"
+    },
+    {
+      "type": "Galería",
+      "id": "despues-de-la-lluvia",
+      "title": "Después de la lluvia",
+      "text": "Nueva obra agregada al archivo visual.",
+      "url": "galeria/obra.html?id=despues-de-la-lluvia",
+      "image": "assets/images/asiaticos/after-the-rain.png"
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "Anime",
+      "id": "mahoutsukai-no-yome",
+      "reason": "Si buscas fantasía íntima y atmosférica."
+    },
+    {
+      "type": "Lectura",
+      "id": "heaven-official",
+      "reason": "Para una historia extensa, visual y poética."
+    },
+    {
+      "type": "Blog",
+      "id": "archivo-creativo-que-inspira",
+      "reason": "Para ordenar referencias con intención."
+    }
+  ],
+  "featured": {
+    "anime": ["solo-leveling", "given", "horimiya"],
+    "asiaticos": ["omniscient-reader", "heaven-official", "frieren"],
+    "blog": ["silencios-que-tambien-cuentan", "color-nocturno-ilustracion"],
+    "galeria": ["luz-entre-mundos", "guardian-astral", "despues-de-la-lluvia"]
+  }
 }

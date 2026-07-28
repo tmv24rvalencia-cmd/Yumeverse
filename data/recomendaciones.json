@@ -1,3 +1,24 @@
 {
-  "items": []
+  "items": [
+    {
+      "type": "anime",
+      "itemId": "mahoutsukai-no-yome",
+      "reason": "Fantasía íntima, criaturas y una atmósfera que invita a mirar despacio."
+    },
+    {
+      "type": "asiaticos",
+      "itemId": "omniscient-reader",
+      "reason": "Una lectura de acción con capas narrativas y un mundo enorme."
+    },
+    {
+      "type": "blog",
+      "itemId": "color-nocturno-ilustracion",
+      "reason": "Ideas prácticas para aplicar la paleta visual de Yumeverse."
+    },
+    {
+      "type": "galeria",
+      "itemId": "despues-de-la-lluvia",
+      "reason": "Una referencia de iluminación nocturna y reflejos."
+    }
+  ]
 }

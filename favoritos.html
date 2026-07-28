@@ -3,8 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Consulta todo lo que has guardado.">
+  <meta name="description" content="Todos tus animes, lecturas, artículos y obras favoritas.">
+  <meta name="theme-color" content="#090812">
+  <meta property="og:site_name" content="Yumeverse">
+  <meta property="og:title" content="Favoritos | Yumeverse">
+  <meta property="og:description" content="Todos tus animes, lecturas, artículos y obras favoritas.">
+  <meta property="og:type" content="website">
   <title>Favoritos | Yumeverse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,ital,wght@6..96,400;6..96,500;6..96,600;6..96,700&family=Manrope:wght@400;500;600;700&family=Marcellus&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/variables.css">
   <link rel="stylesheet" href="assets/css/base.css">
@@ -13,34 +21,111 @@
   <link rel="stylesheet" href="assets/css/pages.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-<body>
-  <header class="cabecera-sitio">
-    <nav class="contenedor" aria-label="Navegación principal">
-      <a href="index.html" aria-label="Ir al inicio">Yumeverse</a>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="anime/index.html">Anime</a></li>
-        <li><a href="asiaticos/index.html">Asiáticos</a></li>
-        <li><a href="blog/index.html">Blog</a></li>
-        <li><a href="galeria/index.html">Galería</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
+<body class="page hub-page page--utility" data-root="" data-view="favorites">
+<a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
+<header class="site-header">
+  <div class="header-main container">
+    <a class="brand" href="index.html" aria-label="Yumeverse, inicio">
+      <span class="brand__symbol" aria-hidden="true"><span class="brand__moon"></span><span class="brand__star">✦</span></span>
+      <span class="brand__name">Yume<span>verse</span></span>
+    </a>
+    <form class="search" action="busqueda.html" method="get" role="search">
+      <label class="sr-only" for="busqueda-global">Buscar en Yumeverse</label>
+      <span class="search__label" aria-hidden="true">Buscar en todo</span>
+      <input id="busqueda-global" name="q" type="search" placeholder="Anime, manga, artículos, personajes..." autocomplete="off">
+      <button class="search__button" type="submit" aria-label="Buscar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+      </button>
+    </form>
+    <div class="header-actions">
+      <a class="header-action" href="favoritos.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.8a5.5 5.5 0 0 0-7.8 0L12 5.9l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.4a5.5 5.5 0 0 0 0-7.8Z"></path></svg><span><small>Mis listas</small><strong>Favoritos</strong></span></a>
+      <a class="header-action header-action--profile" href="sobre-mi.html"><span class="profile-mark" aria-hidden="true">Y</span><span><small>Mi espacio</small><strong>Sobre mí</strong></span></a>
+    </div>
+    <input class="nav-check" type="checkbox" id="nav-check" aria-hidden="true">
+    <label class="menu-button" for="nav-check" aria-label="Abrir o cerrar el menú"><span></span><span></span><span></span></label>
+  </div>
+  <nav class="main-nav" aria-label="Navegación principal">
+    <div class="main-nav__inner container">
+      <a class="nav-link " href="index.html">Inicio</a>
+      <div class="nav-item nav-item--dropdown">
+    <div class="nav-parent">
+      <a class="nav-link " href="anime/index.html">Anime</a>
+      <button class="nav-spark" type="button" data-symbol="♡" aria-label="Mostrar opciones de Anime"></button>
+    </div>
+    <div class="nav-dropdown">
+      <a class="nav-dropdown__link nav-dropdown__link--explorador" href="anime/explorador.html"><span><strong>Explorador</strong><small>Todos los animes</small></span></a>
+      <a class="nav-dropdown__link nav-dropdown__link--coleccion" href="anime/mi-coleccion.html"><span><strong>Mi colección</strong><small>Favoritos, progreso y notas</small></span></a>
+    </div>
+  </div>
+      <div class="nav-item nav-item--dropdown">
+    <div class="nav-parent">
+      <a class="nav-link " href="asiaticos/index.html">Asiáticos</a>
+      <button class="nav-spark" type="button" data-symbol="♡" aria-label="Mostrar opciones de Asiáticos"></button>
+    </div>
+    <div class="nav-dropdown">
+      <a class="nav-dropdown__link nav-dropdown__link--explorador" href="asiaticos/explorador.html"><span><strong>Explorador</strong><small>Manga, manhwa, manhua y cómic</small></span></a>
+      <a class="nav-dropdown__link nav-dropdown__link--coleccion" href="asiaticos/mi-coleccion.html"><span><strong>Mi colección</strong><small>Favoritos, progreso y notas</small></span></a>
+    </div>
+  </div>
+      <div class="nav-item nav-item--dropdown">
+    <div class="nav-parent">
+      <a class="nav-link " href="blog/index.html">Blog</a>
+      <button class="nav-spark" type="button" data-symbol="♡" aria-label="Mostrar opciones de Blog"></button>
+    </div>
+    <div class="nav-dropdown">
+      <a class="nav-dropdown__link nav-dropdown__link--explorador" href="blog/explorador.html"><span><strong>Explorador</strong><small>Anime, arte y creatividad</small></span></a>
+      <a class="nav-dropdown__link nav-dropdown__link--coleccion" href="blog/mi-coleccion.html"><span><strong>Mi colección</strong><small>Favoritos, progreso y notas</small></span></a>
+    </div>
+  </div>
+      <div class="nav-item nav-item--dropdown">
+    <div class="nav-parent">
+      <a class="nav-link " href="galeria/index.html">Galería</a>
+      <button class="nav-spark" type="button" data-symbol="♡" aria-label="Mostrar opciones de Galería"></button>
+    </div>
+    <div class="nav-dropdown">
+      <a class="nav-dropdown__link nav-dropdown__link--explorador" href="galeria/explorador.html"><span><strong>Explorador</strong><small>Fanart y otras obras</small></span></a>
+      <a class="nav-dropdown__link nav-dropdown__link--coleccion" href="galeria/mi-coleccion.html"><span><strong>Mi colección</strong><small>Favoritos, progreso y notas</small></span></a>
+    </div>
+  </div>
+      <a class="nav-link " href="contacto.html">Contacto</a>
+    </div>
+  </nav>
+</header>
+<main id="contenido-principal"><section class="hub-page-hero">
+  <div class="container hub-page-hero__content">
+    <p class="hub-kicker">Mi espacio</p><h1>Todo lo que dejó <em>huella.</em></h1><p>Tus favoritos de Anime, Asiáticos, Blog y Galería reunidos en una sola página.</p>
+  </div>
+</section>
+      <section class="section section--dark"><div class="container"><header class="hub-section-head"><div><p class="hub-kicker">Archivo personal</p><h2>Mis favoritos</h2></div><a class="hub-text-link" href="busqueda.html">Buscar contenido →</a></header><div class="hub-card-grid" data-favorites-grid></div></div></section></main>
+<footer class="site-footer">
+  <div class="site-footer__main container">
+    <div class="site-footer__intro">
+      <a class="brand brand--footer" href="index.html">
+        <span class="brand__symbol" aria-hidden="true"><span class="brand__moon"></span><span class="brand__star">✦</span></span>
+        <span class="brand__name">Yume<span>verse</span></span>
+      </a>
+      <p>Historias que inspiran. Mundos que permanecen.</p>
+      <span class="site-footer__description">Archivo personal de anime, lecturas, artículos e ilustración.</span>
+      <a class="site-footer__email" href="mailto:info@rvalencia26.com" data-footer-email>info@rvalencia26.com</a>
+    </div>
+    <nav class="footer-nav" aria-label="Enlaces secundarios">
+      <div><strong>Explorar</strong><a href="anime/index.html">Anime</a><a href="asiaticos/index.html">Asiáticos</a><a href="blog/index.html">Blog</a><a href="galeria/index.html">Galería</a></div>
+      <div><strong>Mis colecciones</strong><a href="favoritos.html">Todos los favoritos</a><a href="anime/mi-coleccion.html">Colección de anime</a><a href="asiaticos/mi-coleccion.html">Colección de lecturas</a><a href="blog/mi-coleccion.html">Artículos guardados</a><a href="galeria/mi-coleccion.html">Archivo visual</a></div>
+      <div><strong>Yumeverse</strong><a href="index.html">Inicio</a><a href="sobre-mi.html">Sobre mí</a><a href="contacto.html">Contacto</a><a href="busqueda.html">Búsqueda global</a></div>
+      <div><strong>Legal</strong><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a><a href="aviso-legal.html">Aviso legal</a></div>
     </nav>
-  </header>
-
-  <main class="contenido-principal">
-    <section class="contenedor cabecera-pagina">
-      <p class="cabecera-pagina__etiqueta">Yumeverse</p>
-      <h1>Favoritos</h1>
-      <p>Consulta todo lo que has guardado.</p>
-    </section>
-  </main>
-
-  <footer class="contenedor">
-    <p>&copy; <span id="current-year"></span> Yumeverse.</p>
-  </footer>
-
-  <script src="assets/js/app.js" defer></script>
-  <script src="assets/js/navigation.js" defer></script>
+  </div>
+  <div class="site-footer__bottom container">
+    <small>© <span data-current-year>2026</span> Yumeverse. Proyecto personal cultural, sin venta ni streaming. <span aria-hidden="true">♫</span></small>
+    <span class="site-footer__credit">Creado con imaginación <i aria-hidden="true">✦</i></span>
+  </div>
+</footer>
+<script src="assets/js/app.js" defer></script>
+<script src="assets/js/storage.js" defer></script>
+<script src="assets/js/navigation.js" defer></script>
+<script src="assets/js/favorites.js" defer></script>
+<script src="assets/js/collection.js" defer></script>
+<script src="assets/js/filters.js" defer></script>
+<script src="assets/js/cookies.js" defer></script>
 </body>
 </html>

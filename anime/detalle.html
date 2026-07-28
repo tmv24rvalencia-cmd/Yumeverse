@@ -28,10 +28,9 @@
   <link rel="stylesheet" href="../assets/css/pages.css">
   <link rel="stylesheet" href="../assets/css/responsive.css">
 
-  <script src="../assets/js/anime-data.js" defer></script>
 </head>
 
-<body class="page page--anime page--anime-detail" data-page="detalle">
+<body class="page page--anime page--anime-detail" data-page="detalle" data-root="../" data-view="anime-detail">
   <a class="skip-link" href="#contenido-principal">
     Saltar al contenido
   </a>
@@ -119,7 +118,7 @@
           <div class="nav-parent">
             <a
               class="nav-link is-active"
-              href="index_anime.html"
+              href="index.html"
               aria-current="page"
             >
               Anime
@@ -129,14 +128,12 @@
               class="nav-spark"
               type="button"
               aria-label="Mostrar opciones de Anime"
-            >
-              ✦
-            </button>
+             data-symbol="♡"></button>
           </div>
 
           <div class="nav-dropdown">
             <a href="explorador.html">
-              <span class="dropdown-number">01</span>
+              
 
               <span>
                 <strong>Explorador</strong>
@@ -145,7 +142,7 @@
             </a>
 
             <a href="mi-coleccion.html">
-              <span class="dropdown-number">02</span>
+              
 
               <span>
                 <strong>Mi colección</strong>
@@ -165,14 +162,12 @@
               class="nav-spark"
               type="button"
               aria-label="Mostrar opciones de Asiáticos"
-            >
-              ✦
-            </button>
+             data-symbol="♡"></button>
           </div>
 
           <div class="nav-dropdown">
             <a href="../asiaticos/explorador.html">
-              <span class="dropdown-number">01</span>
+              
 
               <span>
                 <strong>Explorador</strong>
@@ -181,7 +176,7 @@
             </a>
 
             <a href="../asiaticos/mi-coleccion.html">
-              <span class="dropdown-number">02</span>
+              
 
               <span>
                 <strong>Mi colección</strong>
@@ -201,14 +196,12 @@
               class="nav-spark"
               type="button"
               aria-label="Mostrar opciones del Blog"
-            >
-              ✦
-            </button>
+             data-symbol="♡"></button>
           </div>
 
           <div class="nav-dropdown">
             <a href="../blog/explorador.html">
-              <span class="dropdown-number">01</span>
+              
 
               <span>
                 <strong>Explorador</strong>
@@ -217,7 +210,7 @@
             </a>
 
             <a href="../blog/mi-coleccion.html">
-              <span class="dropdown-number">02</span>
+              
 
               <span>
                 <strong>Mi colección</strong>
@@ -237,14 +230,12 @@
               class="nav-spark"
               type="button"
               aria-label="Mostrar opciones de Galería"
-            >
-              ✦
-            </button>
+             data-symbol="♡"></button>
           </div>
 
           <div class="nav-dropdown">
             <a href="../galeria/explorador.html">
-              <span class="dropdown-number">01</span>
+              
 
               <span>
                 <strong>Explorador</strong>
@@ -253,7 +244,7 @@
             </a>
 
             <a href="../galeria/mi-coleccion.html">
-              <span class="dropdown-number">02</span>
+              
 
               <span>
                 <strong>Mi colección</strong>
@@ -286,7 +277,7 @@
         <nav class="breadcrumbs breadcrumbs--light" aria-label="Ruta de navegación">
           <a href="../index.html">Inicio</a>
           <span aria-hidden="true">✦</span>
-          <a href="index_anime.html">Anime</a>
+          <a href="index.html">Anime</a>
           <span aria-hidden="true">✦</span>
           <a href="explorador.html">Explorador</a>
           <span aria-hidden="true">✦</span>
@@ -494,15 +485,13 @@
 
           <article class="detail-block" id="episodios">
             <header class="detail-block__heading detail-block__heading--simple">
-              <span class="detail-block__number">03</span>
-
               <div>
                 <p class="eyebrow">
                   <span></span>
                   Guía de episodios
                 </p>
 
-                <h2>
+                <h2 id="episode-season-title">
                   Primera temporada
                 </h2>
               </div>
@@ -510,17 +499,17 @@
 
             <div class="episode-summary">
               <div>
-                <strong>12</strong>
+                <strong id="episode-summary-count">12</strong>
                 <span>Episodios</span>
               </div>
 
               <div>
-                <strong>276</strong>
+                <strong id="episode-summary-minutes">276</strong>
                 <span>Minutos totales</span>
               </div>
 
               <div>
-                <strong>2024</strong>
+                <strong id="episode-summary-year">2024</strong>
                 <span>Año de emisión</span>
               </div>
             </div>
@@ -823,7 +812,7 @@
           <article class="character-card">
             <div class="character-card__image">
               <img
-                src="../assets/images/anime/characters/sung-jinwoo.jpg"
+                src="../assets/images/anime/solo-leveling.jpg"
                 alt="Sung Jinwoo"
                 loading="lazy"
               >
@@ -844,7 +833,7 @@
           <article class="character-card">
             <div class="character-card__image">
               <img
-                src="../assets/images/anime/characters/cha-hae-in.jpg"
+                src="../assets/images/anime/kimetsu-no-yaiba.jpg"
                 alt="Cha Hae-in"
                 loading="lazy"
               >
@@ -865,7 +854,7 @@
           <article class="character-card">
             <div class="character-card__image">
               <img
-                src="../assets/images/anime/characters/yoo-jinho.jpg"
+                src="../assets/images/anime/sk8.jpg"
                 alt="Yoo Jinho"
                 loading="lazy"
               >
@@ -886,7 +875,7 @@
           <article class="character-card">
             <div class="character-card__image">
               <img
-                src="../assets/images/anime/characters/go-gunhee.jpg"
+                src="../assets/images/anime/iruma-kun.jpg"
                 alt="Go Gunhee"
                 loading="lazy"
               >
@@ -936,7 +925,7 @@
               aria-label="Ver expediente de Jujutsu Kaisen"
             >
               <img
-                src="../assets/images/anime/jujutsu-kaisen.jpg"
+                src="../assets/images/anime/kimetsu-no-yaiba.jpg"
                 alt="Portada de Jujutsu Kaisen"
                 loading="lazy"
               >
@@ -1066,7 +1055,7 @@
               aria-label="Ver expediente de Frieren"
             >
               <img
-                src="../assets/images/anime/frieren.jpg"
+                src="../assets/images/anime/mahoutsukai-no-yome.jpg"
                 alt="Portada de Frieren"
                 loading="lazy"
               >
@@ -1131,7 +1120,7 @@
               aria-label="Ver expediente de Spy x Family"
             >
               <img
-                src="../assets/images/anime/spy-x-family.jpg"
+                src="../assets/images/anime/horimiya.jpg"
                 alt="Portada de Spy x Family"
                 loading="lazy"
               >
@@ -1228,59 +1217,31 @@
   </main>
 
   <footer class="site-footer">
-    <div class="site-footer__main container">
-      <div>
-        <a class="brand brand--footer" href="../index.html">
-          <span class="brand__symbol" aria-hidden="true">
-            <span class="brand__moon"></span>
-            <span class="brand__star">✦</span>
-          </span>
-
-          <span class="brand__name">
-            Yume<span>verse</span>
-          </span>
-        </a>
-
-        <p>
-          Historias que inspiran. Mundos que permanecen.
-        </p>
-      </div>
-
-      <nav class="footer-nav" aria-label="Enlaces secundarios">
-        <div>
-          <strong>Yumeverse</strong>
-          <a href="../sobre-mi.html">Sobre mí</a>
-          <a href="../contacto.html">Contacto</a>
-          <a href="../busqueda.html">Búsqueda</a>
-        </div>
-
-        <div>
-          <strong>Mi espacio</strong>
-          <a href="../favoritos.html">Favoritos</a>
-          <a href="mi-coleccion.html">Anime</a>
-          <a href="../galeria/mi-coleccion.html">Galería</a>
-        </div>
-
-        <div>
-          <strong>Legal</strong>
-          <a href="../privacidad.html">Privacidad</a>
-          <a href="../cookies.html">Cookies</a>
-          <a href="../aviso-legal.html">Aviso legal</a>
-        </div>
-      </nav>
+  <div class="site-footer__main container">
+    <div class="site-footer__intro">
+      <a class="brand brand--footer" href="../index.html">
+        <span class="brand__symbol" aria-hidden="true"><span class="brand__moon"></span><span class="brand__star">✦</span></span>
+        <span class="brand__name">Yume<span>verse</span></span>
+      </a>
+      <p>Historias que inspiran. Mundos que permanecen.</p>
+      <span class="site-footer__description">Archivo personal de anime, lecturas, artículos e ilustración.</span>
+      <a class="site-footer__email" href="mailto:info@rvalencia26.com" data-footer-email>info@rvalencia26.com</a>
     </div>
-
-    <div class="site-footer__bottom container">
-      <small>
-        © 2026 Yumeverse. Proyecto personal cultural, sin venta ni streaming.
-        <span aria-hidden="true">♫</span>
-      </small>
-
-      <span>
-        Creado con imaginación
-        <i aria-hidden="true">✦</i>
-      </span>
-    </div>
-  </footer>
+    <nav class="footer-nav" aria-label="Enlaces secundarios">
+      <div><strong>Explorar</strong><a href="../anime/index.html">Anime</a><a href="../asiaticos/index.html">Asiáticos</a><a href="../blog/index.html">Blog</a><a href="../galeria/index.html">Galería</a></div>
+      <div><strong>Mis colecciones</strong><a href="../favoritos.html">Todos los favoritos</a><a href="../anime/mi-coleccion.html">Colección de anime</a><a href="../asiaticos/mi-coleccion.html">Colección de lecturas</a><a href="../blog/mi-coleccion.html">Artículos guardados</a><a href="../galeria/mi-coleccion.html">Archivo visual</a></div>
+      <div><strong>Yumeverse</strong><a href="../index.html">Inicio</a><a href="../sobre-mi.html">Sobre mí</a><a href="../contacto.html">Contacto</a><a href="../busqueda.html">Búsqueda global</a></div>
+      <div><strong>Legal</strong><a href="../privacidad.html">Privacidad</a><a href="../cookies.html">Cookies</a><a href="../aviso-legal.html">Aviso legal</a></div>
+    </nav>
+  </div>
+  <div class="site-footer__bottom container">
+    <small>© <span data-current-year>2026</span> Yumeverse. Proyecto personal cultural, sin venta ni streaming. <span aria-hidden="true">♫</span></small>
+    <span class="site-footer__credit">Creado con imaginación <i aria-hidden="true">✦</i></span>
+  </div>
+</footer>
+  <script src="../assets/js/app.js" defer></script>
+  <script src="../assets/js/storage.js" defer></script>
+  <script src="../assets/js/navigation.js" defer></script>
+  <script src="../assets/js/cookies.js" defer></script>
 </body>
 </html>

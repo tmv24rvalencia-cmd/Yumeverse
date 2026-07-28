@@ -1,3 +1,251 @@
 {
-  "articles": []
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-27",
+  "categories": [
+    {
+      "id": "anime",
+      "title": "Anime y cultura",
+      "description": "Estrenos, industria, personajes y las historias detrás de cada temporada."
+    },
+    {
+      "id": "arte",
+      "title": "Arte y creatividad",
+      "description": "Ilustración, procesos creativos, inspiración y herramientas para crear."
+    }
+  ],
+  "articles": [
+    {
+      "id": "silencios-que-tambien-cuentan",
+      "title": "Los silencios que también cuentan una historia",
+      "category": "Anime",
+      "subCategory": "análisis",
+      "date": "2026-07-24",
+      "readTime": 7,
+      "author": "Yumeverse",
+      "excerpt": "Una mirada a las escenas pausadas, los gestos mínimos y todo lo que el anime puede decir sin pronunciar una palabra.",
+      "image": "/assets/images/anime/given.jpg",
+      "tags": ["narrativa", "música", "emociones"],
+      "featured": true,
+      "popular": true,
+      "content": [
+        {
+          "heading": "Cuando la pausa se convierte en diálogo",
+          "paragraphs": [
+            "No todas las emociones necesitan explicarse. Una mirada que se desvía, una habitación vacía o una canción interrumpida pueden contar tanto como una conversación completa.",
+            "El anime utiliza el ritmo visual para acercarnos a los personajes. Al dejar espacio entre una acción y la siguiente, permite que la persona espectadora complete el significado con su propia experiencia."
+          ]
+        },
+        {
+          "heading": "La música como memoria",
+          "paragraphs": [
+            "En las historias donde la música ocupa un lugar central, cada melodía puede actuar como un recuerdo. No acompaña solamente la escena: revela lo que el personaje todavía no sabe expresar.",
+            "Ese equilibrio entre sonido y silencio es lo que convierte una secuencia sencilla en una experiencia que permanece después de terminar el episodio."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fantasia-que-se-siente-cercana",
+      "title": "Por qué la mejor fantasía se siente cercana",
+      "category": "Anime",
+      "subCategory": "inspiración",
+      "date": "2026-07-21",
+      "readTime": 6,
+      "author": "Yumeverse",
+      "excerpt": "Mundos imposibles, emociones reconocibles: la combinación que hace inolvidable una aventura fantástica.",
+      "image": "/assets/images/anime/mahoutsukai-no-yome.jpg",
+      "tags": ["fantasía", "mundo", "personajes"],
+      "featured": true,
+      "popular": false,
+      "content": [
+        {
+          "heading": "Reglas extraordinarias, sentimientos reales",
+          "paragraphs": [
+            "Un universo fantástico puede tener magia, criaturas y paisajes imposibles, pero necesita emociones reconocibles para que queramos habitarlo.",
+            "La soledad, el deseo de pertenecer y la curiosidad funcionan como puentes entre la vida cotidiana y lo extraordinario."
+          ]
+        },
+        {
+          "heading": "El detalle construye credibilidad",
+          "paragraphs": [
+            "Los pequeños rituales, los objetos usados y la forma en que los personajes se relacionan con su entorno convierten un decorado en un lugar vivo.",
+            "La fantasía más poderosa no nos pide creerlo todo; nos ofrece suficientes detalles para que deseemos hacerlo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "color-nocturno-ilustracion",
+      "title": "Una paleta nocturna para ilustrar sin perder calidez",
+      "category": "Arte",
+      "subCategory": "tutoriales",
+      "date": "2026-07-18",
+      "readTime": 9,
+      "author": "Yumeverse",
+      "excerpt": "Cómo combinar azul profundo, violeta y rosa para crear escenas oscuras que sigan sintiéndose vivas.",
+      "image": "/assets/images/asiaticos/omniscient-reader.png",
+      "tags": ["color", "ilustración", "luz"],
+      "featured": true,
+      "popular": true,
+      "content": [
+        {
+          "heading": "Empieza por el valor, no por el color",
+          "paragraphs": [
+            "Antes de elegir tonos, separa la imagen en luces, medios y sombras. Una composición legible en escala de grises seguirá funcionando cuando añadas color.",
+            "Reserva los valores más claros para el punto focal. Un rosa luminoso será más eficaz si el resto de la escena no compite con él."
+          ]
+        },
+        {
+          "heading": "La temperatura crea profundidad",
+          "paragraphs": [
+            "Los azules oscuros pueden dominar el fondo mientras violetas y magentas acercan los elementos principales. Una pequeña zona cálida evita que la escena se vuelva fría o plana.",
+            "No necesitas usar todos los colores con la misma intensidad: la jerarquía visual también nace de la moderación."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "personajes-que-recordamos",
+      "title": "Diseñar personajes que recordamos por su silueta",
+      "category": "Arte",
+      "subCategory": "ilustración",
+      "date": "2026-07-14",
+      "readTime": 8,
+      "author": "Yumeverse",
+      "excerpt": "La forma, el gesto y dos o tres decisiones claras pueden construir una identidad visual inmediata.",
+      "image": "/assets/images/anime/yuri-on-ice.jpg",
+      "tags": ["personajes", "diseño", "silueta"],
+      "featured": false,
+      "popular": true,
+      "content": [
+        {
+          "heading": "La prueba de la sombra",
+          "paragraphs": [
+            "Si un personaje sigue siendo reconocible convertido en una silueta negra, su diseño ya cuenta con una base sólida.",
+            "El peinado, la postura, la proporción de la ropa y un accesorio principal pueden crear una firma visual sin recargar el conjunto."
+          ]
+        },
+        {
+          "heading": "El gesto completa el diseño",
+          "paragraphs": [
+            "La personalidad no vive únicamente en el vestuario. Una espalda encorvada, una mirada directa o unas manos siempre ocupadas pueden decirnos quién es el personaje antes de escucharle hablar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temporada-anime-sin-saturarse",
+      "title": "Cómo seguir una temporada de anime sin saturarse",
+      "category": "Anime",
+      "subCategory": "estrenos",
+      "date": "2026-07-09",
+      "readTime": 5,
+      "author": "Yumeverse",
+      "excerpt": "Un método sencillo para elegir series, registrar el progreso y disfrutar sin convertir el ocio en una lista de tareas.",
+      "image": "/assets/images/anime/slime.jpg",
+      "tags": ["temporada", "organización", "colección"],
+      "featured": false,
+      "popular": false,
+      "content": [
+        {
+          "heading": "Elige por curiosidad, no por obligación",
+          "paragraphs": [
+            "Empieza con pocas series y deja espacio para abandonar una si ya no te interesa. Completar por completar no mejora la experiencia.",
+            "Registrar el progreso sirve para volver con facilidad, no para medir cuánto has producido durante tu tiempo libre."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "del-boceto-a-la-imagen-final",
+      "title": "Del boceto a la imagen final: un proceso amable",
+      "category": "Arte",
+      "subCategory": "procesos",
+      "date": "2026-07-03",
+      "readTime": 10,
+      "author": "Yumeverse",
+      "excerpt": "Una ruta flexible para avanzar por composición, color y detalle sin perder la energía de la idea inicial.",
+      "image": "/assets/images/asiaticos/after-the-rain.png",
+      "tags": ["boceto", "proceso", "herramientas"],
+      "featured": false,
+      "popular": true,
+      "content": [
+        {
+          "heading": "Decide primero qué debe sentirse",
+          "paragraphs": [
+            "Antes del acabado, escribe una frase sobre la emoción principal. Esa frase te ayudará a elegir encuadre, luz y color.",
+            "Un boceto claro no necesita detalle: solo debe contener la dirección de la mirada, las masas grandes y el ritmo de la escena."
+          ]
+        },
+        {
+          "heading": "Terminar no significa pulirlo todo",
+          "paragraphs": [
+            "Concentra el detalle en la zona protagonista y permite que el resto respire. Una imagen puede estar terminada aunque algunas áreas conserven trazos visibles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pequenos-mundos-grandes-historias",
+      "title": "Pequeños mundos, grandes historias",
+      "category": "Anime",
+      "subCategory": "industria",
+      "date": "2026-06-26",
+      "readTime": 6,
+      "author": "Yumeverse",
+      "excerpt": "Por qué una habitación, un club escolar o una pista de hielo pueden sostener una narración completa.",
+      "image": "/assets/images/anime/horimiya.jpg",
+      "tags": ["escenarios", "vida cotidiana", "narrativa"],
+      "featured": false,
+      "popular": false,
+      "content": [
+        {
+          "heading": "El espacio cotidiano como personaje",
+          "paragraphs": [
+            "Cuando una historia vuelve una y otra vez al mismo lugar, ese espacio acumula recuerdos. El espectador reconoce sus rincones y anticipa cómo puede cambiar una escena.",
+            "La escala pequeña permite observar gestos, rutinas y vínculos que quedarían ocultos en una aventura más ruidosa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "archivo-creativo-que-inspira",
+      "title": "Crear un archivo visual que realmente inspire",
+      "category": "Arte",
+      "subCategory": "inspiración",
+      "date": "2026-06-18",
+      "readTime": 7,
+      "author": "Yumeverse",
+      "excerpt": "Guardar menos, ordenar mejor y añadir una nota personal transforma una carpeta de imágenes en una herramienta creativa.",
+      "image": "/assets/images/asiaticos/nocturne-city.png",
+      "tags": ["referencias", "archivo", "creatividad"],
+      "featured": false,
+      "popular": false,
+      "content": [
+        {
+          "heading": "Colecciona decisiones, no solo imágenes",
+          "paragraphs": [
+            "Cuando guardes una referencia, anota qué te interesa: la luz, la composición, la textura o la emoción. Esa frase convierte una imagen bonita en información útil.",
+            "Revisa el archivo con frecuencia y elimina lo que ya no representa tu dirección. Un archivo más pequeño puede ser mucho más inspirador."
+          ]
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "blog-note-01",
+      "articleId": "color-nocturno-ilustracion",
+      "date": "2026-07-20",
+      "text": "Quiero probar esta combinación de violeta y rosa en una ilustración propia.",
+      "rating": 9
+    },
+    {
+      "id": "blog-note-02",
+      "articleId": "personajes-que-recordamos",
+      "date": "2026-07-16",
+      "text": "La prueba de la silueta me ayudó a simplificar mucho el diseño.",
+      "rating": 10
+    }
+  ]
 }

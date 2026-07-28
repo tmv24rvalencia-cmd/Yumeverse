@@ -1,6 +1,42 @@
 {
-  "anime": [],
-  "asiaticos": [],
-  "blog": [],
-  "galeria": []
+  "schemaVersion": 1,
+  "anime": [
+    "solo-leveling",
+    "given",
+    "horimiya"
+  ],
+  "asiaticos": [
+    "solo-leveling",
+    "frieren",
+    "heaven-official"
+  ],
+  "blog": [
+    "color-nocturno-ilustracion",
+    "personajes-que-recordamos"
+  ],
+  "galeria": [
+    "luz-entre-mundos",
+    "despues-de-la-lluvia",
+    "guardian-astral"
+  ],
+  "notes": {
+    "blog": [
+      {
+        "id": "nota-blog-01",
+        "itemId": "color-nocturno-ilustracion",
+        "date": "2026-07-20",
+        "text": "Quiero probar esta combinación de violeta y rosa en una ilustración propia.",
+        "rating": 9
+      }
+    ],
+    "galeria": [
+      {
+        "id": "nota-galeria-01",
+        "itemId": "despues-de-la-lluvia",
+        "date": "2026-07-19",
+        "text": "Guardar como referencia de iluminación nocturna.",
+        "rating": 10
+      }
+    ]
+  }
 }

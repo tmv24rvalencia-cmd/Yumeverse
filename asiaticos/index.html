@@ -18,12 +18,9 @@
   <link rel="stylesheet" href="../assets/css/layout.css">
   <link rel="stylesheet" href="../assets/css/components.css">
   <link rel="stylesheet" href="../assets/css/pages.css">
-  <link rel="stylesheet" href="../assets/css/anime-fixes.css">
   <link rel="stylesheet" href="../assets/css/responsive.css">
-  <link rel="stylesheet" href="../assets/css/asiaticos.css">
-  <script src="../assets/js/asiaticos-data.js" defer></script>
 </head>
-<body class="page page--asiaticos asian-world">
+<body class="page page--asiaticos asian-world" data-root="../" data-view="asian-home">
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
   <header class="site-header">
@@ -80,15 +77,15 @@
         <div class="nav-item nav-item--dropdown">
           <div class="nav-parent">
             <a class="nav-link" href="../anime/index.html">Anime</a>
-            <button class="nav-spark" type="button" aria-label="Mostrar opciones de Anime">✦</button>
+            <button class="nav-spark" type="button" aria-label="Mostrar opciones de Anime" data-symbol="♡"></button>
           </div>
           <div class="nav-dropdown">
             <a href="../anime/explorador.html">
-              <span class="dropdown-number">01</span>
+              
               <span><strong>Explorador</strong><small>Todos los animes</small></span>
             </a>
             <a href="../anime/mi-coleccion.html">
-              <span class="dropdown-number">02</span>
+              
               <span><strong>Mi colección</strong><small>Progreso, listas y notas</small></span>
             </a>
           </div>
@@ -97,15 +94,15 @@
         <div class="nav-item nav-item--dropdown">
           <div class="nav-parent">
             <a class="nav-link is-active" href="index.html" aria-current="page">Asiáticos</a>
-            <button class="nav-spark" type="button" aria-label="Mostrar opciones de Asiáticos">✦</button>
+            <button class="nav-spark" type="button" aria-label="Mostrar opciones de Asiáticos" data-symbol="♡"></button>
           </div>
           <div class="nav-dropdown">
             <a href="explorador.html">
-              <span class="dropdown-number">01</span>
+              
               <span><strong>Explorador</strong><small>Manga, manhwa, manhua y cómic</small></span>
             </a>
             <a href="mi-coleccion.html">
-              <span class="dropdown-number">02</span>
+              
               <span><strong>Mi colección</strong><small>Lecturas y seguimiento</small></span>
             </a>
           </div>
@@ -114,15 +111,15 @@
         <div class="nav-item nav-item--dropdown">
           <div class="nav-parent">
             <a class="nav-link" href="../blog/index.html">Blog</a>
-            <button class="nav-spark" type="button" aria-label="Mostrar opciones del Blog">✦</button>
+            <button class="nav-spark" type="button" aria-label="Mostrar opciones del Blog" data-symbol="♡"></button>
           </div>
           <div class="nav-dropdown">
             <a href="../blog/explorador.html">
-              <span class="dropdown-number">01</span>
+              
               <span><strong>Explorador</strong><small>Anime, arte y procesos</small></span>
             </a>
             <a href="../blog/mi-coleccion.html">
-              <span class="dropdown-number">02</span>
+              
               <span><strong>Mi colección</strong><small>Artículos guardados</small></span>
             </a>
           </div>
@@ -131,15 +128,15 @@
         <div class="nav-item nav-item--dropdown">
           <div class="nav-parent">
             <a class="nav-link" href="../galeria/index.html">Galería</a>
-            <button class="nav-spark" type="button" aria-label="Mostrar opciones de Galería">✦</button>
+            <button class="nav-spark" type="button" aria-label="Mostrar opciones de Galería" data-symbol="♡"></button>
           </div>
           <div class="nav-dropdown">
             <a href="../galeria/explorador.html">
-              <span class="dropdown-number">01</span>
+              
               <span><strong>Explorador</strong><small>Fanart y otras obras</small></span>
             </a>
             <a href="../galeria/mi-coleccion.html">
-              <span class="dropdown-number">02</span>
+              
               <span><strong>Mi colección</strong><small>Mi archivo creativo</small></span>
             </a>
           </div>
@@ -293,49 +290,33 @@
   </main>
 
   <footer class="site-footer">
-    <div class="site-footer__main container">
-      <div>
-        <a class="brand brand--footer" href="../index.html">
-          <span class="brand__symbol" aria-hidden="true">
-            <span class="brand__moon"></span>
-            <span class="brand__star">✦</span>
-          </span>
-          <span class="brand__name">Yume<span>verse</span></span>
-        </a>
-        <p>Historias que inspiran. Mundos que permanecen.</p>
-      </div>
-
-      <nav class="footer-nav" aria-label="Enlaces secundarios">
-        <div>
-          <strong>Yumeverse</strong>
-          <a href="../sobre-mi.html">Sobre mí</a>
-          <a href="../contacto.html">Contacto</a>
-          <a href="../busqueda.html">Búsqueda</a>
-        </div>
-        <div>
-          <strong>Mi espacio</strong>
-          <a href="../favoritos.html">Favoritos</a>
-          <a href="../anime/mi-coleccion.html">Anime</a>
-          <a href="mi-coleccion.html">Asiáticos</a>
-        </div>
-        <div>
-          <strong>Legal</strong>
-          <a href="../privacidad.html">Privacidad</a>
-          <a href="../cookies.html">Cookies</a>
-          <a href="../aviso-legal.html">Aviso legal</a>
-        </div>
-      </nav>
+  <div class="site-footer__main container">
+    <div class="site-footer__intro">
+      <a class="brand brand--footer" href="../index.html">
+        <span class="brand__symbol" aria-hidden="true"><span class="brand__moon"></span><span class="brand__star">✦</span></span>
+        <span class="brand__name">Yume<span>verse</span></span>
+      </a>
+      <p>Historias que inspiran. Mundos que permanecen.</p>
+      <span class="site-footer__description">Archivo personal de anime, lecturas, artículos e ilustración.</span>
+      <a class="site-footer__email" href="mailto:info@rvalencia26.com" data-footer-email>info@rvalencia26.com</a>
     </div>
-
-    <div class="site-footer__bottom container">
-      <span class="site-footer__credit">Creado con imaginación <i aria-hidden="true">✦</i></span>
-      <small>
-        © 2026 Yumeverse. Proyecto personal cultural, sin venta ni streaming.
-        <span class="site-footer__music" aria-hidden="true">♫</span>
-      </small>
-    </div>
-  </footer>
+    <nav class="footer-nav" aria-label="Enlaces secundarios">
+      <div><strong>Explorar</strong><a href="../anime/index.html">Anime</a><a href="../asiaticos/index.html">Asiáticos</a><a href="../blog/index.html">Blog</a><a href="../galeria/index.html">Galería</a></div>
+      <div><strong>Mis colecciones</strong><a href="../favoritos.html">Todos los favoritos</a><a href="../anime/mi-coleccion.html">Colección de anime</a><a href="../asiaticos/mi-coleccion.html">Colección de lecturas</a><a href="../blog/mi-coleccion.html">Artículos guardados</a><a href="../galeria/mi-coleccion.html">Archivo visual</a></div>
+      <div><strong>Yumeverse</strong><a href="../index.html">Inicio</a><a href="../sobre-mi.html">Sobre mí</a><a href="../contacto.html">Contacto</a><a href="../busqueda.html">Búsqueda global</a></div>
+      <div><strong>Legal</strong><a href="../privacidad.html">Privacidad</a><a href="../cookies.html">Cookies</a><a href="../aviso-legal.html">Aviso legal</a></div>
+    </nav>
+  </div>
+  <div class="site-footer__bottom container">
+    <small>© <span data-current-year>2026</span> Yumeverse. Proyecto personal cultural, sin venta ni streaming. <span aria-hidden="true">♫</span></small>
+    <span class="site-footer__credit">Creado con imaginación <i aria-hidden="true">✦</i></span>
+  </div>
+</footer>
 
   <div class="yv-toast" role="status" aria-live="polite" hidden></div>
+  <script src="../assets/js/app.js" defer></script>
+  <script src="../assets/js/storage.js" defer></script>
+  <script src="../assets/js/navigation.js" defer></script>
+  <script src="../assets/js/cookies.js" defer></script>
 </body>
 </html>

@@ -5,50 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d30644a7-7003-4c6d-a4d2-d3072d898724" name="Changes" comment="main">
-      <change afterPath="$PROJECT_DIR$/assets/css/anime-fixes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/asiaticos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/chibi-devi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/fairy-tail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/given.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/horimiya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/iruma-kun.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/kimetsu-no-yaiba.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/mahoutsukai-no-yome.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/nanbaka.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/servamp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/sk8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/slime.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/solo-leveling.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/ufo-baby.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/anime/yuri-on-ice.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/after-the-rain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/asiaticos-banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/astral-guard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/coleccion-banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/dr-stone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/fairy-tail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/frieren.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/given.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/heaven-official.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/horimiya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/jujutsu-kaisen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/kimetsu-no-yaiba.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/mahoutsukai-no-yome.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/martial-peak.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/nocturne-city.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/omniscient-reader.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/slime.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asiaticos/solo-leveling.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/general/coleccion-banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/general/hero-yumeverse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/anime-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/anime-pages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/asiaticos-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/asiaticos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/anime-explorador.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/anime-mi-coleccion.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Yumeverse.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/500.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anime/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/detalle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anime/explorador.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/explorador.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anime/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/anime/index.html" afterDir="false" />
@@ -57,16 +21,50 @@
       <change beforePath="$PROJECT_DIR$/asiaticos/explorador.html" beforeDir="false" afterPath="$PROJECT_DIR$/asiaticos/explorador.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asiaticos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/asiaticos/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asiaticos/mi-coleccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/asiaticos/mi-coleccion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/components.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/anime-fixes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/asiaticos.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/pages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/anime-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/anime-pages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/asiaticos-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/asiaticos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/cookies.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/cookies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/favorites.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/favorites.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/forms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aviso-legal.html" beforeDir="false" afterPath="$PROJECT_DIR$/aviso-legal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/articulo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/articulo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/explorador.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/explorador.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/mi-coleccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/mi-coleccion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/busqueda.html" beforeDir="false" afterPath="$PROJECT_DIR$/busqueda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookies.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/anime-explorador.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/anime-mi-coleccion.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/anime.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/anime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/asiaticos.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/asiaticos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/blog.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/blog.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/coleccion-inicial.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/coleccion-inicial.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/galeria.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/galeria.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/navigation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/recomendaciones.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/recomendaciones.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/site.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/site.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favoritos.html" beforeDir="false" afterPath="$PROJECT_DIR$/favoritos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/explorador.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria/explorador.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/mi-coleccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria/mi-coleccion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria/obra.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria/obra.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacidad.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacidad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sobre-mi.html" beforeDir="false" afterPath="$PROJECT_DIR$/sobre-mi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +72,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -243,7 +247,7 @@
       <option name="presentableId" value="Default" />
       <updated>1781963224305</updated>
       <workItem from="1784973682463" duration="3773000" />
-      <workItem from="1784995042918" duration="15153000" />
+      <workItem from="1784995042918" duration="18471000" />
     </task>
     <task id="LOCAL-00001" summary="main">
       <option name="closed" value="true" />
@@ -261,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784998193972</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="main">
+      <option name="closed" value="true" />
+      <created>1785157019833</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1785157019833</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

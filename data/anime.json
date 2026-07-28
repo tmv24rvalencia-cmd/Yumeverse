@@ -12,6 +12,48 @@
       "kimetsu-no-yaiba",
       "horimiya",
       "sk8-the-infinity"
+    ],
+    "routes": [
+      {
+        "id": "explorador",
+        "kicker": "Todos los títulos",
+        "title": "Explorador",
+        "description": "Busca y filtra animes por género, formato, año, estado, estudio o valoración.",
+        "background": "#171421",
+        "foreground": "#F8F4FA",
+        "muted": "#C8C0CC",
+        "accent": "#FF6EAF",
+        "links": [
+          {
+            "label": "Abrir explorador",
+            "url": "explorador.html"
+          },
+          {
+            "label": "Ver novedades",
+            "url": "explorador.html?orden=recientes"
+          }
+        ]
+      },
+      {
+        "id": "coleccion",
+        "kicker": "Tu espacio personal",
+        "title": "Mi colección",
+        "description": "Organiza lo que estás viendo, lo completado, tus favoritos, pendientes y abandonados.",
+        "background": "#241827",
+        "foreground": "#F8F4FA",
+        "muted": "#D2C5D1",
+        "accent": "#C7A6E8",
+        "links": [
+          {
+            "label": "Abrir colección",
+            "url": "mi-coleccion.html"
+          },
+          {
+            "label": "Ver favoritos",
+            "url": "../favoritos.html?tipo=anime"
+          }
+        ]
+      }
     ]
   },
   "works": [
@@ -46,7 +88,88 @@
         "Acción",
         "Aventura",
         "Fantasía"
-      ]
+      ],
+      "episodeGuide": {
+        "seasonTitle": "Primera temporada",
+        "totalEpisodes": 12,
+        "totalMinutes": 276,
+        "year": 2024,
+        "initialVisible": 6,
+        "episodes": [
+          {
+            "number": 1,
+            "title": "Estoy acostumbrado",
+            "minutes": 23,
+            "description": "Jinwoo participa en una incursión que conduce al grupo hasta una mazmorra oculta."
+          },
+          {
+            "number": 2,
+            "title": "Si tuviera otra oportunidad",
+            "minutes": 23,
+            "description": "El grupo intenta comprender las reglas de la misteriosa cámara y encontrar una salida."
+          },
+          {
+            "number": 3,
+            "title": "Es como un juego",
+            "minutes": 23,
+            "description": "Jinwoo despierta en el hospital y descubre una interfaz que solamente él puede ver."
+          },
+          {
+            "number": 4,
+            "title": "Tengo que hacerme más fuerte",
+            "minutes": 23,
+            "description": "Después de cumplir sus misiones diarias, Jinwoo entra solo en una nueva mazmorra."
+          },
+          {
+            "number": 5,
+            "title": "Un buen trato",
+            "minutes": 23,
+            "description": "Jinwoo pone a prueba sus nuevas habilidades y acepta una incursión con riesgos ocultos."
+          },
+          {
+            "number": 6,
+            "title": "La verdadera cacería comienza",
+            "minutes": 23,
+            "description": "Una expedición aparentemente sencilla revela la verdadera naturaleza de sus participantes."
+          },
+          {
+            "number": 7,
+            "title": "Veamos hasta dónde puedo llegar",
+            "minutes": 23,
+            "description": "Jinwoo busca nuevos desafíos mientras aprende a dominar la fuerza que ha obtenido."
+          },
+          {
+            "number": 8,
+            "title": "Esto es frustrante",
+            "minutes": 23,
+            "description": "Una nueva misión obliga a Jinwoo a medir sus límites frente a enemigos mucho más peligrosos."
+          },
+          {
+            "number": 9,
+            "title": "Protegiéndote",
+            "minutes": 23,
+            "description": "El pasado y el presente se cruzan cuando Jinwoo debe proteger a quienes le importan."
+          },
+          {
+            "number": 10,
+            "title": "¿Qué es esto, un picnic?",
+            "minutes": 23,
+            "description": "Un grupo de cazadores se adentra en una misión que pronto deja de parecer rutinaria."
+          },
+          {
+            "number": 11,
+            "title": "Un caballero que defiende un trono vacío",
+            "minutes": 23,
+            "description": "Jinwoo se enfrenta a una prueba decisiva antes de poder reclamar una nueva habilidad."
+          },
+          {
+            "number": 12,
+            "title": "Levántate",
+            "minutes": 23,
+            "description": "La primera temporada culmina con una decisión que transforma por completo el poder de Jinwoo."
+          }
+        ]
+      }
     },
     {
       "id": "kimetsu-no-yaiba",

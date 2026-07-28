@@ -1,26 +1,98 @@
 {
+  "schemaVersion": 2,
+  "menuIcon": "♡",
+  "theme": {
+    "dropdownBackground": "#0F0D16",
+    "explorerBackground": "#171421",
+    "collectionBackground": "#241827",
+    "text": "#F8F4FA",
+    "mutedText": "#C8C0CC",
+    "accent": "#FF6EAF"
+  },
   "items": [
     {
+      "id": "inicio",
       "label": "Inicio",
       "url": "index.html"
     },
     {
+      "id": "anime",
       "label": "Anime",
-      "url": "anime/index.html"
+      "url": "anime/index.html",
+      "children": [
+        {
+          "id": "explorador",
+          "label": "Explorador",
+          "description": "Todos los animes",
+          "url": "anime/explorador.html"
+        },
+        {
+          "id": "coleccion",
+          "label": "Mi colección",
+          "description": "Favoritos, progreso y notas",
+          "url": "anime/mi-coleccion.html"
+        }
+      ]
     },
     {
+      "id": "asiaticos",
       "label": "Asiáticos",
-      "url": "asiaticos/index.html"
+      "url": "asiaticos/index.html",
+      "children": [
+        {
+          "id": "explorador",
+          "label": "Explorador",
+          "description": "Manga, manhwa, manhua y cómic",
+          "url": "asiaticos/explorador.html"
+        },
+        {
+          "id": "coleccion",
+          "label": "Mi colección",
+          "description": "Favoritos, progreso y notas",
+          "url": "asiaticos/mi-coleccion.html"
+        }
+      ]
     },
     {
+      "id": "blog",
       "label": "Blog",
-      "url": "blog/index.html"
+      "url": "blog/index.html",
+      "children": [
+        {
+          "id": "explorador",
+          "label": "Explorador",
+          "description": "Anime, arte y creatividad",
+          "url": "blog/explorador.html"
+        },
+        {
+          "id": "coleccion",
+          "label": "Mi colección",
+          "description": "Artículos guardados y notas",
+          "url": "blog/mi-coleccion.html"
+        }
+      ]
     },
     {
+      "id": "galeria",
       "label": "Galería",
-      "url": "galeria/index.html"
+      "url": "galeria/index.html",
+      "children": [
+        {
+          "id": "explorador",
+          "label": "Explorador",
+          "description": "Fanart y otras obras",
+          "url": "galeria/explorador.html"
+        },
+        {
+          "id": "coleccion",
+          "label": "Mi colección",
+          "description": "Mi archivo creativo",
+          "url": "galeria/mi-coleccion.html"
+        }
+      ]
     },
     {
+      "id": "contacto",
       "label": "Contacto",
       "url": "contacto.html"
     }

@@ -1,5 +1,13 @@
 {
   "name": "Yumeverse",
-  "tagline": "Donde cada historia encuentra su mundo.",
-  "language": "es"
+  "tagline": "Tu universo de anime, lecturas, cómic y arte.",
+  "language": "es",
+  "year": 2026,
+  "projectType": "Proyecto personal cultural, sin venta ni streaming.",
+  "contact": {
+    "email": "info@rvalencia26.com",
+    "instagram": "",
+    "discord": "",
+    "youtube": ""
+  }
 }
